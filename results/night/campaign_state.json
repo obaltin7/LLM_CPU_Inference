@@ -1,0 +1,2118 @@
+{
+  "version": 2,
+  "sessions": {
+    "night_01": {
+      "session_id": "night_01",
+      "created_at": "2026-10-09T00:08:17+03:00",
+      "shuffle_seed": 1798751439,
+      "shuffle_seed_base": 20261006,
+      "fingerprints": {},
+      "planned_units": [
+        "night_01|night_a1|Sparse8B-Q4_K_M|4|r01",
+        "night_01|night_a1|3B-Q4_K_M|4|r01",
+        "night_01|night_a1|8B-Q8_0|2|r01",
+        "night_01|night_a1|1B-Q8_0|4|r01",
+        "night_01|night_a1|3B-Q8_0|8|r01",
+        "night_01|night_a1|Sparse8B-Q8_0|4|r01",
+        "night_01|night_a1|8B-Q8_0|4|r01",
+        "night_01|night_a1|1B-Q4_K_M|8|r01",
+        "night_01|night_a1|8B-Q4_K_M|2|r01",
+        "night_01|night_a1|1B-Q4_K_M|2|r01",
+        "night_01|night_a1|3B-Q8_0|2|r01",
+        "night_01|night_a1|8B-Q4_K_M|8|r01",
+        "night_01|night_a1|Sparse8B-Q4_K_M|8|r01",
+        "night_01|night_a1|3B-Q4_K_M|2|r01",
+        "night_01|night_a1|Sparse8B-Q8_0|8|r01",
+        "night_01|night_a1|8B-Q4_K_M|4|r01",
+        "night_01|night_a1|1B-Q8_0|2|r01",
+        "night_01|night_a1|3B-Q4_K_M|8|r01",
+        "night_01|night_a1|1B-Q4_K_M|4|r01",
+        "night_01|night_a1|Sparse8B-Q4_K_M|2|r01",
+        "night_01|night_a1|1B-Q8_0|8|r01",
+        "night_01|night_a1|Sparse8B-Q8_0|2|r01",
+        "night_01|night_a1|3B-Q8_0|4|r01",
+        "night_01|night_a1|8B-Q8_0|8|r01",
+        "night_01|night_a1|8B-Q4_K_M|8|r02",
+        "night_01|night_a1|1B-Q4_K_M|2|r02",
+        "night_01|night_a1|1B-Q8_0|8|r02",
+        "night_01|night_a1|8B-Q8_0|2|r02",
+        "night_01|night_a1|1B-Q4_K_M|8|r02",
+        "night_01|night_a1|3B-Q4_K_M|2|r02",
+        "night_01|night_a1|8B-Q8_0|4|r02",
+        "night_01|night_a1|8B-Q4_K_M|4|r02",
+        "night_01|night_a1|1B-Q4_K_M|4|r02",
+        "night_01|night_a1|Sparse8B-Q8_0|2|r02",
+        "night_01|night_a1|8B-Q4_K_M|2|r02",
+        "night_01|night_a1|8B-Q8_0|8|r02",
+        "night_01|night_a1|3B-Q8_0|2|r02",
+        "night_01|night_a1|Sparse8B-Q4_K_M|4|r02",
+        "night_01|night_a1|3B-Q8_0|4|r02",
+        "night_01|night_a1|Sparse8B-Q8_0|4|r02",
+        "night_01|night_a1|3B-Q4_K_M|4|r02",
+        "night_01|night_a1|3B-Q8_0|8|r02",
+        "night_01|night_a1|1B-Q8_0|4|r02",
+        "night_01|night_a1|1B-Q8_0|2|r02",
+        "night_01|night_a1|Sparse8B-Q4_K_M|2|r02",
+        "night_01|night_a1|Sparse8B-Q4_K_M|8|r02",
+        "night_01|night_a1|3B-Q4_K_M|8|r02",
+        "night_01|night_a1|Sparse8B-Q8_0|8|r02",
+        "night_01|night_a1|3B-Q4_K_M|8|r03",
+        "night_01|night_a1|1B-Q4_K_M|2|r03",
+        "night_01|night_a1|3B-Q8_0|8|r03",
+        "night_01|night_a1|Sparse8B-Q8_0|4|r03",
+        "night_01|night_a1|Sparse8B-Q8_0|2|r03",
+        "night_01|night_a1|3B-Q8_0|2|r03",
+        "night_01|night_a1|Sparse8B-Q8_0|8|r03",
+        "night_01|night_a1|8B-Q8_0|8|r03",
+        "night_01|night_a1|3B-Q4_K_M|4|r03",
+        "night_01|night_a1|8B-Q8_0|4|r03",
+        "night_01|night_a1|8B-Q4_K_M|2|r03",
+        "night_01|night_a1|1B-Q4_K_M|8|r03",
+        "night_01|night_a1|8B-Q4_K_M|4|r03",
+        "night_01|night_a1|3B-Q4_K_M|2|r03",
+        "night_01|night_a1|1B-Q8_0|4|r03",
+        "night_01|night_a1|8B-Q8_0|2|r03",
+        "night_01|night_a1|Sparse8B-Q4_K_M|4|r03",
+        "night_01|night_a1|1B-Q4_K_M|4|r03",
+        "night_01|night_a1|8B-Q4_K_M|8|r03",
+        "night_01|night_a1|1B-Q8_0|8|r03",
+        "night_01|night_a1|Sparse8B-Q4_K_M|8|r03",
+        "night_01|night_a1|1B-Q8_0|2|r03",
+        "night_01|night_a1|3B-Q8_0|4|r03",
+        "night_01|night_a1|Sparse8B-Q4_K_M|2|r03",
+        "night_01|night_a1|Sparse8B-Q4_K_M|8|r04",
+        "night_01|night_a1|Sparse8B-Q8_0|4|r04",
+        "night_01|night_a1|1B-Q8_0|2|r04",
+        "night_01|night_a1|8B-Q4_K_M|8|r04",
+        "night_01|night_a1|Sparse8B-Q4_K_M|2|r04",
+        "night_01|night_a1|8B-Q8_0|4|r04",
+        "night_01|night_a1|Sparse8B-Q8_0|2|r04",
+        "night_01|night_a1|1B-Q8_0|4|r04",
+        "night_01|night_a1|8B-Q4_K_M|4|r04",
+        "night_01|night_a1|8B-Q8_0|2|r04",
+        "night_01|night_a1|1B-Q4_K_M|2|r04",
+        "night_01|night_a1|1B-Q8_0|8|r04",
+        "night_01|night_a1|Sparse8B-Q4_K_M|4|r04",
+        "night_01|night_a1|3B-Q8_0|8|r04",
+        "night_01|night_a1|8B-Q8_0|8|r04",
+        "night_01|night_a1|8B-Q4_K_M|2|r04",
+        "night_01|night_a1|3B-Q8_0|2|r04",
+        "night_01|night_a1|3B-Q4_K_M|8|r04",
+        "night_01|night_a1|3B-Q4_K_M|4|r04",
+        "night_01|night_a1|1B-Q4_K_M|8|r04",
+        "night_01|night_a1|Sparse8B-Q8_0|8|r04",
+        "night_01|night_a1|1B-Q4_K_M|4|r04",
+        "night_01|night_a1|3B-Q4_K_M|2|r04",
+        "night_01|night_a1|3B-Q8_0|4|r04",
+        "night_01|night_a1|1B-Q4_K_M|8|r05",
+        "night_01|night_a1|1B-Q4_K_M|2|r05",
+        "night_01|night_a1|8B-Q8_0|8|r05",
+        "night_01|night_a1|1B-Q8_0|8|r05",
+        "night_01|night_a1|3B-Q4_K_M|8|r05",
+        "night_01|night_a1|1B-Q8_0|2|r05",
+        "night_01|night_a1|3B-Q8_0|2|r05",
+        "night_01|night_a1|Sparse8B-Q8_0|2|r05",
+        "night_01|night_a1|3B-Q8_0|8|r05",
+        "night_01|night_a1|3B-Q4_K_M|4|r05",
+        "night_01|night_a1|1B-Q8_0|4|r05",
+        "night_01|night_a1|8B-Q4_K_M|4|r05",
+        "night_01|night_a1|Sparse8B-Q4_K_M|4|r05",
+        "night_01|night_a1|3B-Q8_0|4|r05",
+        "night_01|night_a1|1B-Q4_K_M|4|r05",
+        "night_01|night_a1|Sparse8B-Q8_0|8|r05",
+        "night_01|night_a1|3B-Q4_K_M|2|r05",
+        "night_01|night_a1|Sparse8B-Q4_K_M|2|r05",
+        "night_01|night_a1|8B-Q8_0|4|r05",
+        "night_01|night_a1|Sparse8B-Q8_0|4|r05",
+        "night_01|night_a1|8B-Q4_K_M|8|r05",
+        "night_01|night_a1|8B-Q8_0|2|r05",
+        "night_01|night_a1|8B-Q4_K_M|2|r05",
+        "night_01|night_a1|Sparse8B-Q4_K_M|8|r05",
+        "night_01|night_a5|8B-Q6_K|8|r01",
+        "night_01|night_a5|8B-Q8_0|8|r01",
+        "night_01|night_a5|8B-Q5_K_M|8|r01",
+        "night_01|night_a5|8B-Q4_K_M|8|r01",
+        "night_01|night_a5|8B-Q4_K_M|8|r02",
+        "night_01|night_a5|8B-Q6_K|8|r02",
+        "night_01|night_a5|8B-Q5_K_M|8|r02",
+        "night_01|night_a5|8B-Q8_0|8|r02",
+        "night_01|night_a5|8B-Q6_K|8|r03",
+        "night_01|night_a5|8B-Q4_K_M|8|r03",
+        "night_01|night_a5|8B-Q5_K_M|8|r03",
+        "night_01|night_a5|8B-Q8_0|8|r03",
+        "night_01|night_a5|8B-Q6_K|8|r04",
+        "night_01|night_a5|8B-Q8_0|8|r04",
+        "night_01|night_a5|8B-Q5_K_M|8|r04",
+        "night_01|night_a5|8B-Q4_K_M|8|r04",
+        "night_01|night_a5|8B-Q8_0|8|r05",
+        "night_01|night_a5|8B-Q4_K_M|8|r05",
+        "night_01|night_a5|8B-Q6_K|8|r05",
+        "night_01|night_a5|8B-Q5_K_M|8|r05",
+        "night_01|night_a5|8B-Q4_K_M|8|r06",
+        "night_01|night_a5|8B-Q6_K|8|r06",
+        "night_01|night_a5|8B-Q5_K_M|8|r06",
+        "night_01|night_a5|8B-Q8_0|8|r06",
+        "night_01|night_a5|8B-Q8_0|8|r07",
+        "night_01|night_a5|8B-Q4_K_M|8|r07",
+        "night_01|night_a5|8B-Q5_K_M|8|r07",
+        "night_01|night_a5|8B-Q6_K|8|r07",
+        "night_01|night_a5|8B-Q6_K|8|r08",
+        "night_01|night_a5|8B-Q4_K_M|8|r08",
+        "night_01|night_a5|8B-Q5_K_M|8|r08",
+        "night_01|night_a5|8B-Q8_0|8|r08",
+        "night_01|night_a5|8B-Q4_K_M|8|r09",
+        "night_01|night_a5|8B-Q6_K|8|r09",
+        "night_01|night_a5|8B-Q8_0|8|r09",
+        "night_01|night_a5|8B-Q5_K_M|8|r09",
+        "night_01|night_a5|8B-Q4_K_M|8|r10",
+        "night_01|night_a5|8B-Q5_K_M|8|r10",
+        "night_01|night_a5|8B-Q6_K|8|r10",
+        "night_01|night_a5|8B-Q8_0|8|r10",
+        "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r01",
+        "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r01",
+        "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r01",
+        "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r01",
+        "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r01",
+        "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r01",
+        "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r02",
+        "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r02",
+        "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r02",
+        "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r02",
+        "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r02",
+        "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r02",
+        "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r03",
+        "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r03",
+        "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r03",
+        "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r03",
+        "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r03",
+        "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r03",
+        "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r04",
+        "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r04",
+        "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r04",
+        "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r04",
+        "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r04",
+        "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r04",
+        "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r05",
+        "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r05",
+        "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r05",
+        "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r05",
+        "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r05",
+        "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r05",
+        "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r06",
+        "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r06",
+        "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r06",
+        "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r06",
+        "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r06",
+        "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r06",
+        "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r07",
+        "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r07",
+        "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r07",
+        "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r07",
+        "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r07",
+        "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r07",
+        "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r08",
+        "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r08",
+        "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r08",
+        "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r08",
+        "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r08",
+        "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r08",
+        "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r09",
+        "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r09",
+        "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r09",
+        "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r09",
+        "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r09",
+        "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r09",
+        "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r10",
+        "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r10",
+        "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r10",
+        "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r10",
+        "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r10",
+        "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r10",
+        "night_01|night_a2|8B-Q8_0|8",
+        "night_01|night_a2|8B-Q4_K_M|8",
+        "night_01|night_a2|8B-Q5_K_M|8",
+        "night_01|night_a2|8B-Q6_K|8",
+        "night_01|night_a2|3B-Q4_K_M|8",
+        "night_01|night_a2|3B-Q8_0|8",
+        "night_01|night_a2|1B-Q4_K_M|8",
+        "night_01|night_a2|1B-Q8_0|8",
+        "night_01|night_a2|Sparse8B-Q4_K_M|8",
+        "night_01|night_a2|Sparse8B-Q8_0|8"
+      ],
+      "orders": {
+        "a1": [
+          "night_01|night_a1|Sparse8B-Q4_K_M|4|r01",
+          "night_01|night_a1|3B-Q4_K_M|4|r01",
+          "night_01|night_a1|8B-Q8_0|2|r01",
+          "night_01|night_a1|1B-Q8_0|4|r01",
+          "night_01|night_a1|3B-Q8_0|8|r01",
+          "night_01|night_a1|Sparse8B-Q8_0|4|r01",
+          "night_01|night_a1|8B-Q8_0|4|r01",
+          "night_01|night_a1|1B-Q4_K_M|8|r01",
+          "night_01|night_a1|8B-Q4_K_M|2|r01",
+          "night_01|night_a1|1B-Q4_K_M|2|r01",
+          "night_01|night_a1|3B-Q8_0|2|r01",
+          "night_01|night_a1|8B-Q4_K_M|8|r01",
+          "night_01|night_a1|Sparse8B-Q4_K_M|8|r01",
+          "night_01|night_a1|3B-Q4_K_M|2|r01",
+          "night_01|night_a1|Sparse8B-Q8_0|8|r01",
+          "night_01|night_a1|8B-Q4_K_M|4|r01",
+          "night_01|night_a1|1B-Q8_0|2|r01",
+          "night_01|night_a1|3B-Q4_K_M|8|r01",
+          "night_01|night_a1|1B-Q4_K_M|4|r01",
+          "night_01|night_a1|Sparse8B-Q4_K_M|2|r01",
+          "night_01|night_a1|1B-Q8_0|8|r01",
+          "night_01|night_a1|Sparse8B-Q8_0|2|r01",
+          "night_01|night_a1|3B-Q8_0|4|r01",
+          "night_01|night_a1|8B-Q8_0|8|r01",
+          "night_01|night_a1|8B-Q4_K_M|8|r02",
+          "night_01|night_a1|1B-Q4_K_M|2|r02",
+          "night_01|night_a1|1B-Q8_0|8|r02",
+          "night_01|night_a1|8B-Q8_0|2|r02",
+          "night_01|night_a1|1B-Q4_K_M|8|r02",
+          "night_01|night_a1|3B-Q4_K_M|2|r02",
+          "night_01|night_a1|8B-Q8_0|4|r02",
+          "night_01|night_a1|8B-Q4_K_M|4|r02",
+          "night_01|night_a1|1B-Q4_K_M|4|r02",
+          "night_01|night_a1|Sparse8B-Q8_0|2|r02",
+          "night_01|night_a1|8B-Q4_K_M|2|r02",
+          "night_01|night_a1|8B-Q8_0|8|r02",
+          "night_01|night_a1|3B-Q8_0|2|r02",
+          "night_01|night_a1|Sparse8B-Q4_K_M|4|r02",
+          "night_01|night_a1|3B-Q8_0|4|r02",
+          "night_01|night_a1|Sparse8B-Q8_0|4|r02",
+          "night_01|night_a1|3B-Q4_K_M|4|r02",
+          "night_01|night_a1|3B-Q8_0|8|r02",
+          "night_01|night_a1|1B-Q8_0|4|r02",
+          "night_01|night_a1|1B-Q8_0|2|r02",
+          "night_01|night_a1|Sparse8B-Q4_K_M|2|r02",
+          "night_01|night_a1|Sparse8B-Q4_K_M|8|r02",
+          "night_01|night_a1|3B-Q4_K_M|8|r02",
+          "night_01|night_a1|Sparse8B-Q8_0|8|r02",
+          "night_01|night_a1|3B-Q4_K_M|8|r03",
+          "night_01|night_a1|1B-Q4_K_M|2|r03",
+          "night_01|night_a1|3B-Q8_0|8|r03",
+          "night_01|night_a1|Sparse8B-Q8_0|4|r03",
+          "night_01|night_a1|Sparse8B-Q8_0|2|r03",
+          "night_01|night_a1|3B-Q8_0|2|r03",
+          "night_01|night_a1|Sparse8B-Q8_0|8|r03",
+          "night_01|night_a1|8B-Q8_0|8|r03",
+          "night_01|night_a1|3B-Q4_K_M|4|r03",
+          "night_01|night_a1|8B-Q8_0|4|r03",
+          "night_01|night_a1|8B-Q4_K_M|2|r03",
+          "night_01|night_a1|1B-Q4_K_M|8|r03",
+          "night_01|night_a1|8B-Q4_K_M|4|r03",
+          "night_01|night_a1|3B-Q4_K_M|2|r03",
+          "night_01|night_a1|1B-Q8_0|4|r03",
+          "night_01|night_a1|8B-Q8_0|2|r03",
+          "night_01|night_a1|Sparse8B-Q4_K_M|4|r03",
+          "night_01|night_a1|1B-Q4_K_M|4|r03",
+          "night_01|night_a1|8B-Q4_K_M|8|r03",
+          "night_01|night_a1|1B-Q8_0|8|r03",
+          "night_01|night_a1|Sparse8B-Q4_K_M|8|r03",
+          "night_01|night_a1|1B-Q8_0|2|r03",
+          "night_01|night_a1|3B-Q8_0|4|r03",
+          "night_01|night_a1|Sparse8B-Q4_K_M|2|r03",
+          "night_01|night_a1|Sparse8B-Q4_K_M|8|r04",
+          "night_01|night_a1|Sparse8B-Q8_0|4|r04",
+          "night_01|night_a1|1B-Q8_0|2|r04",
+          "night_01|night_a1|8B-Q4_K_M|8|r04",
+          "night_01|night_a1|Sparse8B-Q4_K_M|2|r04",
+          "night_01|night_a1|8B-Q8_0|4|r04",
+          "night_01|night_a1|Sparse8B-Q8_0|2|r04",
+          "night_01|night_a1|1B-Q8_0|4|r04",
+          "night_01|night_a1|8B-Q4_K_M|4|r04",
+          "night_01|night_a1|8B-Q8_0|2|r04",
+          "night_01|night_a1|1B-Q4_K_M|2|r04",
+          "night_01|night_a1|1B-Q8_0|8|r04",
+          "night_01|night_a1|Sparse8B-Q4_K_M|4|r04",
+          "night_01|night_a1|3B-Q8_0|8|r04",
+          "night_01|night_a1|8B-Q8_0|8|r04",
+          "night_01|night_a1|8B-Q4_K_M|2|r04",
+          "night_01|night_a1|3B-Q8_0|2|r04",
+          "night_01|night_a1|3B-Q4_K_M|8|r04",
+          "night_01|night_a1|3B-Q4_K_M|4|r04",
+          "night_01|night_a1|1B-Q4_K_M|8|r04",
+          "night_01|night_a1|Sparse8B-Q8_0|8|r04",
+          "night_01|night_a1|1B-Q4_K_M|4|r04",
+          "night_01|night_a1|3B-Q4_K_M|2|r04",
+          "night_01|night_a1|3B-Q8_0|4|r04",
+          "night_01|night_a1|1B-Q4_K_M|8|r05",
+          "night_01|night_a1|1B-Q4_K_M|2|r05",
+          "night_01|night_a1|8B-Q8_0|8|r05",
+          "night_01|night_a1|1B-Q8_0|8|r05",
+          "night_01|night_a1|3B-Q4_K_M|8|r05",
+          "night_01|night_a1|1B-Q8_0|2|r05",
+          "night_01|night_a1|3B-Q8_0|2|r05",
+          "night_01|night_a1|Sparse8B-Q8_0|2|r05",
+          "night_01|night_a1|3B-Q8_0|8|r05",
+          "night_01|night_a1|3B-Q4_K_M|4|r05",
+          "night_01|night_a1|1B-Q8_0|4|r05",
+          "night_01|night_a1|8B-Q4_K_M|4|r05",
+          "night_01|night_a1|Sparse8B-Q4_K_M|4|r05",
+          "night_01|night_a1|3B-Q8_0|4|r05",
+          "night_01|night_a1|1B-Q4_K_M|4|r05",
+          "night_01|night_a1|Sparse8B-Q8_0|8|r05",
+          "night_01|night_a1|3B-Q4_K_M|2|r05",
+          "night_01|night_a1|Sparse8B-Q4_K_M|2|r05",
+          "night_01|night_a1|8B-Q8_0|4|r05",
+          "night_01|night_a1|Sparse8B-Q8_0|4|r05",
+          "night_01|night_a1|8B-Q4_K_M|8|r05",
+          "night_01|night_a1|8B-Q8_0|2|r05",
+          "night_01|night_a1|8B-Q4_K_M|2|r05",
+          "night_01|night_a1|Sparse8B-Q4_K_M|8|r05"
+        ],
+        "a5": [
+          "night_01|night_a5|8B-Q6_K|8|r01",
+          "night_01|night_a5|8B-Q8_0|8|r01",
+          "night_01|night_a5|8B-Q5_K_M|8|r01",
+          "night_01|night_a5|8B-Q4_K_M|8|r01",
+          "night_01|night_a5|8B-Q4_K_M|8|r02",
+          "night_01|night_a5|8B-Q6_K|8|r02",
+          "night_01|night_a5|8B-Q5_K_M|8|r02",
+          "night_01|night_a5|8B-Q8_0|8|r02",
+          "night_01|night_a5|8B-Q6_K|8|r03",
+          "night_01|night_a5|8B-Q4_K_M|8|r03",
+          "night_01|night_a5|8B-Q5_K_M|8|r03",
+          "night_01|night_a5|8B-Q8_0|8|r03",
+          "night_01|night_a5|8B-Q6_K|8|r04",
+          "night_01|night_a5|8B-Q8_0|8|r04",
+          "night_01|night_a5|8B-Q5_K_M|8|r04",
+          "night_01|night_a5|8B-Q4_K_M|8|r04",
+          "night_01|night_a5|8B-Q8_0|8|r05",
+          "night_01|night_a5|8B-Q4_K_M|8|r05",
+          "night_01|night_a5|8B-Q6_K|8|r05",
+          "night_01|night_a5|8B-Q5_K_M|8|r05",
+          "night_01|night_a5|8B-Q4_K_M|8|r06",
+          "night_01|night_a5|8B-Q6_K|8|r06",
+          "night_01|night_a5|8B-Q5_K_M|8|r06",
+          "night_01|night_a5|8B-Q8_0|8|r06",
+          "night_01|night_a5|8B-Q8_0|8|r07",
+          "night_01|night_a5|8B-Q4_K_M|8|r07",
+          "night_01|night_a5|8B-Q5_K_M|8|r07",
+          "night_01|night_a5|8B-Q6_K|8|r07",
+          "night_01|night_a5|8B-Q6_K|8|r08",
+          "night_01|night_a5|8B-Q4_K_M|8|r08",
+          "night_01|night_a5|8B-Q5_K_M|8|r08",
+          "night_01|night_a5|8B-Q8_0|8|r08",
+          "night_01|night_a5|8B-Q4_K_M|8|r09",
+          "night_01|night_a5|8B-Q6_K|8|r09",
+          "night_01|night_a5|8B-Q8_0|8|r09",
+          "night_01|night_a5|8B-Q5_K_M|8|r09",
+          "night_01|night_a5|8B-Q4_K_M|8|r10",
+          "night_01|night_a5|8B-Q5_K_M|8|r10",
+          "night_01|night_a5|8B-Q6_K|8|r10",
+          "night_01|night_a5|8B-Q8_0|8|r10"
+        ],
+        "b1_pre": [
+          "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r01",
+          "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r01",
+          "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r01",
+          "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r01",
+          "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r01",
+          "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r01",
+          "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r02",
+          "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r02",
+          "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r02",
+          "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r02",
+          "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r02",
+          "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r02",
+          "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r03",
+          "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r03",
+          "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r03",
+          "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r03",
+          "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r03",
+          "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r03",
+          "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r04",
+          "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r04",
+          "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r04",
+          "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r04",
+          "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r04",
+          "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r04",
+          "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r05",
+          "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r05",
+          "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r05",
+          "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r05",
+          "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r05",
+          "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r05",
+          "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r06",
+          "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r06",
+          "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r06",
+          "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r06",
+          "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r06",
+          "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r06",
+          "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r07",
+          "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r07",
+          "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r07",
+          "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r07",
+          "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r07",
+          "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r07",
+          "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r08",
+          "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r08",
+          "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r08",
+          "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r08",
+          "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r08",
+          "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r08",
+          "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r09",
+          "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r09",
+          "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r09",
+          "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r09",
+          "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r09",
+          "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r09",
+          "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r10",
+          "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r10",
+          "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r10",
+          "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r10",
+          "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r10",
+          "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r10"
+        ],
+        "b1_post": [],
+        "a2": [
+          "night_01|night_a2|8B-Q8_0|8",
+          "night_01|night_a2|8B-Q4_K_M|8",
+          "night_01|night_a2|8B-Q5_K_M|8",
+          "night_01|night_a2|8B-Q6_K|8",
+          "night_01|night_a2|3B-Q4_K_M|8",
+          "night_01|night_a2|3B-Q8_0|8",
+          "night_01|night_a2|1B-Q4_K_M|8",
+          "night_01|night_a2|1B-Q8_0|8",
+          "night_01|night_a2|Sparse8B-Q4_K_M|8",
+          "night_01|night_a2|Sparse8B-Q8_0|8"
+        ]
+      },
+      "summaries_written": [
+        "a1",
+        "a5",
+        "b1_pre"
+      ],
+      "completed_at": "2026-10-09T07:26:37+03:00",
+      "night": {
+        "blocks": {
+          "a1": "completed",
+          "a5": "completed",
+          "b1_pre": "completed",
+          "a2": "completed",
+          "b1_post": "disabled"
+        },
+        "b1": {
+          "heat_peak_c": 75.0,
+          "skipped": false,
+          "heat_max_c": 80,
+          "measured_at": "2026-10-09T03:24:07+03:00"
+        }
+      }
+    }
+  },
+  "units": {
+    "night_01|night_a1|Sparse8B-Q4_K_M|4|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:14:43+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|4|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:15:16+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|2|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:17:32+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|4|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:17:53+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:18:43+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|4|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:20:40+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|4|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:22:36+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:22:49+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|2|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:24:18+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|2|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:24:34+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|2|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:25:33+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:26:44+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:27:57+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|2|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:28:37+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:30:33+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|4|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:31:45+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|2|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:32:08+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:32:39+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|4|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:32:52+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|2|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:34:21+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:34:40+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|2|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:36:54+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|4|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:37:45+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:39:43+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:40:57+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|2|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:41:13+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:41:33+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|2|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:43:44+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:43:57+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|2|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:44:38+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|4|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:46:30+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|4|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:47:41+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|4|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:47:54+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|2|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:50:07+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|2|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:51:37+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:53:33+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|2|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:54:32+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|4|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:55:45+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|4|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:56:34+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|4|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:58:30+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|4|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:59:04+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T00:59:52+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|4|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:00:12+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|2|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:00:34+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|2|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:02:00+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:03:11+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:03:43+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:05:35+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:06:06+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|2|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:06:22+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:07:13+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|4|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:09:05+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|2|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:11:13+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|2|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:12:10+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:14:01+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:15:56+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|4|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:16:28+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|4|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:18:20+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|2|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:19:49+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:20:02+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|4|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:21:14+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|2|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:21:53+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|4|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:22:12+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|2|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:24:23+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|4|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:25:36+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|4|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:25:50+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:27:01+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:27:20+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:28:30+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|2|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:28:52+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|4|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:29:43+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|2|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:31:10+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:32:20+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|4|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:34:16+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|2|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:34:38+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:35:50+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|2|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:37:17+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|4|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:39:14+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|2|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:41:28+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|4|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:41:47+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|4|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:43:01+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|2|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:45:14+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|2|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:45:30+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:45:49+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|4|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:47:03+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:47:53+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:49:45+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|2|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:51:15+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|2|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:52:11+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:52:43+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|4|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:53:16+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:53:29+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:55:25+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|4|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:55:38+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|2|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:56:18+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|4|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:57:06+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:57:19+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|2|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:57:34+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:59:30+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T01:59:49+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:00:21+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|2|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:00:43+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|2|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:01:40+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|2|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:03:54+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:04:43+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|4|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:05:15+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q8_0|4|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:05:34+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|4|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:06:47+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|4|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:08:00+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q8_0|4|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:08:49+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|1B-Q4_K_M|4|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:09:02+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:10:58+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|3B-Q4_K_M|2|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:11:38+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|2|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:13:05+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|4|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:15:02+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q8_0|4|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:16:58+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:18:10+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q8_0|2|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:20:22+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|8B-Q4_K_M|2|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:21:49+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a1|Sparse8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:23:01+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q6_K|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:24:31+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:26:26+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q5_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:27:45+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:28:57+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:30:06+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q6_K|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:31:36+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q5_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:32:52+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:34:48+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q6_K|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:36:16+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:37:28+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q5_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:38:47+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:40:42+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q6_K|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:42:12+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:44:04+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q5_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:45:22+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:46:33+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:48:25+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:49:34+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q6_K|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:51:04+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q5_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:52:23+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:53:33+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q6_K|8|r06": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:54:59+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q5_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:56:16+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T02:58:11+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:00:01+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:01:13+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q5_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:02:29+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q6_K|8|r07": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:04:00+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q6_K|8|r08": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:05:27+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:06:36+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q5_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:07:52+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:09:47+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:10:57+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q6_K|8|r09": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:12:27+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:14:19+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q5_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:15:38+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:16:50+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q5_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:18:06+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q6_K|8|r10": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:19:36+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a5|8B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:21:31+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:25:18+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:26:55+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:27:38+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:29:30+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:31:50+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:32:03+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:32:46+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:34:22+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:34:35+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:36:15+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:38:34+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:40:55+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:41:07+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:41:50+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:43:29+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:45:20+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:47:40+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:48:48+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:50:38+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:51:46+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:52:29+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:53:11+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:54:50+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:56:41+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:58:32+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T03:58:44+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:00:21+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:02:11+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:03:52+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:04:34+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:06:24+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:07:32+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:09:11+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:09:53+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:12:14+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:12:26+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:12:39+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:14:16+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:14:30+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:16:10+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:18:30+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:20:51+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:22:42+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:25:01+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:25:44+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:26:53+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:27:35+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:28:43+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:29:26+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:30:35+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:32:12+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:34:32+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:35:14+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:37:04+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:38:44+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_on|1B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:39:26+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:41:16+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_on|8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:42:24+03:00",
+      "cooldown_wait_s": 1.0,
+      "turbo_on": true
+    },
+    "night_01|night_b1_pre_turbo_off|1B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:43:06+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_b1_pre_turbo_off|8B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T04:44:58+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a2|8B-Q8_0|8": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T05:12:30+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a2|8B-Q4_K_M|8": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T05:30:19+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a2|8B-Q5_K_M|8": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T05:49:55+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a2|8B-Q6_K|8": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T06:09:55+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a2|3B-Q4_K_M|8": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T06:18:29+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a2|3B-Q8_0|8": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T06:31:30+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a2|1B-Q4_K_M|8": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T06:35:19+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a2|1B-Q8_0|8": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T06:40:52+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a2|Sparse8B-Q4_K_M|8": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T06:58:53+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    },
+    "night_01|night_a2|Sparse8B-Q8_0|8": {
+      "status": "completed",
+      "run_id": "20261009T000336-22755b",
+      "finished_at": "2026-10-09T07:26:37+03:00",
+      "cooldown_wait_s": 0.0,
+      "turbo_on": false
+    }
+  }
+}

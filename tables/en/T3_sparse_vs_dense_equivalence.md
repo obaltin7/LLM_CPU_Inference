@@ -1,0 +1,8 @@
+**Table 3. Sparse vs dense equivalence**
+
+| Pair                        | Metric   | Difference (%) | 90 % CI (%)   | Margin | Verdict    |
+|-----------------------------|----------|----------------|---------------|--------|------------|
+| Sparse8B-Q4_K_M – 8B-Q4_K_M | J/token  | 0.13           | [-0.75; 1.02] | ±3 %   | equivalent |
+| Sparse8B-Q4_K_M – 8B-Q4_K_M | Tokens/s | -0.22          | [-0.92; 0.49] | ±3 %   | equivalent |
+| Sparse8B-Q8_0 – 8B-Q8_0     | J/token  | -0.46          | [-0.91; 0.00] | ±3 %   | equivalent |
+| Sparse8B-Q8_0 – 8B-Q8_0     | Tokens/s | -0.20          | [-0.51; 0.12] | ±3 %   | equivalent |

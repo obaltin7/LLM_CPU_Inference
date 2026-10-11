@@ -1,0 +1,24 @@
+# Verified with Python 3.12 on Windows 11 (x86-64).
+# Install: pip install -r requirements.txt
+
+# A pre-built CPU wheel is used for llama-cpp-python, so no C++ compiler
+# (Visual Studio Build Tools) is required.
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+--only-binary llama-cpp-python
+
+llama-cpp-python==0.3.36
+codecarbon==3.3.1
+huggingface_hub==2.1.1
+psutil==7.2.2
+PyYAML==6.0.3
+# CPU temperature: LibreHardwareMonitorLib loaded through pythonnet (see scripts/fetch_lhm.py)
+pythonnet==3.0.5
+numpy==2.5.3
+pandas==3.0.6
+matplotlib==3.11.2
+# Word tables of scripts/make_figures.py (optional: CSV and Markdown are written without it)
+python-docx==1.2.0
+# GGUF header reader for scripts/analyze_bandwidth.py (tensor sizes; only needed to refresh gguf_tensor_sizes.csv)
+gguf==0.19.0
+# Tests (python -m pytest)
+pytest==8.4.1

@@ -1,0 +1,1009 @@
+2026-10-07 00:15:59 | INFO    | Log file: results\logs\campaign_session_01_20261007T001559-d4dffe.log
+2026-10-07 00:15:59 | INFO    | System sleep and display sleep are prevented until the run ends.
+2026-10-07 00:15:59 | INFO    | Run 20261007T001559-d4dffe | session_01 | experiments: energy, thread_scaling, cognitive | models: 1B-Q4_K_M, 3B-Q8_0, Sparse8B-Q8_0, Sparse8B-Q4_K_M, 1B-Q8_0, 8B-Q4_K_M, 8B-Q8_0, 3B-Q4_K_M
+2026-10-07 00:15:59 | INFO    | Power: plan Dengeli (balanced), max processor state AC 99 % / DC 99 %, turbo disabled: True
+2026-10-07 00:16:00 | INFO    | Thermal monitor: 11th Gen Intel Core i9-11900K / CPU Package | now 35.0 C | fuse 85 C for 10 s, hard limit 95 C (administrator: True)
+2026-10-07 00:16:00 | INFO    | Topology: 8 physical cores, 16 logical processors, hybrid=False, P-cores=8
+2026-10-07 00:16:02 | INFO    | Hashing Llama-3.2-3B-Instruct.Q8_0.gguf (3.42 GB, first time only)...
+2026-10-07 00:16:05 | INFO    | Hashing Sparse-Llama-3.1-8B-2of4.Q8_0.gguf (8.54 GB, first time only)...
+2026-10-07 00:16:12 | INFO    | Hashing Sparse-Llama-3.1-8B-2of4.Q4_K_M.gguf (4.92 GB, first time only)...
+2026-10-07 00:16:16 | INFO    | Hashing Llama-3.2-1B-Instruct.Q8_0.gguf (1.32 GB, first time only)...
+2026-10-07 00:16:17 | INFO    | Hashing Llama-3.2-3B-Instruct.Q4_K_M.gguf (2.02 GB, first time only)...
+2026-10-07 00:16:23 | INFO    | Energy tracking: CPU source = windows_emi (measured: True), GPU tracked: True
+2026-10-07 00:16:38 | INFO    | Measuring idle baseline for 60 s (keep the machine untouched)...
+2026-10-07 00:17:38 | INFO    | Idle baseline: CPU package 16.39 W | RAM (est.) 20.00 W | GPU 28.34 W | CPU utilisation 4.1 % | 31.9 C
+2026-10-07 00:17:38 | INFO    | Metadata written to results\metadata\20261007T001559-d4dffe.json
+2026-10-07 00:17:38 | INFO    | >>> Unit 1/158: session_01|energy|1B-Q4_K_M|8|r01 (order 1 in round)
+2026-10-07 00:17:39 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 1] model loaded in 1.22 s
+2026-10-07 00:17:45 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 1] cpu_arch: 35.69 tok/s | 1.73 J/token (CPU, decode) | 3504 MHz | 41.0 C (max 42.0)
+2026-10-07 00:17:48 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 1] transformer: 35.44 tok/s | 1.74 J/token (CPU, decode) | 3504 MHz | 40.8 C (max 41.0)
+2026-10-07 00:17:51 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 1] story: 35.58 tok/s | 1.72 J/token (CPU, decode) | 3504 MHz | 40.6 C (max 41.0)
+2026-10-07 00:17:51 | INFO    | <<< Unit 1/158 finished in 0.2 min (incl. 0 s cool-down)
+2026-10-07 00:17:51 | INFO    | >>> Unit 2/158: session_01|energy|3B-Q8_0|8|r01 (order 2 in round)
+2026-10-07 00:17:53 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 1] model loaded in 1.85 s
+2026-10-07 00:18:16 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 1] cpu_arch: 8.73 tok/s | 6.73 J/token (CPU, decode) | 3504 MHz | 40.4 C (max 41.0)
+2026-10-07 00:18:28 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 1] transformer: 8.79 tok/s | 6.70 J/token (CPU, decode) | 3504 MHz | 41.1 C (max 45.0)
+2026-10-07 00:18:39 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 1] story: 8.76 tok/s | 6.70 J/token (CPU, decode) | 3504 MHz | 41.2 C (max 42.0)
+2026-10-07 00:18:40 | INFO    | <<< Unit 2/158 finished in 0.8 min (incl. 0 s cool-down)
+2026-10-07 00:18:40 | INFO    | >>> Unit 3/158: session_01|energy|Sparse8B-Q8_0|8|r01 (order 3 in round)
+2026-10-07 00:18:46 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 1] model loaded in 5.90 s
+2026-10-07 00:19:40 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 1] cpu_arch: 3.69 tok/s | 15.87 J/token (CPU, decode) | 3504 MHz | 42.3 C (max 44.0)
+2026-10-07 00:20:11 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 1] transformer: 3.30 tok/s | 19.14 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 49.0)
+2026-10-07 00:20:40 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 1] story: 3.64 tok/s | 16.48 J/token (CPU, decode) | 3504 MHz | 43.7 C (max 50.0)
+2026-10-07 00:20:40 | INFO    | <<< Unit 3/158 finished in 2.0 min (incl. 0 s cool-down)
+2026-10-07 00:20:40 | INFO    | >>> Unit 4/158: session_01|energy|Sparse8B-Q4_K_M|8|r01 (order 4 in round)
+2026-10-07 00:20:48 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 1] model loaded in 7.13 s
+2026-10-07 00:21:22 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 1] cpu_arch: 5.88 tok/s | 10.74 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 46.0)
+2026-10-07 00:21:39 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 1] transformer: 6.10 tok/s | 10.19 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 46.0)
+2026-10-07 00:21:57 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 1] story: 5.60 tok/s | 11.62 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 48.0)
+2026-10-07 00:21:57 | INFO    | <<< Unit 4/158 finished in 1.3 min (incl. 0 s cool-down)
+2026-10-07 00:21:57 | INFO    | >>> Unit 5/158: session_01|energy|1B-Q8_0|8|r01 (order 5 in round)
+2026-10-07 00:21:59 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 1] model loaded in 1.31 s
+2026-10-07 00:22:08 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 1] cpu_arch: 21.53 tok/s | 2.86 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 46.0)
+2026-10-07 00:22:13 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 1] transformer: 21.37 tok/s | 2.90 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 45.0)
+2026-10-07 00:22:18 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 1] story: 22.08 tok/s | 2.75 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 49.0)
+2026-10-07 00:22:18 | INFO    | <<< Unit 5/158 finished in 0.3 min (incl. 0 s cool-down)
+2026-10-07 00:22:18 | INFO    | >>> Unit 6/158: session_01|energy|8B-Q4_K_M|8|r01 (order 6 in round)
+2026-10-07 00:22:26 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 1] model loaded in 8.27 s
+2026-10-07 00:23:00 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 1] cpu_arch: 6.05 tok/s | 10.28 J/token (CPU, decode) | 3504 MHz | 44.7 C (max 45.0)
+2026-10-07 00:23:17 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 1] transformer: 5.94 tok/s | 10.54 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 49.0)
+2026-10-07 00:23:34 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 1] story: 6.13 tok/s | 10.16 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 48.0)
+2026-10-07 00:23:34 | INFO    | <<< Unit 6/158 finished in 1.3 min (incl. 0 s cool-down)
+2026-10-07 00:23:34 | INFO    | >>> Unit 7/158: session_01|energy|8B-Q8_0|8|r01 (order 7 in round)
+2026-10-07 00:23:43 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 1] model loaded in 8.35 s
+2026-10-07 00:24:38 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 1] cpu_arch: 3.70 tok/s | 16.09 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 47.0)
+2026-10-07 00:25:06 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 1] transformer: 3.66 tok/s | 16.22 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 49.0)
+2026-10-07 00:25:34 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 1] story: 3.73 tok/s | 15.83 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 50.0)
+2026-10-07 00:25:34 | INFO    | <<< Unit 7/158 finished in 2.0 min (incl. 0 s cool-down)
+2026-10-07 00:25:34 | INFO    | >>> Unit 8/158: session_01|energy|3B-Q4_K_M|8|r01 (order 8 in round)
+2026-10-07 00:25:37 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 1] model loaded in 3.14 s
+2026-10-07 00:25:53 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 1] cpu_arch: 13.87 tok/s | 4.47 J/token (CPU, decode) | 3504 MHz | 44.7 C (max 45.0)
+2026-10-07 00:26:00 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 1] transformer: 13.18 tok/s | 4.77 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 46.0)
+2026-10-07 00:26:08 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 1] story: 13.37 tok/s | 4.70 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 48.0)
+2026-10-07 00:26:08 | INFO    | <<< Unit 8/158 finished in 0.6 min (incl. 0 s cool-down)
+2026-10-07 00:26:08 | INFO    | >>> Unit 9/158: session_01|energy|Sparse8B-Q4_K_M|8|r02 (order 1 in round)
+2026-10-07 00:26:16 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 2] model loaded in 7.53 s
+2026-10-07 00:26:51 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 2] cpu_arch: 5.83 tok/s | 10.78 J/token (CPU, decode) | 3504 MHz | 45.5 C (max 49.0)
+2026-10-07 00:27:09 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 2] transformer: 5.95 tok/s | 10.41 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 46.0)
+2026-10-07 00:27:26 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 2] story: 6.04 tok/s | 10.26 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 48.0)
+2026-10-07 00:27:26 | INFO    | <<< Unit 9/158 finished in 1.3 min (incl. 0 s cool-down)
+2026-10-07 00:27:26 | INFO    | >>> Unit 10/158: session_01|energy|1B-Q8_0|8|r02 (order 2 in round)
+2026-10-07 00:27:27 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 2] model loaded in 1.30 s
+2026-10-07 00:27:37 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 2] cpu_arch: 21.45 tok/s | 2.85 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 45.0)
+2026-10-07 00:27:42 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 2] transformer: 21.38 tok/s | 2.87 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 46.0)
+2026-10-07 00:27:46 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 2] story: 21.68 tok/s | 2.81 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 48.0)
+2026-10-07 00:27:46 | INFO    | <<< Unit 10/158 finished in 0.3 min (incl. 0 s cool-down)
+2026-10-07 00:27:46 | INFO    | >>> Unit 11/158: session_01|energy|3B-Q8_0|8|r02 (order 3 in round)
+2026-10-07 00:27:50 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 2] model loaded in 3.22 s
+2026-10-07 00:28:14 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 2] cpu_arch: 8.47 tok/s | 7.02 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 45.0)
+2026-10-07 00:28:26 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 2] transformer: 8.50 tok/s | 6.98 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 46.0)
+2026-10-07 00:28:38 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 2] story: 8.59 tok/s | 6.89 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 48.0)
+2026-10-07 00:28:38 | INFO    | <<< Unit 11/158 finished in 0.9 min (incl. 0 s cool-down)
+2026-10-07 00:28:38 | INFO    | >>> Unit 12/158: session_01|energy|Sparse8B-Q8_0|8|r02 (order 4 in round)
+2026-10-07 00:28:47 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 2] model loaded in 8.14 s
+2026-10-07 00:29:41 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 2] cpu_arch: 3.77 tok/s | 15.55 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 48.0)
+2026-10-07 00:30:08 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 2] transformer: 3.79 tok/s | 15.43 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 51.0)
+2026-10-07 00:30:35 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 2] story: 3.80 tok/s | 15.46 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 50.0)
+2026-10-07 00:30:36 | INFO    | <<< Unit 12/158 finished in 2.0 min (incl. 0 s cool-down)
+2026-10-07 00:30:36 | INFO    | >>> Unit 13/158: session_01|energy|3B-Q4_K_M|8|r02 (order 5 in round)
+2026-10-07 00:30:39 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 2] model loaded in 3.14 s
+2026-10-07 00:30:54 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 2] cpu_arch: 13.73 tok/s | 4.55 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 46.0)
+2026-10-07 00:31:01 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 2] transformer: 13.93 tok/s | 4.47 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 47.0)
+2026-10-07 00:31:09 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 2] story: 14.04 tok/s | 4.40 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 47.0)
+2026-10-07 00:31:09 | INFO    | <<< Unit 13/158 finished in 0.6 min (incl. 0 s cool-down)
+2026-10-07 00:31:09 | INFO    | >>> Unit 14/158: session_01|energy|8B-Q4_K_M|8|r02 (order 6 in round)
+2026-10-07 00:31:16 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 2] model loaded in 7.63 s
+2026-10-07 00:31:50 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 2] cpu_arch: 6.13 tok/s | 10.25 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 47.0)
+2026-10-07 00:32:06 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 2] transformer: 6.22 tok/s | 9.99 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 47.0)
+2026-10-07 00:32:22 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 2] story: 6.33 tok/s | 9.77 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 47.0)
+2026-10-07 00:32:23 | INFO    | <<< Unit 14/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 00:32:23 | INFO    | >>> Unit 15/158: session_01|energy|1B-Q4_K_M|8|r02 (order 7 in round)
+2026-10-07 00:32:24 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 2] model loaded in 1.37 s
+2026-10-07 00:32:30 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 2] cpu_arch: 35.15 tok/s | 1.78 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 46.0)
+2026-10-07 00:32:33 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 2] transformer: 35.21 tok/s | 1.78 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 46.0)
+2026-10-07 00:32:36 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 2] story: 35.14 tok/s | 1.77 J/token (CPU, decode) | 3504 MHz | 45.5 C (max 47.0)
+2026-10-07 00:32:36 | INFO    | <<< Unit 15/158 finished in 0.2 min (incl. 0 s cool-down)
+2026-10-07 00:32:36 | INFO    | >>> Unit 16/158: session_01|energy|8B-Q8_0|8|r02 (order 8 in round)
+2026-10-07 00:32:44 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 2] model loaded in 8.44 s
+2026-10-07 00:33:42 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 2] cpu_arch: 3.60 tok/s | 16.60 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 49.0)
+2026-10-07 00:34:09 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 2] transformer: 3.78 tok/s | 15.69 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 50.0)
+2026-10-07 00:34:36 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 2] story: 3.80 tok/s | 15.61 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 53.0)
+2026-10-07 00:34:36 | INFO    | <<< Unit 16/158 finished in 2.0 min (incl. 0 s cool-down)
+2026-10-07 00:34:36 | INFO    | >>> Unit 17/158: session_01|energy|8B-Q8_0|8|r03 (order 1 in round)
+2026-10-07 00:34:40 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 3] model loaded in 3.47 s
+2026-10-07 00:35:34 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 3] cpu_arch: 3.82 tok/s | 15.50 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 48.0)
+2026-10-07 00:36:00 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 3] transformer: 3.82 tok/s | 15.51 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 52.0)
+2026-10-07 00:36:27 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 3] story: 3.82 tok/s | 15.51 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 49.0)
+2026-10-07 00:36:28 | INFO    | <<< Unit 17/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 00:36:28 | INFO    | >>> Unit 18/158: session_01|energy|Sparse8B-Q4_K_M|8|r03 (order 2 in round)
+2026-10-07 00:36:35 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 3] model loaded in 6.95 s
+2026-10-07 00:37:07 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 3] cpu_arch: 6.38 tok/s | 9.74 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 49.0)
+2026-10-07 00:37:23 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 3] transformer: 6.37 tok/s | 9.77 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 49.0)
+2026-10-07 00:37:39 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 3] story: 6.37 tok/s | 9.73 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 46.0)
+2026-10-07 00:37:39 | INFO    | <<< Unit 18/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 00:37:39 | INFO    | >>> Unit 19/158: session_01|energy|8B-Q4_K_M|8|r03 (order 3 in round)
+2026-10-07 00:37:44 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 3] model loaded in 5.13 s
+2026-10-07 00:38:16 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 3] cpu_arch: 6.39 tok/s | 9.73 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 49.0)
+2026-10-07 00:38:32 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 3] transformer: 6.41 tok/s | 9.70 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 49.0)
+2026-10-07 00:38:49 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 3] story: 6.41 tok/s | 9.69 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 47.0)
+2026-10-07 00:38:49 | INFO    | <<< Unit 19/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 00:38:49 | INFO    | >>> Unit 20/158: session_01|energy|3B-Q8_0|8|r03 (order 4 in round)
+2026-10-07 00:38:52 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 3] model loaded in 2.92 s
+2026-10-07 00:39:15 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 3] cpu_arch: 8.68 tok/s | 6.85 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 48.0)
+2026-10-07 00:39:27 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 3] transformer: 8.68 tok/s | 6.88 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 46.0)
+2026-10-07 00:39:39 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 3] story: 8.68 tok/s | 6.85 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 00:39:39 | INFO    | <<< Unit 20/158 finished in 0.8 min (incl. 0 s cool-down)
+2026-10-07 00:39:39 | INFO    | >>> Unit 21/158: session_01|energy|1B-Q8_0|8|r03 (order 5 in round)
+2026-10-07 00:39:41 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 3] model loaded in 1.26 s
+2026-10-07 00:39:50 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 3] cpu_arch: 22.06 tok/s | 2.71 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 00:39:55 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 3] transformer: 22.06 tok/s | 2.72 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 45.0)
+2026-10-07 00:39:59 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 3] story: 22.08 tok/s | 2.72 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 45.0)
+2026-10-07 00:39:59 | INFO    | <<< Unit 21/158 finished in 0.3 min (incl. 0 s cool-down)
+2026-10-07 00:39:59 | INFO    | >>> Unit 22/158: session_01|energy|1B-Q4_K_M|8|r03 (order 6 in round)
+2026-10-07 00:40:00 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 3] model loaded in 1.09 s
+2026-10-07 00:40:06 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 3] cpu_arch: 35.88 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 46.0)
+2026-10-07 00:40:09 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 3] transformer: 35.86 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.4 C (max 46.0)
+2026-10-07 00:40:12 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 3] story: 34.83 tok/s | 1.85 J/token (CPU, decode) | 3504 MHz | 46.2 C (max 48.0)
+2026-10-07 00:40:12 | INFO    | <<< Unit 22/158 finished in 0.2 min (incl. 0 s cool-down)
+2026-10-07 00:40:12 | INFO    | >>> Unit 23/158: session_01|energy|3B-Q4_K_M|8|r03 (order 7 in round)
+2026-10-07 00:40:15 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 3] model loaded in 3.26 s
+2026-10-07 00:40:30 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 3] cpu_arch: 14.26 tok/s | 4.37 J/token (CPU, decode) | 3504 MHz | 45.3 C (max 47.0)
+2026-10-07 00:40:37 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 3] transformer: 14.26 tok/s | 4.38 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 46.0)
+2026-10-07 00:40:44 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 3] story: 14.27 tok/s | 4.38 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 48.0)
+2026-10-07 00:40:44 | INFO    | <<< Unit 23/158 finished in 0.5 min (incl. 0 s cool-down)
+2026-10-07 00:40:44 | INFO    | >>> Unit 24/158: session_01|energy|Sparse8B-Q8_0|8|r03 (order 8 in round)
+2026-10-07 00:40:52 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 3] model loaded in 7.85 s
+2026-10-07 00:41:46 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 3] cpu_arch: 3.83 tok/s | 15.36 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 47.0)
+2026-10-07 00:42:12 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 3] transformer: 3.82 tok/s | 15.37 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 47.0)
+2026-10-07 00:42:39 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 3] story: 3.81 tok/s | 15.48 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 52.0)
+2026-10-07 00:42:40 | INFO    | <<< Unit 24/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 00:42:40 | INFO    | >>> Unit 25/158: session_01|energy|3B-Q4_K_M|8|r04 (order 1 in round)
+2026-10-07 00:42:42 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 4] model loaded in 2.31 s
+2026-10-07 00:42:57 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 4] cpu_arch: 14.31 tok/s | 4.38 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 46.0)
+2026-10-07 00:43:04 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 4] transformer: 14.21 tok/s | 4.43 J/token (CPU, decode) | 3504 MHz | 45.3 C (max 49.0)
+2026-10-07 00:43:11 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 4] story: 14.43 tok/s | 4.32 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 46.0)
+2026-10-07 00:43:11 | INFO    | <<< Unit 25/158 finished in 0.5 min (incl. 0 s cool-down)
+2026-10-07 00:43:11 | INFO    | >>> Unit 26/158: session_01|energy|1B-Q8_0|8|r04 (order 2 in round)
+2026-10-07 00:43:12 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 4] model loaded in 0.77 s
+2026-10-07 00:43:21 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 4] cpu_arch: 22.95 tok/s | 2.63 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 45.0)
+2026-10-07 00:43:25 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 4] transformer: 23.01 tok/s | 2.64 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 50.0)
+2026-10-07 00:43:30 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 4] story: 22.99 tok/s | 2.63 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 49.0)
+2026-10-07 00:43:30 | INFO    | <<< Unit 26/158 finished in 0.3 min (incl. 0 s cool-down)
+2026-10-07 00:43:30 | INFO    | >>> Unit 27/158: session_01|energy|3B-Q8_0|8|r04 (order 3 in round)
+2026-10-07 00:43:31 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 4] model loaded in 1.49 s
+2026-10-07 00:43:55 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 4] cpu_arch: 8.78 tok/s | 6.81 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 45.0)
+2026-10-07 00:44:07 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 4] transformer: 8.73 tok/s | 6.83 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 50.0)
+2026-10-07 00:44:19 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 4] story: 8.78 tok/s | 6.80 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 00:44:19 | INFO    | <<< Unit 27/158 finished in 0.8 min (incl. 0 s cool-down)
+2026-10-07 00:44:19 | INFO    | >>> Unit 28/158: session_01|energy|1B-Q4_K_M|8|r04 (order 4 in round)
+2026-10-07 00:44:20 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 4] model loaded in 1.07 s
+2026-10-07 00:44:26 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 4] cpu_arch: 35.84 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 45.0)
+2026-10-07 00:44:29 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 4] transformer: 35.89 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 45.0)
+2026-10-07 00:44:31 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 4] story: 35.90 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 45.0)
+2026-10-07 00:44:32 | INFO    | <<< Unit 28/158 finished in 0.2 min (incl. 0 s cool-down)
+2026-10-07 00:44:32 | INFO    | >>> Unit 29/158: session_01|energy|8B-Q4_K_M|8|r04 (order 5 in round)
+2026-10-07 00:44:38 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 4] model loaded in 6.34 s
+2026-10-07 00:45:10 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 4] cpu_arch: 6.42 tok/s | 9.71 J/token (CPU, decode) | 3504 MHz | 44.7 C (max 46.0)
+2026-10-07 00:45:26 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 4] transformer: 6.45 tok/s | 9.64 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 46.0)
+2026-10-07 00:45:42 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 4] story: 6.45 tok/s | 9.64 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 51.0)
+2026-10-07 00:45:42 | INFO    | <<< Unit 29/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 00:45:42 | INFO    | >>> Unit 30/158: session_01|energy|Sparse8B-Q8_0|8|r04 (order 6 in round)
+2026-10-07 00:45:47 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 4] model loaded in 4.80 s
+2026-10-07 00:46:40 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 4] cpu_arch: 3.82 tok/s | 15.39 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 50.0)
+2026-10-07 00:47:07 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 4] transformer: 3.77 tok/s | 15.69 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 47.0)
+2026-10-07 00:47:34 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 4] story: 3.82 tok/s | 15.38 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 49.0)
+2026-10-07 00:47:35 | INFO    | <<< Unit 30/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 00:47:35 | INFO    | >>> Unit 31/158: session_01|energy|8B-Q8_0|8|r04 (order 7 in round)
+2026-10-07 00:47:42 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 4] model loaded in 7.30 s
+2026-10-07 00:48:36 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 4] cpu_arch: 3.80 tok/s | 15.61 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 48.0)
+2026-10-07 00:49:03 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 4] transformer: 3.81 tok/s | 15.55 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 49.0)
+2026-10-07 00:49:30 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 4] story: 3.82 tok/s | 15.50 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 47.0)
+2026-10-07 00:49:30 | INFO    | <<< Unit 31/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 00:49:30 | INFO    | >>> Unit 32/158: session_01|energy|Sparse8B-Q4_K_M|8|r04 (order 8 in round)
+2026-10-07 00:49:37 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 4] model loaded in 7.14 s
+2026-10-07 00:50:10 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 4] cpu_arch: 6.39 tok/s | 9.72 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 48.0)
+2026-10-07 00:50:25 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 4] transformer: 6.42 tok/s | 9.72 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 46.0)
+2026-10-07 00:50:42 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 4] story: 6.42 tok/s | 9.67 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 48.0)
+2026-10-07 00:50:42 | INFO    | <<< Unit 32/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 00:50:42 | INFO    | >>> Unit 33/158: session_01|energy|1B-Q8_0|8|r05 (order 1 in round)
+2026-10-07 00:50:43 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 5] model loaded in 1.30 s
+2026-10-07 00:50:52 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 5] cpu_arch: 22.94 tok/s | 2.64 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 45.0)
+2026-10-07 00:50:57 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 5] transformer: 22.94 tok/s | 2.63 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 45.0)
+2026-10-07 00:51:01 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 5] story: 22.62 tok/s | 2.68 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 45.0)
+2026-10-07 00:51:01 | INFO    | <<< Unit 33/158 finished in 0.3 min (incl. 0 s cool-down)
+2026-10-07 00:51:01 | INFO    | >>> Unit 34/158: session_01|energy|Sparse8B-Q4_K_M|8|r05 (order 2 in round)
+2026-10-07 00:51:06 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 5] model loaded in 5.23 s
+2026-10-07 00:51:39 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 5] cpu_arch: 6.36 tok/s | 9.73 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 48.0)
+2026-10-07 00:51:55 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 5] transformer: 6.37 tok/s | 9.73 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 47.0)
+2026-10-07 00:52:11 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 5] story: 6.34 tok/s | 9.78 J/token (CPU, decode) | 3504 MHz | 45.3 C (max 50.0)
+2026-10-07 00:52:11 | INFO    | <<< Unit 34/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 00:52:11 | INFO    | >>> Unit 35/158: session_01|energy|1B-Q4_K_M|8|r05 (order 3 in round)
+2026-10-07 00:52:13 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 5] model loaded in 1.35 s
+2026-10-07 00:52:18 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 5] cpu_arch: 35.34 tok/s | 1.77 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 45.0)
+2026-10-07 00:52:21 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 5] transformer: 35.69 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 46.0)
+2026-10-07 00:52:24 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 5] story: 35.78 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 45.0)
+2026-10-07 00:52:24 | INFO    | <<< Unit 35/158 finished in 0.2 min (incl. 0 s cool-down)
+2026-10-07 00:52:24 | INFO    | >>> Unit 36/158: session_01|energy|3B-Q4_K_M|8|r05 (order 4 in round)
+2026-10-07 00:52:27 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 5] model loaded in 3.11 s
+2026-10-07 00:52:42 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 5] cpu_arch: 13.98 tok/s | 4.44 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 45.0)
+2026-10-07 00:52:49 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 5] transformer: 13.99 tok/s | 4.44 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 48.0)
+2026-10-07 00:52:57 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 5] story: 13.98 tok/s | 4.44 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 47.0)
+2026-10-07 00:52:57 | INFO    | <<< Unit 36/158 finished in 0.5 min (incl. 0 s cool-down)
+2026-10-07 00:52:57 | INFO    | >>> Unit 37/158: session_01|energy|Sparse8B-Q8_0|8|r05 (order 5 in round)
+2026-10-07 00:53:05 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 5] model loaded in 7.92 s
+2026-10-07 00:53:59 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 5] cpu_arch: 3.82 tok/s | 15.34 J/token (CPU, decode) | 3504 MHz | 43.7 C (max 48.0)
+2026-10-07 00:54:26 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 5] transformer: 3.79 tok/s | 15.54 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 52.0)
+2026-10-07 00:54:53 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 5] story: 3.82 tok/s | 15.38 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 52.0)
+2026-10-07 00:54:53 | INFO    | <<< Unit 37/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 00:54:53 | INFO    | >>> Unit 38/158: session_01|energy|8B-Q4_K_M|8|r05 (order 6 in round)
+2026-10-07 00:55:01 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 5] model loaded in 7.30 s
+2026-10-07 00:55:33 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 5] cpu_arch: 6.41 tok/s | 9.68 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 45.0)
+2026-10-07 00:55:49 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 5] transformer: 6.41 tok/s | 9.68 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 48.0)
+2026-10-07 00:56:05 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 5] story: 6.38 tok/s | 9.73 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 49.0)
+2026-10-07 00:56:05 | INFO    | <<< Unit 38/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 00:56:05 | INFO    | >>> Unit 39/158: session_01|energy|3B-Q8_0|8|r05 (order 7 in round)
+2026-10-07 00:56:08 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 5] model loaded in 2.93 s
+2026-10-07 00:56:32 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 5] cpu_arch: 8.69 tok/s | 6.83 J/token (CPU, decode) | 3504 MHz | 43.7 C (max 44.0)
+2026-10-07 00:56:43 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 5] transformer: 8.69 tok/s | 6.85 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 47.0)
+2026-10-07 00:56:55 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 5] story: 8.68 tok/s | 6.85 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 00:56:55 | INFO    | <<< Unit 39/158 finished in 0.8 min (incl. 0 s cool-down)
+2026-10-07 00:56:55 | INFO    | >>> Unit 40/158: session_01|energy|8B-Q8_0|8|r05 (order 8 in round)
+2026-10-07 00:57:03 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 5] model loaded in 8.07 s
+2026-10-07 00:57:57 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 5] cpu_arch: 3.83 tok/s | 15.44 J/token (CPU, decode) | 3504 MHz | 43.5 C (max 47.0)
+2026-10-07 00:58:24 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 5] transformer: 3.82 tok/s | 15.48 J/token (CPU, decode) | 3504 MHz | 43.8 C (max 50.0)
+2026-10-07 00:58:51 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 5] story: 3.83 tok/s | 15.43 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 47.0)
+2026-10-07 00:58:51 | INFO    | <<< Unit 40/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 00:58:51 | INFO    | >>> Unit 41/158: session_01|energy|3B-Q4_K_M|8|r06 (order 1 in round)
+2026-10-07 00:58:54 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 6] model loaded in 3.13 s
+2026-10-07 00:59:09 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 6] cpu_arch: 14.31 tok/s | 4.37 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 45.0)
+2026-10-07 00:59:16 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 6] transformer: 14.13 tok/s | 4.43 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 45.0)
+2026-10-07 00:59:24 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 6] story: 14.23 tok/s | 4.38 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 49.0)
+2026-10-07 00:59:24 | INFO    | <<< Unit 41/158 finished in 0.5 min (incl. 0 s cool-down)
+2026-10-07 00:59:24 | INFO    | >>> Unit 42/158: session_01|energy|1B-Q8_0|8|r06 (order 2 in round)
+2026-10-07 00:59:25 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 6] model loaded in 1.31 s
+2026-10-07 00:59:34 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 6] cpu_arch: 22.97 tok/s | 2.62 J/token (CPU, decode) | 3504 MHz | 43.7 C (max 44.0)
+2026-10-07 00:59:38 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 6] transformer: 22.92 tok/s | 2.63 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 45.0)
+2026-10-07 00:59:43 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 6] story: 22.97 tok/s | 2.62 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 00:59:43 | INFO    | <<< Unit 42/158 finished in 0.3 min (incl. 0 s cool-down)
+2026-10-07 00:59:43 | INFO    | >>> Unit 43/158: session_01|energy|Sparse8B-Q4_K_M|8|r06 (order 3 in round)
+2026-10-07 00:59:50 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 6] model loaded in 7.33 s
+2026-10-07 01:00:23 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 6] cpu_arch: 6.40 tok/s | 9.72 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 47.0)
+2026-10-07 01:00:39 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 6] transformer: 6.40 tok/s | 9.67 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 46.0)
+2026-10-07 01:00:55 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 6] story: 6.41 tok/s | 9.67 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 49.0)
+2026-10-07 01:00:55 | INFO    | <<< Unit 43/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:00:55 | INFO    | >>> Unit 44/158: session_01|energy|8B-Q8_0|8|r06 (order 4 in round)
+2026-10-07 01:00:59 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 6] model loaded in 3.64 s
+2026-10-07 01:01:52 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 6] cpu_arch: 3.81 tok/s | 15.49 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 47.0)
+2026-10-07 01:02:19 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 6] transformer: 3.79 tok/s | 15.61 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 52.0)
+2026-10-07 01:02:46 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 6] story: 3.81 tok/s | 15.52 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 51.0)
+2026-10-07 01:02:47 | INFO    | <<< Unit 44/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 01:02:47 | INFO    | >>> Unit 45/158: session_01|energy|1B-Q4_K_M|8|r06 (order 5 in round)
+2026-10-07 01:02:48 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 6] model loaded in 1.39 s
+2026-10-07 01:02:54 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 6] cpu_arch: 35.82 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 45.0)
+2026-10-07 01:02:57 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 6] transformer: 35.76 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 45.0)
+2026-10-07 01:03:00 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 6] story: 35.73 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 45.0)
+2026-10-07 01:03:00 | INFO    | <<< Unit 45/158 finished in 0.2 min (incl. 0 s cool-down)
+2026-10-07 01:03:00 | INFO    | >>> Unit 46/158: session_01|energy|Sparse8B-Q8_0|8|r06 (order 6 in round)
+2026-10-07 01:03:07 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 6] model loaded in 7.27 s
+2026-10-07 01:04:01 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 6] cpu_arch: 3.81 tok/s | 15.35 J/token (CPU, decode) | 3504 MHz | 43.5 C (max 45.0)
+2026-10-07 01:04:28 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 6] transformer: 3.77 tok/s | 15.59 J/token (CPU, decode) | 3504 MHz | 43.8 C (max 47.0)
+2026-10-07 01:04:55 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 6] story: 3.77 tok/s | 15.63 J/token (CPU, decode) | 3504 MHz | 43.8 C (max 49.0)
+2026-10-07 01:04:56 | INFO    | <<< Unit 46/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 01:04:56 | INFO    | >>> Unit 47/158: session_01|energy|8B-Q4_K_M|8|r06 (order 7 in round)
+2026-10-07 01:05:03 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 6] model loaded in 7.20 s
+2026-10-07 01:05:36 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 6] cpu_arch: 6.35 tok/s | 9.87 J/token (CPU, decode) | 3504 MHz | 44.7 C (max 46.0)
+2026-10-07 01:05:52 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 6] transformer: 6.35 tok/s | 9.87 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 49.0)
+2026-10-07 01:06:08 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 6] story: 6.31 tok/s | 9.94 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 50.0)
+2026-10-07 01:06:08 | INFO    | <<< Unit 47/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:06:08 | INFO    | >>> Unit 48/158: session_01|energy|3B-Q8_0|8|r06 (order 8 in round)
+2026-10-07 01:06:11 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 6] model loaded in 2.93 s
+2026-10-07 01:06:35 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 6] cpu_arch: 8.62 tok/s | 6.91 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 47.0)
+2026-10-07 01:06:47 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 6] transformer: 8.61 tok/s | 6.94 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 50.0)
+2026-10-07 01:06:59 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 6] story: 8.61 tok/s | 6.93 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 46.0)
+2026-10-07 01:06:59 | INFO    | <<< Unit 48/158 finished in 0.8 min (incl. 0 s cool-down)
+2026-10-07 01:06:59 | INFO    | >>> Unit 49/158: session_01|energy|1B-Q8_0|8|r07 (order 1 in round)
+2026-10-07 01:07:00 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 7] model loaded in 1.27 s
+2026-10-07 01:07:10 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 7] cpu_arch: 21.93 tok/s | 2.75 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 48.0)
+2026-10-07 01:07:15 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 7] transformer: 21.90 tok/s | 2.76 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 01:07:19 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 7] story: 21.94 tok/s | 2.76 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 01:07:19 | INFO    | <<< Unit 49/158 finished in 0.3 min (incl. 0 s cool-down)
+2026-10-07 01:07:19 | INFO    | >>> Unit 50/158: session_01|energy|1B-Q4_K_M|8|r07 (order 2 in round)
+2026-10-07 01:07:20 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 7] model loaded in 1.05 s
+2026-10-07 01:07:26 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 7] cpu_arch: 35.53 tok/s | 1.78 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 45.0)
+2026-10-07 01:07:29 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 7] transformer: 35.41 tok/s | 1.79 J/token (CPU, decode) | 3504 MHz | 45.5 C (max 47.0)
+2026-10-07 01:07:32 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 7] story: 35.44 tok/s | 1.78 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 45.0)
+2026-10-07 01:07:32 | INFO    | <<< Unit 50/158 finished in 0.2 min (incl. 0 s cool-down)
+2026-10-07 01:07:32 | INFO    | >>> Unit 51/158: session_01|energy|3B-Q8_0|8|r07 (order 3 in round)
+2026-10-07 01:07:34 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 7] model loaded in 1.64 s
+2026-10-07 01:07:57 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 7] cpu_arch: 8.73 tok/s | 6.83 J/token (CPU, decode) | 3504 MHz | 43.8 C (max 48.0)
+2026-10-07 01:08:09 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 7] transformer: 8.63 tok/s | 6.95 J/token (CPU, decode) | 3504 MHz | 43.8 C (max 45.0)
+2026-10-07 01:08:21 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 7] story: 8.57 tok/s | 6.97 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 01:08:21 | INFO    | <<< Unit 51/158 finished in 0.8 min (incl. 0 s cool-down)
+2026-10-07 01:08:21 | INFO    | >>> Unit 52/158: session_01|energy|3B-Q4_K_M|8|r07 (order 4 in round)
+2026-10-07 01:08:25 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 7] model loaded in 3.17 s
+2026-10-07 01:08:39 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 7] cpu_arch: 14.10 tok/s | 4.43 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 48.0)
+2026-10-07 01:08:46 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 7] transformer: 14.18 tok/s | 4.40 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 45.0)
+2026-10-07 01:08:54 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 7] story: 14.22 tok/s | 4.37 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 46.0)
+2026-10-07 01:08:54 | INFO    | <<< Unit 52/158 finished in 0.5 min (incl. 0 s cool-down)
+2026-10-07 01:08:54 | INFO    | >>> Unit 53/158: session_01|energy|Sparse8B-Q8_0|8|r07 (order 5 in round)
+2026-10-07 01:08:59 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 7] model loaded in 5.41 s
+2026-10-07 01:09:53 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 7] cpu_arch: 3.82 tok/s | 15.33 J/token (CPU, decode) | 3504 MHz | 43.7 C (max 48.0)
+2026-10-07 01:10:20 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 7] transformer: 3.82 tok/s | 15.41 J/token (CPU, decode) | 3504 MHz | 43.7 C (max 50.0)
+2026-10-07 01:10:46 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 7] story: 3.82 tok/s | 15.35 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 51.0)
+2026-10-07 01:10:47 | INFO    | <<< Unit 53/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 01:10:47 | INFO    | >>> Unit 54/158: session_01|energy|8B-Q4_K_M|8|r07 (order 6 in round)
+2026-10-07 01:10:53 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 7] model loaded in 6.45 s
+2026-10-07 01:11:25 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 7] cpu_arch: 6.44 tok/s | 9.65 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 46.0)
+2026-10-07 01:11:41 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 7] transformer: 6.43 tok/s | 9.67 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 45.0)
+2026-10-07 01:11:57 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 7] story: 6.44 tok/s | 9.64 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 49.0)
+2026-10-07 01:11:58 | INFO    | <<< Unit 54/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:11:58 | INFO    | >>> Unit 55/158: session_01|energy|Sparse8B-Q4_K_M|8|r07 (order 7 in round)
+2026-10-07 01:12:05 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 7] model loaded in 7.34 s
+2026-10-07 01:12:37 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 7] cpu_arch: 6.42 tok/s | 9.66 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 46.0)
+2026-10-07 01:12:53 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 7] transformer: 6.42 tok/s | 9.66 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 48.0)
+2026-10-07 01:13:09 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 7] story: 6.40 tok/s | 9.70 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 48.0)
+2026-10-07 01:13:09 | INFO    | <<< Unit 55/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:13:09 | INFO    | >>> Unit 56/158: session_01|energy|8B-Q8_0|8|r07 (order 8 in round)
+2026-10-07 01:13:17 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 7] model loaded in 7.81 s
+2026-10-07 01:14:11 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 7] cpu_arch: 3.82 tok/s | 15.49 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 48.0)
+2026-10-07 01:14:37 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 7] transformer: 3.82 tok/s | 15.47 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 51.0)
+2026-10-07 01:15:04 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 7] story: 3.82 tok/s | 15.50 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 50.0)
+2026-10-07 01:15:05 | INFO    | <<< Unit 56/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 01:15:05 | INFO    | >>> Unit 57/158: session_01|energy|8B-Q8_0|8|r08 (order 1 in round)
+2026-10-07 01:15:08 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 8] model loaded in 3.46 s
+2026-10-07 01:16:02 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 8] cpu_arch: 3.82 tok/s | 15.50 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 47.0)
+2026-10-07 01:16:29 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 8] transformer: 3.83 tok/s | 15.48 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 52.0)
+2026-10-07 01:16:55 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 8] story: 3.82 tok/s | 15.52 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 49.0)
+2026-10-07 01:16:56 | INFO    | <<< Unit 57/158 finished in 1.8 min (incl. 0 s cool-down)
+2026-10-07 01:16:56 | INFO    | >>> Unit 58/158: session_01|energy|Sparse8B-Q4_K_M|8|r08 (order 2 in round)
+2026-10-07 01:17:01 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 8] model loaded in 5.22 s
+2026-10-07 01:17:33 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 8] cpu_arch: 6.45 tok/s | 9.63 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 46.0)
+2026-10-07 01:17:49 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 8] transformer: 6.43 tok/s | 9.66 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 48.0)
+2026-10-07 01:18:05 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 8] story: 6.39 tok/s | 9.73 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 50.0)
+2026-10-07 01:18:05 | INFO    | <<< Unit 58/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:18:05 | INFO    | >>> Unit 59/158: session_01|energy|1B-Q4_K_M|8|r08 (order 3 in round)
+2026-10-07 01:18:07 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 8] model loaded in 1.39 s
+2026-10-07 01:18:12 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 8] cpu_arch: 35.83 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 45.0)
+2026-10-07 01:18:15 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 8] transformer: 35.88 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 45.5 C (max 46.0)
+2026-10-07 01:18:18 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 8] story: 35.82 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.6 C (max 46.0)
+2026-10-07 01:18:18 | INFO    | <<< Unit 59/158 finished in 0.2 min (incl. 0 s cool-down)
+2026-10-07 01:18:18 | INFO    | >>> Unit 60/158: session_01|energy|8B-Q4_K_M|8|r08 (order 4 in round)
+2026-10-07 01:18:23 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 8] model loaded in 5.38 s
+2026-10-07 01:18:55 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 8] cpu_arch: 6.45 tok/s | 9.64 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 48.0)
+2026-10-07 01:19:11 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 8] transformer: 6.39 tok/s | 9.74 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 48.0)
+2026-10-07 01:19:27 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 8] story: 6.45 tok/s | 9.66 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 48.0)
+2026-10-07 01:19:28 | INFO    | <<< Unit 60/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:19:28 | INFO    | >>> Unit 61/158: session_01|energy|Sparse8B-Q8_0|8|r08 (order 5 in round)
+2026-10-07 01:19:35 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 8] model loaded in 7.19 s
+2026-10-07 01:20:29 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 8] cpu_arch: 3.81 tok/s | 15.48 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 48.0)
+2026-10-07 01:20:56 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 8] transformer: 3.72 tok/s | 16.05 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 47.0)
+2026-10-07 01:21:24 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 8] story: 3.68 tok/s | 16.18 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 50.0)
+2026-10-07 01:21:25 | INFO    | <<< Unit 61/158 finished in 2.0 min (incl. 0 s cool-down)
+2026-10-07 01:21:25 | INFO    | >>> Unit 62/158: session_01|energy|3B-Q4_K_M|8|r08 (order 6 in round)
+2026-10-07 01:21:28 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 8] model loaded in 3.16 s
+2026-10-07 01:21:44 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 8] cpu_arch: 13.52 tok/s | 4.65 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 46.0)
+2026-10-07 01:21:51 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 8] transformer: 13.80 tok/s | 4.50 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 48.0)
+2026-10-07 01:21:59 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 8] story: 13.59 tok/s | 4.65 J/token (CPU, decode) | 3504 MHz | 45.4 C (max 48.0)
+2026-10-07 01:21:59 | INFO    | <<< Unit 62/158 finished in 0.6 min (incl. 0 s cool-down)
+2026-10-07 01:21:59 | INFO    | >>> Unit 63/158: session_01|energy|1B-Q8_0|8|r08 (order 7 in round)
+2026-10-07 01:22:00 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 8] model loaded in 1.30 s
+2026-10-07 01:22:10 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 8] cpu_arch: 21.67 tok/s | 2.81 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 45.0)
+2026-10-07 01:22:14 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 8] transformer: 21.74 tok/s | 2.81 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 46.0)
+2026-10-07 01:22:19 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 8] story: 21.67 tok/s | 2.83 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 45.0)
+2026-10-07 01:22:19 | INFO    | <<< Unit 63/158 finished in 0.3 min (incl. 0 s cool-down)
+2026-10-07 01:22:19 | INFO    | >>> Unit 64/158: session_01|energy|3B-Q8_0|8|r08 (order 8 in round)
+2026-10-07 01:22:22 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 8] model loaded in 3.05 s
+2026-10-07 01:22:46 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 8] cpu_arch: 8.59 tok/s | 6.89 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 01:22:58 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 8] transformer: 8.61 tok/s | 6.88 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 45.0)
+2026-10-07 01:23:10 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 8] story: 8.54 tok/s | 6.97 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 45.0)
+2026-10-07 01:23:10 | INFO    | <<< Unit 64/158 finished in 0.9 min (incl. 0 s cool-down)
+2026-10-07 01:23:10 | INFO    | >>> Unit 65/158: session_01|energy|8B-Q4_K_M|8|r09 (order 1 in round)
+2026-10-07 01:23:16 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 9] model loaded in 5.33 s
+2026-10-07 01:23:48 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 9] cpu_arch: 6.38 tok/s | 9.73 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 45.0)
+2026-10-07 01:24:04 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 9] transformer: 6.34 tok/s | 9.81 J/token (CPU, decode) | 3504 MHz | 44.7 C (max 47.0)
+2026-10-07 01:24:20 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 9] story: 6.37 tok/s | 9.74 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 49.0)
+2026-10-07 01:24:21 | INFO    | <<< Unit 65/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:24:21 | INFO    | >>> Unit 66/158: session_01|energy|Sparse8B-Q4_K_M|8|r09 (order 2 in round)
+2026-10-07 01:24:28 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 9] model loaded in 7.41 s
+2026-10-07 01:25:00 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 9] cpu_arch: 6.40 tok/s | 9.70 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 46.0)
+2026-10-07 01:25:16 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 9] transformer: 6.41 tok/s | 9.66 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 49.0)
+2026-10-07 01:25:32 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 9] story: 6.43 tok/s | 9.65 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 48.0)
+2026-10-07 01:25:32 | INFO    | <<< Unit 66/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:25:32 | INFO    | >>> Unit 67/158: session_01|energy|3B-Q8_0|8|r09 (order 3 in round)
+2026-10-07 01:25:34 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 9] model loaded in 1.49 s
+2026-10-07 01:25:58 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 9] cpu_arch: 8.74 tok/s | 6.83 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 46.0)
+2026-10-07 01:26:09 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 9] transformer: 8.73 tok/s | 6.84 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 01:26:21 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 9] story: 8.78 tok/s | 6.79 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 46.0)
+2026-10-07 01:26:21 | INFO    | <<< Unit 67/158 finished in 0.8 min (incl. 0 s cool-down)
+2026-10-07 01:26:21 | INFO    | >>> Unit 68/158: session_01|energy|1B-Q4_K_M|8|r09 (order 4 in round)
+2026-10-07 01:26:23 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 9] model loaded in 1.37 s
+2026-10-07 01:26:28 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 9] cpu_arch: 35.70 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 45.0)
+2026-10-07 01:26:31 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 9] transformer: 35.82 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 46.0)
+2026-10-07 01:26:34 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 9] story: 35.85 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 46.0)
+2026-10-07 01:26:34 | INFO    | <<< Unit 68/158 finished in 0.2 min (incl. 0 s cool-down)
+2026-10-07 01:26:34 | INFO    | >>> Unit 69/158: session_01|energy|3B-Q4_K_M|8|r09 (order 5 in round)
+2026-10-07 01:26:36 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 9] model loaded in 2.27 s
+2026-10-07 01:26:51 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 9] cpu_arch: 14.43 tok/s | 4.34 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 45.0)
+2026-10-07 01:26:58 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 9] transformer: 14.19 tok/s | 4.40 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 47.0)
+2026-10-07 01:27:05 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 9] story: 14.29 tok/s | 4.38 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 47.0)
+2026-10-07 01:27:05 | INFO    | <<< Unit 69/158 finished in 0.5 min (incl. 0 s cool-down)
+2026-10-07 01:27:05 | INFO    | >>> Unit 70/158: session_01|energy|1B-Q8_0|8|r09 (order 6 in round)
+2026-10-07 01:27:06 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 9] model loaded in 0.77 s
+2026-10-07 01:27:15 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 9] cpu_arch: 22.93 tok/s | 2.63 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 47.0)
+2026-10-07 01:27:19 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 9] transformer: 22.92 tok/s | 2.62 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 49.0)
+2026-10-07 01:27:24 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 9] story: 22.96 tok/s | 2.63 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 47.0)
+2026-10-07 01:27:24 | INFO    | <<< Unit 70/158 finished in 0.3 min (incl. 0 s cool-down)
+2026-10-07 01:27:24 | INFO    | >>> Unit 71/158: session_01|energy|Sparse8B-Q8_0|8|r09 (order 7 in round)
+2026-10-07 01:27:32 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 9] model loaded in 7.57 s
+2026-10-07 01:28:25 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 9] cpu_arch: 3.80 tok/s | 15.44 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 47.0)
+2026-10-07 01:28:52 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 9] transformer: 3.81 tok/s | 15.34 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 52.0)
+2026-10-07 01:29:19 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 9] story: 3.81 tok/s | 15.40 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 50.0)
+2026-10-07 01:29:20 | INFO    | <<< Unit 71/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 01:29:20 | INFO    | >>> Unit 72/158: session_01|energy|8B-Q8_0|8|r09 (order 8 in round)
+2026-10-07 01:29:27 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 9] model loaded in 7.51 s
+2026-10-07 01:30:21 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 9] cpu_arch: 3.81 tok/s | 15.57 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 48.0)
+2026-10-07 01:30:48 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 9] transformer: 3.81 tok/s | 15.48 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 50.0)
+2026-10-07 01:31:15 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 9] story: 3.81 tok/s | 15.53 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 48.0)
+2026-10-07 01:31:15 | INFO    | <<< Unit 72/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 01:31:15 | INFO    | >>> Unit 73/158: session_01|energy|1B-Q4_K_M|8|r10 (order 1 in round)
+2026-10-07 01:31:17 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 10] model loaded in 1.35 s
+2026-10-07 01:31:22 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 10] cpu_arch: 35.79 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 46.0)
+2026-10-07 01:31:25 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 10] transformer: 35.79 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 45.0)
+2026-10-07 01:31:28 | INFO    | [energy | 1B-Q4_K_M | 8 thr | round 10] story: 35.85 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 46.0)
+2026-10-07 01:31:28 | INFO    | <<< Unit 73/158 finished in 0.2 min (incl. 0 s cool-down)
+2026-10-07 01:31:28 | INFO    | >>> Unit 74/158: session_01|energy|8B-Q8_0|8|r10 (order 2 in round)
+2026-10-07 01:31:31 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 10] model loaded in 3.35 s
+2026-10-07 01:32:26 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 10] cpu_arch: 3.78 tok/s | 15.62 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 50.0)
+2026-10-07 01:32:56 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 10] transformer: 3.38 tok/s | 18.67 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 49.0)
+2026-10-07 01:33:24 | INFO    | [energy | 8B-Q8_0 | 8 thr | round 10] story: 3.71 tok/s | 15.99 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 52.0)
+2026-10-07 01:33:25 | INFO    | <<< Unit 74/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 01:33:25 | INFO    | >>> Unit 75/158: session_01|energy|3B-Q4_K_M|8|r10 (order 3 in round)
+2026-10-07 01:33:28 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 10] model loaded in 3.10 s
+2026-10-07 01:33:42 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 10] cpu_arch: 14.26 tok/s | 4.38 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 46.0)
+2026-10-07 01:33:49 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 10] transformer: 14.22 tok/s | 4.40 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 46.0)
+2026-10-07 01:33:57 | INFO    | [energy | 3B-Q4_K_M | 8 thr | round 10] story: 14.32 tok/s | 4.36 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 48.0)
+2026-10-07 01:33:57 | INFO    | <<< Unit 75/158 finished in 0.5 min (incl. 0 s cool-down)
+2026-10-07 01:33:57 | INFO    | >>> Unit 76/158: session_01|energy|Sparse8B-Q8_0|8|r10 (order 4 in round)
+2026-10-07 01:34:02 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 10] model loaded in 5.15 s
+2026-10-07 01:34:57 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 10] cpu_arch: 3.72 tok/s | 15.85 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 47.0)
+2026-10-07 01:35:24 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 10] transformer: 3.75 tok/s | 15.68 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 51.0)
+2026-10-07 01:35:51 | INFO    | [energy | Sparse8B-Q8_0 | 8 thr | round 10] story: 3.78 tok/s | 15.50 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 51.0)
+2026-10-07 01:35:52 | INFO    | <<< Unit 76/158 finished in 1.9 min (incl. 0 s cool-down)
+2026-10-07 01:35:52 | INFO    | >>> Unit 77/158: session_01|energy|Sparse8B-Q4_K_M|8|r10 (order 5 in round)
+2026-10-07 01:35:59 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 10] model loaded in 7.03 s
+2026-10-07 01:36:31 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 10] cpu_arch: 6.41 tok/s | 9.68 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 48.0)
+2026-10-07 01:36:47 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 10] transformer: 6.40 tok/s | 9.68 J/token (CPU, decode) | 3504 MHz | 44.7 C (max 45.0)
+2026-10-07 01:37:03 | INFO    | [energy | Sparse8B-Q4_K_M | 8 thr | round 10] story: 6.38 tok/s | 9.74 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 50.0)
+2026-10-07 01:37:03 | INFO    | <<< Unit 77/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:37:03 | INFO    | >>> Unit 78/158: session_01|energy|1B-Q8_0|8|r10 (order 6 in round)
+2026-10-07 01:37:04 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 10] model loaded in 1.25 s
+2026-10-07 01:37:13 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 10] cpu_arch: 22.93 tok/s | 2.64 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 45.0)
+2026-10-07 01:37:18 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 10] transformer: 22.90 tok/s | 2.64 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 45.0)
+2026-10-07 01:37:22 | INFO    | [energy | 1B-Q8_0 | 8 thr | round 10] story: 22.93 tok/s | 2.63 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 01:37:22 | INFO    | <<< Unit 78/158 finished in 0.3 min (incl. 0 s cool-down)
+2026-10-07 01:37:22 | INFO    | >>> Unit 79/158: session_01|energy|8B-Q4_K_M|8|r10 (order 7 in round)
+2026-10-07 01:37:30 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 10] model loaded in 7.77 s
+2026-10-07 01:38:02 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 10] cpu_arch: 6.35 tok/s | 9.84 J/token (CPU, decode) | 3504 MHz | 44.7 C (max 47.0)
+2026-10-07 01:38:19 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 10] transformer: 6.20 tok/s | 10.21 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 50.0)
+2026-10-07 01:38:35 | INFO    | [energy | 8B-Q4_K_M | 8 thr | round 10] story: 6.43 tok/s | 9.67 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 50.0)
+2026-10-07 01:38:35 | INFO    | <<< Unit 79/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:38:35 | INFO    | >>> Unit 80/158: session_01|energy|3B-Q8_0|8|r10 (order 8 in round)
+2026-10-07 01:38:38 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 10] model loaded in 2.96 s
+2026-10-07 01:39:02 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 10] cpu_arch: 8.67 tok/s | 6.88 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 45.0)
+2026-10-07 01:39:14 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 10] transformer: 8.72 tok/s | 6.81 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 45.0)
+2026-10-07 01:39:25 | INFO    | [energy | 3B-Q8_0 | 8 thr | round 10] story: 8.73 tok/s | 6.82 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 47.0)
+2026-10-07 01:39:25 | INFO    | <<< Unit 80/158 finished in 0.8 min (incl. 0 s cool-down)
+2026-10-07 01:39:25 | INFO    | Summary of session_01 / energy written (32 rows)
+2026-10-07 01:39:25 | INFO    | >>> Unit 81/158: session_01|thread_scaling|8B-Q4_K_M|16|r01 (order 1 in round)
+2026-10-07 01:39:31 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 1] model loaded in 5.23 s
+2026-10-07 01:40:03 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 1] cpu_arch: 6.26 tok/s | 10.24 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 47.0)
+2026-10-07 01:40:20 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 1] transformer: 6.27 tok/s | 10.26 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 48.0)
+2026-10-07 01:40:36 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 1] story: 6.26 tok/s | 10.22 J/token (CPU, decode) | 3504 MHz | 45.5 C (max 50.0)
+2026-10-07 01:40:36 | INFO    | <<< Unit 81/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:40:36 | INFO    | >>> Unit 82/158: session_01|thread_scaling|8B-Q4_K_M|4|r01 (order 2 in round)
+2026-10-07 01:40:42 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 1] model loaded in 5.18 s
+2026-10-07 01:41:14 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 1] cpu_arch: 6.39 tok/s | 7.15 J/token (CPU, decode) | 3504 MHz | 42.6 C (max 45.0)
+2026-10-07 01:41:30 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 1] transformer: 6.40 tok/s | 7.03 J/token (CPU, decode) | 3504 MHz | 42.4 C (max 45.0)
+2026-10-07 01:41:47 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 1] story: 6.40 tok/s | 7.07 J/token (CPU, decode) | 3504 MHz | 42.5 C (max 46.0)
+2026-10-07 01:41:47 | INFO    | <<< Unit 82/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:41:47 | INFO    | >>> Unit 83/158: session_01|thread_scaling|8B-Q4_K_M|8|r01 (order 3 in round)
+2026-10-07 01:41:52 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 1] model loaded in 5.13 s
+2026-10-07 01:42:24 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 1] cpu_arch: 6.44 tok/s | 9.35 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 48.0)
+2026-10-07 01:42:40 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 1] transformer: 6.44 tok/s | 9.39 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 46.0)
+2026-10-07 01:42:56 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 1] story: 6.45 tok/s | 9.49 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 47.0)
+2026-10-07 01:42:56 | INFO    | <<< Unit 83/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:42:56 | INFO    | >>> Unit 84/158: session_01|thread_scaling|8B-Q4_K_M|2|r01 (order 4 in round)
+2026-10-07 01:43:01 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 1] model loaded in 5.17 s
+2026-10-07 01:43:42 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 1] cpu_arch: 5.27 tok/s | 6.61 J/token (CPU, decode) | 3504 MHz | 41.2 C (max 43.0)
+2026-10-07 01:44:02 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 1] transformer: 5.26 tok/s | 6.67 J/token (CPU, decode) | 3504 MHz | 40.9 C (max 44.0)
+2026-10-07 01:44:23 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 1] story: 5.17 tok/s | 7.24 J/token (CPU, decode) | 3504 MHz | 40.8 C (max 45.0)
+2026-10-07 01:44:23 | INFO    | <<< Unit 84/158 finished in 1.4 min (incl. 0 s cool-down)
+2026-10-07 01:44:23 | INFO    | >>> Unit 85/158: session_01|thread_scaling|8B-Q4_K_M|12|r01 (order 5 in round)
+2026-10-07 01:44:28 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 1] model loaded in 5.13 s
+2026-10-07 01:45:01 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 1] cpu_arch: 6.37 tok/s | 9.98 J/token (CPU, decode) | 3504 MHz | 43.8 C (max 46.0)
+2026-10-07 01:45:17 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 1] transformer: 6.38 tok/s | 9.96 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 48.0)
+2026-10-07 01:45:33 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 1] story: 6.39 tok/s | 9.95 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 46.0)
+2026-10-07 01:45:33 | INFO    | <<< Unit 85/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:45:33 | INFO    | >>> Unit 86/158: session_01|thread_scaling|8B-Q4_K_M|1|r01 (order 6 in round)
+2026-10-07 01:45:38 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 1] model loaded in 5.12 s
+2026-10-07 01:46:51 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 1] cpu_arch: 2.94 tok/s | 9.13 J/token (CPU, decode) | 3503 MHz | 38.3 C (max 43.0)
+2026-10-07 01:47:28 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 1] transformer: 2.91 tok/s | 8.99 J/token (CPU, decode) | 3504 MHz | 40.5 C (max 43.0)
+2026-10-07 01:48:05 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 1] story: 2.94 tok/s | 8.94 J/token (CPU, decode) | 3504 MHz | 38.3 C (max 40.0)
+2026-10-07 01:48:05 | INFO    | <<< Unit 86/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 01:48:05 | INFO    | >>> Unit 87/158: session_01|thread_scaling|8B-Q4_K_M|6|r01 (order 7 in round)
+2026-10-07 01:48:10 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 1] model loaded in 5.10 s
+2026-10-07 01:48:42 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 1] cpu_arch: 6.50 tok/s | 8.16 J/token (CPU, decode) | 3504 MHz | 41.3 C (max 42.0)
+2026-10-07 01:48:58 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 1] transformer: 6.50 tok/s | 8.20 J/token (CPU, decode) | 3504 MHz | 42.0 C (max 43.0)
+2026-10-07 01:49:14 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 1] story: 6.47 tok/s | 8.24 J/token (CPU, decode) | 3504 MHz | 42.3 C (max 46.0)
+2026-10-07 01:49:14 | INFO    | <<< Unit 87/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:49:14 | INFO    | >>> Unit 88/158: session_01|thread_scaling|8B-Q4_K_M|6|r02 (order 1 in round)
+2026-10-07 01:49:19 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 2] model loaded in 5.13 s
+2026-10-07 01:49:51 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 2] cpu_arch: 6.47 tok/s | 8.53 J/token (CPU, decode) | 3504 MHz | 42.4 C (max 47.0)
+2026-10-07 01:50:07 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 2] transformer: 6.49 tok/s | 8.41 J/token (CPU, decode) | 3504 MHz | 42.6 C (max 45.0)
+2026-10-07 01:50:23 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 2] story: 6.52 tok/s | 8.40 J/token (CPU, decode) | 3504 MHz | 42.5 C (max 47.0)
+2026-10-07 01:50:23 | INFO    | <<< Unit 88/158 finished in 1.1 min (incl. 0 s cool-down)
+2026-10-07 01:50:23 | INFO    | >>> Unit 89/158: session_01|thread_scaling|8B-Q4_K_M|12|r02 (order 2 in round)
+2026-10-07 01:50:28 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 2] model loaded in 5.12 s
+2026-10-07 01:51:01 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 2] cpu_arch: 6.37 tok/s | 9.97 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 48.0)
+2026-10-07 01:51:17 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 2] transformer: 6.38 tok/s | 9.94 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 46.0)
+2026-10-07 01:51:33 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 2] story: 6.39 tok/s | 9.92 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 49.0)
+2026-10-07 01:51:33 | INFO    | <<< Unit 89/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:51:33 | INFO    | >>> Unit 90/158: session_01|thread_scaling|8B-Q4_K_M|16|r02 (order 3 in round)
+2026-10-07 01:51:38 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 2] model loaded in 5.11 s
+2026-10-07 01:52:10 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 2] cpu_arch: 6.32 tok/s | 10.14 J/token (CPU, decode) | 3504 MHz | 44.7 C (max 49.0)
+2026-10-07 01:52:27 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 2] transformer: 6.35 tok/s | 10.06 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 47.0)
+2026-10-07 01:52:43 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 2] story: 6.34 tok/s | 10.08 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 50.0)
+2026-10-07 01:52:43 | INFO    | <<< Unit 90/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:52:43 | INFO    | >>> Unit 91/158: session_01|thread_scaling|8B-Q4_K_M|8|r02 (order 4 in round)
+2026-10-07 01:52:48 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 2] model loaded in 5.11 s
+2026-10-07 01:53:20 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 2] cpu_arch: 6.46 tok/s | 9.43 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 48.0)
+2026-10-07 01:53:36 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 2] transformer: 6.45 tok/s | 9.48 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 48.0)
+2026-10-07 01:53:52 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 2] story: 6.45 tok/s | 9.41 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 45.0)
+2026-10-07 01:53:52 | INFO    | <<< Unit 91/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:53:52 | INFO    | >>> Unit 92/158: session_01|thread_scaling|8B-Q4_K_M|4|r02 (order 5 in round)
+2026-10-07 01:53:57 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 2] model loaded in 5.13 s
+2026-10-07 01:54:30 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 2] cpu_arch: 6.39 tok/s | 6.99 J/token (CPU, decode) | 3504 MHz | 43.1 C (max 46.0)
+2026-10-07 01:54:46 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 2] transformer: 6.42 tok/s | 7.06 J/token (CPU, decode) | 3504 MHz | 42.3 C (max 47.0)
+2026-10-07 01:55:03 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 2] story: 6.39 tok/s | 7.13 J/token (CPU, decode) | 3504 MHz | 42.3 C (max 44.0)
+2026-10-07 01:55:03 | INFO    | <<< Unit 92/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 01:55:03 | INFO    | >>> Unit 93/158: session_01|thread_scaling|8B-Q4_K_M|1|r02 (order 6 in round)
+2026-10-07 01:55:08 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 2] model loaded in 5.13 s
+2026-10-07 01:56:21 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 2] cpu_arch: 2.94 tok/s | 9.03 J/token (CPU, decode) | 3504 MHz | 37.6 C (max 40.0)
+2026-10-07 01:56:58 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 2] transformer: 2.91 tok/s | 8.91 J/token (CPU, decode) | 3504 MHz | 40.9 C (max 42.0)
+2026-10-07 01:57:35 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 2] story: 2.91 tok/s | 8.94 J/token (CPU, decode) | 3504 MHz | 40.0 C (max 43.0)
+2026-10-07 01:57:35 | INFO    | <<< Unit 93/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 01:57:35 | INFO    | >>> Unit 94/158: session_01|thread_scaling|8B-Q4_K_M|2|r02 (order 7 in round)
+2026-10-07 01:57:41 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 2] model loaded in 5.16 s
+2026-10-07 01:58:21 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 2] cpu_arch: 5.26 tok/s | 6.63 J/token (CPU, decode) | 3504 MHz | 39.2 C (max 41.0)
+2026-10-07 01:58:41 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 2] transformer: 5.26 tok/s | 6.63 J/token (CPU, decode) | 3504 MHz | 39.5 C (max 43.0)
+2026-10-07 01:59:02 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 2] story: 5.26 tok/s | 6.68 J/token (CPU, decode) | 3504 MHz | 39.9 C (max 42.0)
+2026-10-07 01:59:02 | INFO    | <<< Unit 94/158 finished in 1.4 min (incl. 0 s cool-down)
+2026-10-07 01:59:02 | INFO    | >>> Unit 95/158: session_01|thread_scaling|8B-Q4_K_M|1|r03 (order 1 in round)
+2026-10-07 01:59:07 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 3] model loaded in 5.12 s
+2026-10-07 02:00:20 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 3] cpu_arch: 2.94 tok/s | 8.99 J/token (CPU, decode) | 3504 MHz | 36.1 C (max 37.0)
+2026-10-07 02:00:56 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 3] transformer: 2.94 tok/s | 8.92 J/token (CPU, decode) | 3504 MHz | 36.5 C (max 40.0)
+2026-10-07 02:01:34 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 3] story: 2.94 tok/s | 8.95 J/token (CPU, decode) | 3504 MHz | 36.8 C (max 39.0)
+2026-10-07 02:01:34 | INFO    | <<< Unit 95/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 02:01:34 | INFO    | >>> Unit 96/158: session_01|thread_scaling|8B-Q4_K_M|2|r03 (order 2 in round)
+2026-10-07 02:01:39 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 3] model loaded in 5.10 s
+2026-10-07 02:02:20 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 3] cpu_arch: 5.24 tok/s | 6.65 J/token (CPU, decode) | 3504 MHz | 39.4 C (max 42.0)
+2026-10-07 02:02:40 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 3] transformer: 5.28 tok/s | 6.60 J/token (CPU, decode) | 3504 MHz | 38.0 C (max 41.0)
+2026-10-07 02:03:00 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 3] story: 5.26 tok/s | 6.66 J/token (CPU, decode) | 3504 MHz | 38.9 C (max 42.0)
+2026-10-07 02:03:00 | INFO    | <<< Unit 96/158 finished in 1.4 min (incl. 0 s cool-down)
+2026-10-07 02:03:00 | INFO    | >>> Unit 97/158: session_01|thread_scaling|8B-Q4_K_M|12|r03 (order 3 in round)
+2026-10-07 02:03:06 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 3] model loaded in 5.13 s
+2026-10-07 02:03:38 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 3] cpu_arch: 6.38 tok/s | 9.89 J/token (CPU, decode) | 3504 MHz | 42.3 C (max 44.0)
+2026-10-07 02:03:54 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 3] transformer: 6.39 tok/s | 9.88 J/token (CPU, decode) | 3504 MHz | 42.9 C (max 47.0)
+2026-10-07 02:04:10 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 3] story: 6.37 tok/s | 9.93 J/token (CPU, decode) | 3504 MHz | 43.2 C (max 47.0)
+2026-10-07 02:04:10 | INFO    | <<< Unit 97/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:04:10 | INFO    | >>> Unit 98/158: session_01|thread_scaling|8B-Q4_K_M|8|r03 (order 4 in round)
+2026-10-07 02:04:15 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 3] model loaded in 5.11 s
+2026-10-07 02:04:47 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 3] cpu_arch: 6.43 tok/s | 9.43 J/token (CPU, decode) | 3504 MHz | 43.2 C (max 46.0)
+2026-10-07 02:05:03 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 3] transformer: 6.42 tok/s | 9.47 J/token (CPU, decode) | 3504 MHz | 43.5 C (max 45.0)
+2026-10-07 02:05:19 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 3] story: 6.46 tok/s | 9.45 J/token (CPU, decode) | 3504 MHz | 43.6 C (max 48.0)
+2026-10-07 02:05:20 | INFO    | <<< Unit 98/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:05:20 | INFO    | >>> Unit 99/158: session_01|thread_scaling|8B-Q4_K_M|16|r03 (order 5 in round)
+2026-10-07 02:05:25 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 3] model loaded in 5.10 s
+2026-10-07 02:05:57 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 3] cpu_arch: 6.33 tok/s | 10.08 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 49.0)
+2026-10-07 02:06:13 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 3] transformer: 6.32 tok/s | 10.13 J/token (CPU, decode) | 3504 MHz | 44.7 C (max 45.0)
+2026-10-07 02:06:29 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 3] story: 6.34 tok/s | 10.07 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 50.0)
+2026-10-07 02:06:30 | INFO    | <<< Unit 99/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:06:30 | INFO    | >>> Unit 100/158: session_01|thread_scaling|8B-Q4_K_M|6|r03 (order 6 in round)
+2026-10-07 02:06:35 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 3] model loaded in 5.11 s
+2026-10-07 02:07:07 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 3] cpu_arch: 6.47 tok/s | 8.28 J/token (CPU, decode) | 3504 MHz | 43.4 C (max 46.0)
+2026-10-07 02:07:22 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 3] transformer: 6.48 tok/s | 8.11 J/token (CPU, decode) | 3504 MHz | 43.4 C (max 48.0)
+2026-10-07 02:07:39 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 3] story: 6.49 tok/s | 8.18 J/token (CPU, decode) | 3504 MHz | 43.2 C (max 45.0)
+2026-10-07 02:07:39 | INFO    | <<< Unit 100/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:07:39 | INFO    | >>> Unit 101/158: session_01|thread_scaling|8B-Q4_K_M|4|r03 (order 7 in round)
+2026-10-07 02:07:44 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 3] model loaded in 5.13 s
+2026-10-07 02:08:17 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 3] cpu_arch: 6.42 tok/s | 7.04 J/token (CPU, decode) | 3504 MHz | 42.0 C (max 45.0)
+2026-10-07 02:08:33 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 3] transformer: 6.38 tok/s | 6.97 J/token (CPU, decode) | 3504 MHz | 42.7 C (max 45.0)
+2026-10-07 02:08:49 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 3] story: 6.36 tok/s | 6.92 J/token (CPU, decode) | 3504 MHz | 42.9 C (max 45.0)
+2026-10-07 02:08:50 | INFO    | <<< Unit 101/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:08:50 | INFO    | >>> Unit 102/158: session_01|thread_scaling|8B-Q4_K_M|12|r04 (order 1 in round)
+2026-10-07 02:08:55 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 4] model loaded in 5.14 s
+2026-10-07 02:09:27 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 4] cpu_arch: 6.39 tok/s | 9.93 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 47.0)
+2026-10-07 02:09:43 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 4] transformer: 6.39 tok/s | 9.94 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 45.0)
+2026-10-07 02:09:59 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 4] story: 6.39 tok/s | 9.93 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 49.0)
+2026-10-07 02:09:59 | INFO    | <<< Unit 102/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:09:59 | INFO    | >>> Unit 103/158: session_01|thread_scaling|8B-Q4_K_M|1|r04 (order 2 in round)
+2026-10-07 02:10:04 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 4] model loaded in 5.16 s
+2026-10-07 02:11:17 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 4] cpu_arch: 2.94 tok/s | 8.94 J/token (CPU, decode) | 3504 MHz | 38.0 C (max 40.0)
+2026-10-07 02:11:54 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 4] transformer: 2.91 tok/s | 8.92 J/token (CPU, decode) | 3504 MHz | 40.4 C (max 43.0)
+2026-10-07 02:12:32 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 4] story: 2.91 tok/s | 8.98 J/token (CPU, decode) | 3504 MHz | 40.6 C (max 42.0)
+2026-10-07 02:12:32 | INFO    | <<< Unit 103/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 02:12:32 | INFO    | >>> Unit 104/158: session_01|thread_scaling|8B-Q4_K_M|4|r04 (order 3 in round)
+2026-10-07 02:12:37 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 4] model loaded in 5.11 s
+2026-10-07 02:13:10 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 4] cpu_arch: 6.39 tok/s | 7.09 J/token (CPU, decode) | 3504 MHz | 40.5 C (max 44.0)
+2026-10-07 02:13:26 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 4] transformer: 6.37 tok/s | 6.91 J/token (CPU, decode) | 3504 MHz | 41.1 C (max 44.0)
+2026-10-07 02:13:42 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 4] story: 6.40 tok/s | 6.97 J/token (CPU, decode) | 3504 MHz | 40.8 C (max 44.0)
+2026-10-07 02:13:43 | INFO    | <<< Unit 104/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:13:43 | INFO    | >>> Unit 105/158: session_01|thread_scaling|8B-Q4_K_M|16|r04 (order 4 in round)
+2026-10-07 02:13:48 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 4] model loaded in 5.13 s
+2026-10-07 02:14:20 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 4] cpu_arch: 6.35 tok/s | 10.03 J/token (CPU, decode) | 3504 MHz | 43.0 C (max 44.0)
+2026-10-07 02:14:36 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 4] transformer: 6.35 tok/s | 10.04 J/token (CPU, decode) | 3504 MHz | 43.5 C (max 49.0)
+2026-10-07 02:14:52 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 4] story: 6.35 tok/s | 10.04 J/token (CPU, decode) | 3504 MHz | 43.3 C (max 44.0)
+2026-10-07 02:14:53 | INFO    | <<< Unit 105/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:14:53 | INFO    | >>> Unit 106/158: session_01|thread_scaling|8B-Q4_K_M|6|r04 (order 5 in round)
+2026-10-07 02:14:58 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 4] model loaded in 5.11 s
+2026-10-07 02:15:30 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 4] cpu_arch: 6.51 tok/s | 8.25 J/token (CPU, decode) | 3504 MHz | 42.8 C (max 46.0)
+2026-10-07 02:15:45 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 4] transformer: 6.50 tok/s | 8.15 J/token (CPU, decode) | 3504 MHz | 42.6 C (max 48.0)
+2026-10-07 02:16:01 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 4] story: 6.47 tok/s | 8.29 J/token (CPU, decode) | 3504 MHz | 42.6 C (max 47.0)
+2026-10-07 02:16:02 | INFO    | <<< Unit 106/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:16:02 | INFO    | >>> Unit 107/158: session_01|thread_scaling|8B-Q4_K_M|2|r04 (order 6 in round)
+2026-10-07 02:16:07 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 4] model loaded in 5.12 s
+2026-10-07 02:16:47 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 4] cpu_arch: 5.28 tok/s | 6.61 J/token (CPU, decode) | 3504 MHz | 41.2 C (max 44.0)
+2026-10-07 02:17:07 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 4] transformer: 5.24 tok/s | 6.68 J/token (CPU, decode) | 3504 MHz | 41.8 C (max 44.0)
+2026-10-07 02:17:28 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 4] story: 5.28 tok/s | 6.58 J/token (CPU, decode) | 3504 MHz | 40.8 C (max 44.0)
+2026-10-07 02:17:28 | INFO    | <<< Unit 107/158 finished in 1.4 min (incl. 0 s cool-down)
+2026-10-07 02:17:28 | INFO    | >>> Unit 108/158: session_01|thread_scaling|8B-Q4_K_M|8|r04 (order 7 in round)
+2026-10-07 02:17:33 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 4] model loaded in 5.11 s
+2026-10-07 02:18:05 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 4] cpu_arch: 6.43 tok/s | 9.50 J/token (CPU, decode) | 3504 MHz | 42.8 C (max 44.0)
+2026-10-07 02:18:21 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 4] transformer: 6.45 tok/s | 9.41 J/token (CPU, decode) | 3504 MHz | 43.2 C (max 45.0)
+2026-10-07 02:18:37 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 4] story: 6.45 tok/s | 9.39 J/token (CPU, decode) | 3504 MHz | 43.3 C (max 47.0)
+2026-10-07 02:18:37 | INFO    | <<< Unit 108/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:18:37 | INFO    | >>> Unit 109/158: session_01|thread_scaling|8B-Q4_K_M|8|r05 (order 1 in round)
+2026-10-07 02:18:42 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 5] model loaded in 5.12 s
+2026-10-07 02:19:14 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 5] cpu_arch: 6.43 tok/s | 9.64 J/token (CPU, decode) | 3504 MHz | 43.5 C (max 45.0)
+2026-10-07 02:19:30 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 5] transformer: 6.47 tok/s | 9.59 J/token (CPU, decode) | 3504 MHz | 43.6 C (max 46.0)
+2026-10-07 02:19:46 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 5] story: 6.45 tok/s | 9.60 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 49.0)
+2026-10-07 02:19:46 | INFO    | <<< Unit 109/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:19:46 | INFO    | >>> Unit 110/158: session_01|thread_scaling|8B-Q4_K_M|2|r05 (order 2 in round)
+2026-10-07 02:19:51 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 5] model loaded in 5.12 s
+2026-10-07 02:20:32 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 5] cpu_arch: 5.28 tok/s | 6.69 J/token (CPU, decode) | 3504 MHz | 41.4 C (max 43.0)
+2026-10-07 02:20:52 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 5] transformer: 5.28 tok/s | 6.59 J/token (CPU, decode) | 3504 MHz | 40.6 C (max 42.0)
+2026-10-07 02:21:13 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 5] story: 5.27 tok/s | 6.67 J/token (CPU, decode) | 3504 MHz | 39.8 C (max 42.0)
+2026-10-07 02:21:13 | INFO    | <<< Unit 110/158 finished in 1.4 min (incl. 0 s cool-down)
+2026-10-07 02:21:13 | INFO    | >>> Unit 111/158: session_01|thread_scaling|8B-Q4_K_M|4|r05 (order 3 in round)
+2026-10-07 02:21:18 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 5] model loaded in 5.11 s
+2026-10-07 02:21:50 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 5] cpu_arch: 6.38 tok/s | 6.96 J/token (CPU, decode) | 3504 MHz | 42.2 C (max 44.0)
+2026-10-07 02:22:07 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 5] transformer: 6.36 tok/s | 7.08 J/token (CPU, decode) | 3504 MHz | 41.6 C (max 45.0)
+2026-10-07 02:22:23 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 5] story: 6.42 tok/s | 7.03 J/token (CPU, decode) | 3504 MHz | 41.7 C (max 45.0)
+2026-10-07 02:22:23 | INFO    | <<< Unit 111/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:22:23 | INFO    | >>> Unit 112/158: session_01|thread_scaling|8B-Q4_K_M|1|r05 (order 4 in round)
+2026-10-07 02:22:29 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 5] model loaded in 5.10 s
+2026-10-07 02:23:41 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 5] cpu_arch: 2.94 tok/s | 8.97 J/token (CPU, decode) | 3504 MHz | 37.0 C (max 38.0)
+2026-10-07 02:24:18 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 5] transformer: 2.94 tok/s | 9.02 J/token (CPU, decode) | 3504 MHz | 36.6 C (max 40.0)
+2026-10-07 02:24:55 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 5] story: 2.95 tok/s | 8.81 J/token (CPU, decode) | 3504 MHz | 38.0 C (max 40.0)
+2026-10-07 02:24:55 | INFO    | <<< Unit 112/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 02:24:55 | INFO    | >>> Unit 113/158: session_01|thread_scaling|8B-Q4_K_M|6|r05 (order 5 in round)
+2026-10-07 02:25:00 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 5] model loaded in 5.15 s
+2026-10-07 02:25:32 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 5] cpu_arch: 6.49 tok/s | 8.11 J/token (CPU, decode) | 3504 MHz | 41.2 C (max 45.0)
+2026-10-07 02:25:48 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 5] transformer: 6.48 tok/s | 8.14 J/token (CPU, decode) | 3504 MHz | 41.5 C (max 45.0)
+2026-10-07 02:26:04 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 5] story: 6.47 tok/s | 8.22 J/token (CPU, decode) | 3504 MHz | 41.7 C (max 45.0)
+2026-10-07 02:26:04 | INFO    | <<< Unit 113/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:26:04 | INFO    | >>> Unit 114/158: session_01|thread_scaling|8B-Q4_K_M|12|r05 (order 6 in round)
+2026-10-07 02:26:10 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 5] model loaded in 5.14 s
+2026-10-07 02:26:42 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 5] cpu_arch: 6.38 tok/s | 9.91 J/token (CPU, decode) | 3504 MHz | 43.4 C (max 46.0)
+2026-10-07 02:26:58 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 5] transformer: 6.38 tok/s | 9.92 J/token (CPU, decode) | 3504 MHz | 43.4 C (max 44.0)
+2026-10-07 02:27:14 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 5] story: 6.36 tok/s | 9.99 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 49.0)
+2026-10-07 02:27:14 | INFO    | <<< Unit 114/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:27:14 | INFO    | >>> Unit 115/158: session_01|thread_scaling|8B-Q4_K_M|16|r05 (order 7 in round)
+2026-10-07 02:27:19 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 5] model loaded in 5.11 s
+2026-10-07 02:27:52 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 5] cpu_arch: 6.34 tok/s | 10.07 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 47.0)
+2026-10-07 02:28:08 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 5] transformer: 6.31 tok/s | 10.13 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 45.0)
+2026-10-07 02:28:24 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 5] story: 6.34 tok/s | 10.08 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 48.0)
+2026-10-07 02:28:24 | INFO    | <<< Unit 115/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:28:24 | INFO    | >>> Unit 116/158: session_01|thread_scaling|8B-Q4_K_M|1|r06 (order 1 in round)
+2026-10-07 02:28:29 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 6] model loaded in 5.13 s
+2026-10-07 02:29:42 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 6] cpu_arch: 2.94 tok/s | 8.90 J/token (CPU, decode) | 3504 MHz | 38.5 C (max 42.0)
+2026-10-07 02:30:19 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 6] transformer: 2.92 tok/s | 8.95 J/token (CPU, decode) | 3504 MHz | 39.7 C (max 42.0)
+2026-10-07 02:30:56 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 6] story: 2.95 tok/s | 8.90 J/token (CPU, decode) | 3504 MHz | 37.5 C (max 40.0)
+2026-10-07 02:30:56 | INFO    | <<< Unit 116/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 02:30:56 | INFO    | >>> Unit 117/158: session_01|thread_scaling|8B-Q4_K_M|12|r06 (order 2 in round)
+2026-10-07 02:31:01 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 6] model loaded in 5.17 s
+2026-10-07 02:31:34 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 6] cpu_arch: 6.38 tok/s | 9.90 J/token (CPU, decode) | 3504 MHz | 42.7 C (max 46.0)
+2026-10-07 02:31:50 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 6] transformer: 6.38 tok/s | 9.91 J/token (CPU, decode) | 3504 MHz | 43.0 C (max 44.0)
+2026-10-07 02:32:06 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 6] story: 6.30 tok/s | 10.09 J/token (CPU, decode) | 3504 MHz | 43.6 C (max 48.0)
+2026-10-07 02:32:06 | INFO    | <<< Unit 117/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:32:06 | INFO    | >>> Unit 118/158: session_01|thread_scaling|8B-Q4_K_M|16|r06 (order 3 in round)
+2026-10-07 02:32:11 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 6] model loaded in 5.17 s
+2026-10-07 02:32:44 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 6] cpu_arch: 6.33 tok/s | 10.09 J/token (CPU, decode) | 3504 MHz | 43.3 C (max 45.0)
+2026-10-07 02:33:00 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 6] transformer: 6.33 tok/s | 10.09 J/token (CPU, decode) | 3504 MHz | 43.6 C (max 45.0)
+2026-10-07 02:33:16 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 6] story: 6.32 tok/s | 10.10 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 50.0)
+2026-10-07 02:33:16 | INFO    | <<< Unit 118/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:33:16 | INFO    | >>> Unit 119/158: session_01|thread_scaling|8B-Q4_K_M|8|r06 (order 4 in round)
+2026-10-07 02:33:22 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 6] model loaded in 5.12 s
+2026-10-07 02:33:53 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 6] cpu_arch: 6.45 tok/s | 9.42 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 48.0)
+2026-10-07 02:34:09 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 6] transformer: 6.43 tok/s | 9.50 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 49.0)
+2026-10-07 02:34:25 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 6] story: 6.45 tok/s | 9.35 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 46.0)
+2026-10-07 02:34:26 | INFO    | <<< Unit 119/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:34:26 | INFO    | >>> Unit 120/158: session_01|thread_scaling|8B-Q4_K_M|6|r06 (order 5 in round)
+2026-10-07 02:34:31 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 6] model loaded in 5.11 s
+2026-10-07 02:35:03 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 6] cpu_arch: 6.47 tok/s | 8.27 J/token (CPU, decode) | 3504 MHz | 43.4 C (max 47.0)
+2026-10-07 02:35:19 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 6] transformer: 6.50 tok/s | 8.20 J/token (CPU, decode) | 3504 MHz | 43.3 C (max 47.0)
+2026-10-07 02:35:34 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 6] story: 6.50 tok/s | 8.26 J/token (CPU, decode) | 3504 MHz | 43.3 C (max 47.0)
+2026-10-07 02:35:35 | INFO    | <<< Unit 120/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:35:35 | INFO    | >>> Unit 121/158: session_01|thread_scaling|8B-Q4_K_M|2|r06 (order 6 in round)
+2026-10-07 02:35:40 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 6] model loaded in 5.11 s
+2026-10-07 02:36:20 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 6] cpu_arch: 5.27 tok/s | 6.68 J/token (CPU, decode) | 3503 MHz | 41.2 C (max 43.0)
+2026-10-07 02:36:40 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 6] transformer: 5.26 tok/s | 6.66 J/token (CPU, decode) | 3504 MHz | 41.1 C (max 42.0)
+2026-10-07 02:37:01 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 6] story: 5.22 tok/s | 6.90 J/token (CPU, decode) | 3504 MHz | 40.6 C (max 42.0)
+2026-10-07 02:37:01 | INFO    | <<< Unit 121/158 finished in 1.4 min (incl. 0 s cool-down)
+2026-10-07 02:37:01 | INFO    | >>> Unit 122/158: session_01|thread_scaling|8B-Q4_K_M|4|r06 (order 7 in round)
+2026-10-07 02:37:06 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 6] model loaded in 5.13 s
+2026-10-07 02:37:39 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 6] cpu_arch: 6.40 tok/s | 7.07 J/token (CPU, decode) | 3504 MHz | 40.7 C (max 42.0)
+2026-10-07 02:37:55 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 6] transformer: 6.39 tok/s | 7.18 J/token (CPU, decode) | 3504 MHz | 41.0 C (max 43.0)
+2026-10-07 02:38:12 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 6] story: 6.36 tok/s | 7.16 J/token (CPU, decode) | 3504 MHz | 41.0 C (max 44.0)
+2026-10-07 02:38:12 | INFO    | <<< Unit 122/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:38:12 | INFO    | >>> Unit 123/158: session_01|thread_scaling|8B-Q4_K_M|12|r07 (order 1 in round)
+2026-10-07 02:38:17 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 7] model loaded in 5.11 s
+2026-10-07 02:38:49 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 7] cpu_arch: 6.38 tok/s | 9.94 J/token (CPU, decode) | 3504 MHz | 43.5 C (max 46.0)
+2026-10-07 02:39:05 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 7] transformer: 6.35 tok/s | 10.02 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 48.0)
+2026-10-07 02:39:22 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 7] story: 6.37 tok/s | 9.97 J/token (CPU, decode) | 3504 MHz | 44.0 C (max 45.0)
+2026-10-07 02:39:22 | INFO    | <<< Unit 123/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:39:22 | INFO    | >>> Unit 124/158: session_01|thread_scaling|8B-Q4_K_M|8|r07 (order 2 in round)
+2026-10-07 02:39:27 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 7] model loaded in 5.12 s
+2026-10-07 02:39:59 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 7] cpu_arch: 6.44 tok/s | 9.33 J/token (CPU, decode) | 3504 MHz | 43.6 C (max 47.0)
+2026-10-07 02:40:15 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 7] transformer: 6.42 tok/s | 9.41 J/token (CPU, decode) | 3504 MHz | 43.9 C (max 49.0)
+2026-10-07 02:40:31 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 7] story: 6.45 tok/s | 9.45 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 48.0)
+2026-10-07 02:40:31 | INFO    | <<< Unit 124/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:40:31 | INFO    | >>> Unit 125/158: session_01|thread_scaling|8B-Q4_K_M|6|r07 (order 3 in round)
+2026-10-07 02:40:36 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 7] model loaded in 5.14 s
+2026-10-07 02:41:08 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 7] cpu_arch: 6.46 tok/s | 8.24 J/token (CPU, decode) | 3504 MHz | 43.2 C (max 47.0)
+2026-10-07 02:41:24 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 7] transformer: 6.50 tok/s | 8.21 J/token (CPU, decode) | 3504 MHz | 43.1 C (max 45.0)
+2026-10-07 02:41:40 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 7] story: 6.51 tok/s | 8.21 J/token (CPU, decode) | 3504 MHz | 43.0 C (max 47.0)
+2026-10-07 02:41:40 | INFO    | <<< Unit 125/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:41:40 | INFO    | >>> Unit 126/158: session_01|thread_scaling|8B-Q4_K_M|4|r07 (order 4 in round)
+2026-10-07 02:41:45 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 7] model loaded in 5.11 s
+2026-10-07 02:42:18 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 7] cpu_arch: 6.43 tok/s | 7.05 J/token (CPU, decode) | 3504 MHz | 41.9 C (max 45.0)
+2026-10-07 02:42:34 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 7] transformer: 6.42 tok/s | 7.07 J/token (CPU, decode) | 3504 MHz | 42.2 C (max 48.0)
+2026-10-07 02:42:51 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 7] story: 6.38 tok/s | 6.97 J/token (CPU, decode) | 3504 MHz | 43.3 C (max 46.0)
+2026-10-07 02:42:51 | INFO    | <<< Unit 126/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:42:51 | INFO    | >>> Unit 127/158: session_01|thread_scaling|8B-Q4_K_M|2|r07 (order 5 in round)
+2026-10-07 02:42:56 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 7] model loaded in 5.11 s
+2026-10-07 02:43:36 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 7] cpu_arch: 5.28 tok/s | 6.60 J/token (CPU, decode) | 3504 MHz | 41.8 C (max 45.0)
+2026-10-07 02:43:56 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 7] transformer: 5.28 tok/s | 6.63 J/token (CPU, decode) | 3504 MHz | 40.3 C (max 43.0)
+2026-10-07 02:44:17 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 7] story: 5.27 tok/s | 6.67 J/token (CPU, decode) | 3504 MHz | 41.1 C (max 45.0)
+2026-10-07 02:44:17 | INFO    | <<< Unit 127/158 finished in 1.4 min (incl. 0 s cool-down)
+2026-10-07 02:44:17 | INFO    | >>> Unit 128/158: session_01|thread_scaling|8B-Q4_K_M|1|r07 (order 6 in round)
+2026-10-07 02:44:22 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 7] model loaded in 5.10 s
+2026-10-07 02:45:35 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 7] cpu_arch: 2.94 tok/s | 8.94 J/token (CPU, decode) | 3504 MHz | 37.1 C (max 40.0)
+2026-10-07 02:46:12 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 7] transformer: 2.93 tok/s | 9.01 J/token (CPU, decode) | 3504 MHz | 36.7 C (max 41.0)
+2026-10-07 02:46:49 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 7] story: 2.93 tok/s | 8.88 J/token (CPU, decode) | 3504 MHz | 36.9 C (max 40.0)
+2026-10-07 02:46:49 | INFO    | <<< Unit 128/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 02:46:49 | INFO    | >>> Unit 129/158: session_01|thread_scaling|8B-Q4_K_M|16|r07 (order 7 in round)
+2026-10-07 02:46:54 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 7] model loaded in 5.12 s
+2026-10-07 02:47:27 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 7] cpu_arch: 6.33 tok/s | 10.03 J/token (CPU, decode) | 3504 MHz | 42.2 C (max 47.0)
+2026-10-07 02:47:43 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 7] transformer: 6.33 tok/s | 10.05 J/token (CPU, decode) | 3504 MHz | 42.5 C (max 43.0)
+2026-10-07 02:47:59 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 7] story: 6.34 tok/s | 10.05 J/token (CPU, decode) | 3504 MHz | 43.2 C (max 48.0)
+2026-10-07 02:47:59 | INFO    | <<< Unit 129/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:47:59 | INFO    | >>> Unit 130/158: session_01|thread_scaling|8B-Q4_K_M|12|r08 (order 1 in round)
+2026-10-07 02:48:05 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 8] model loaded in 5.21 s
+2026-10-07 02:48:37 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 8] cpu_arch: 6.38 tok/s | 9.91 J/token (CPU, decode) | 3504 MHz | 43.4 C (max 47.0)
+2026-10-07 02:48:53 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 8] transformer: 6.38 tok/s | 9.91 J/token (CPU, decode) | 3504 MHz | 43.3 C (max 45.0)
+2026-10-07 02:49:09 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 8] story: 6.36 tok/s | 9.98 J/token (CPU, decode) | 3504 MHz | 43.6 C (max 46.0)
+2026-10-07 02:49:09 | INFO    | <<< Unit 130/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:49:09 | INFO    | >>> Unit 131/158: session_01|thread_scaling|8B-Q4_K_M|6|r08 (order 2 in round)
+2026-10-07 02:49:14 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 8] model loaded in 5.11 s
+2026-10-07 02:49:46 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 8] cpu_arch: 6.46 tok/s | 8.30 J/token (CPU, decode) | 3504 MHz | 43.2 C (max 47.0)
+2026-10-07 02:50:02 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 8] transformer: 6.47 tok/s | 8.25 J/token (CPU, decode) | 3504 MHz | 42.8 C (max 47.0)
+2026-10-07 02:50:18 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 8] story: 6.49 tok/s | 8.12 J/token (CPU, decode) | 3504 MHz | 43.1 C (max 47.0)
+2026-10-07 02:50:19 | INFO    | <<< Unit 131/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:50:19 | INFO    | >>> Unit 132/158: session_01|thread_scaling|8B-Q4_K_M|16|r08 (order 3 in round)
+2026-10-07 02:50:24 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 8] model loaded in 5.11 s
+2026-10-07 02:50:56 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 8] cpu_arch: 6.34 tok/s | 10.07 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 47.0)
+2026-10-07 02:51:12 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 8] transformer: 6.31 tok/s | 10.16 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 49.0)
+2026-10-07 02:51:28 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 8] story: 6.34 tok/s | 10.07 J/token (CPU, decode) | 3504 MHz | 44.4 C (max 46.0)
+2026-10-07 02:51:29 | INFO    | <<< Unit 132/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:51:29 | INFO    | >>> Unit 133/158: session_01|thread_scaling|8B-Q4_K_M|4|r08 (order 4 in round)
+2026-10-07 02:51:34 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 8] model loaded in 5.12 s
+2026-10-07 02:52:06 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 8] cpu_arch: 6.39 tok/s | 7.16 J/token (CPU, decode) | 3504 MHz | 43.0 C (max 45.0)
+2026-10-07 02:52:23 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 8] transformer: 6.36 tok/s | 6.92 J/token (CPU, decode) | 3504 MHz | 43.0 C (max 45.0)
+2026-10-07 02:52:39 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 8] story: 6.42 tok/s | 7.01 J/token (CPU, decode) | 3504 MHz | 41.7 C (max 45.0)
+2026-10-07 02:52:39 | INFO    | <<< Unit 133/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:52:39 | INFO    | >>> Unit 134/158: session_01|thread_scaling|8B-Q4_K_M|1|r08 (order 5 in round)
+2026-10-07 02:52:44 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 8] model loaded in 5.11 s
+2026-10-07 02:53:57 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 8] cpu_arch: 2.95 tok/s | 8.86 J/token (CPU, decode) | 3504 MHz | 38.5 C (max 41.0)
+2026-10-07 02:54:34 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 8] transformer: 2.92 tok/s | 8.94 J/token (CPU, decode) | 3504 MHz | 39.5 C (max 42.0)
+2026-10-07 02:55:11 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 8] story: 2.93 tok/s | 8.92 J/token (CPU, decode) | 3504 MHz | 38.3 C (max 42.0)
+2026-10-07 02:55:12 | INFO    | <<< Unit 134/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 02:55:12 | INFO    | >>> Unit 135/158: session_01|thread_scaling|8B-Q4_K_M|2|r08 (order 6 in round)
+2026-10-07 02:55:17 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 8] model loaded in 5.11 s
+2026-10-07 02:55:57 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 8] cpu_arch: 5.29 tok/s | 6.56 J/token (CPU, decode) | 3504 MHz | 38.5 C (max 40.0)
+2026-10-07 02:56:17 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 8] transformer: 5.27 tok/s | 6.64 J/token (CPU, decode) | 3504 MHz | 39.0 C (max 41.0)
+2026-10-07 02:56:38 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 8] story: 5.27 tok/s | 6.55 J/token (CPU, decode) | 3504 MHz | 39.6 C (max 41.0)
+2026-10-07 02:56:38 | INFO    | <<< Unit 135/158 finished in 1.4 min (incl. 0 s cool-down)
+2026-10-07 02:56:38 | INFO    | >>> Unit 136/158: session_01|thread_scaling|8B-Q4_K_M|8|r08 (order 7 in round)
+2026-10-07 02:56:43 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 8] model loaded in 5.13 s
+2026-10-07 02:57:15 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 8] cpu_arch: 6.42 tok/s | 9.45 J/token (CPU, decode) | 3504 MHz | 42.1 C (max 43.0)
+2026-10-07 02:57:31 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 8] transformer: 6.45 tok/s | 9.37 J/token (CPU, decode) | 3504 MHz | 42.4 C (max 44.0)
+2026-10-07 02:57:47 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 8] story: 6.44 tok/s | 9.45 J/token (CPU, decode) | 3504 MHz | 42.8 C (max 47.0)
+2026-10-07 02:57:47 | INFO    | <<< Unit 136/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 02:57:47 | INFO    | >>> Unit 137/158: session_01|thread_scaling|8B-Q4_K_M|2|r09 (order 1 in round)
+2026-10-07 02:57:52 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 9] model loaded in 5.10 s
+2026-10-07 02:58:33 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 9] cpu_arch: 5.29 tok/s | 6.57 J/token (CPU, decode) | 3504 MHz | 40.2 C (max 41.0)
+2026-10-07 02:58:53 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 9] transformer: 5.28 tok/s | 6.59 J/token (CPU, decode) | 3504 MHz | 40.0 C (max 41.0)
+2026-10-07 02:59:13 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 9] story: 5.27 tok/s | 6.66 J/token (CPU, decode) | 3504 MHz | 40.0 C (max 43.0)
+2026-10-07 02:59:14 | INFO    | <<< Unit 137/158 finished in 1.4 min (incl. 0 s cool-down)
+2026-10-07 02:59:14 | INFO    | >>> Unit 138/158: session_01|thread_scaling|8B-Q4_K_M|6|r09 (order 2 in round)
+2026-10-07 02:59:19 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 9] model loaded in 5.11 s
+2026-10-07 02:59:51 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 9] cpu_arch: 6.47 tok/s | 8.12 J/token (CPU, decode) | 3504 MHz | 41.8 C (max 46.0)
+2026-10-07 03:00:07 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 9] transformer: 6.46 tok/s | 8.22 J/token (CPU, decode) | 3504 MHz | 41.8 C (max 45.0)
+2026-10-07 03:00:23 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 9] story: 6.50 tok/s | 8.15 J/token (CPU, decode) | 3504 MHz | 42.2 C (max 46.0)
+2026-10-07 03:00:23 | INFO    | <<< Unit 138/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 03:00:23 | INFO    | >>> Unit 139/158: session_01|thread_scaling|8B-Q4_K_M|4|r09 (order 3 in round)
+2026-10-07 03:00:28 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 9] model loaded in 5.12 s
+2026-10-07 03:01:00 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 9] cpu_arch: 6.38 tok/s | 7.04 J/token (CPU, decode) | 3504 MHz | 41.1 C (max 44.0)
+2026-10-07 03:01:17 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 9] transformer: 6.43 tok/s | 7.03 J/token (CPU, decode) | 3504 MHz | 40.9 C (max 43.0)
+2026-10-07 03:01:33 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 9] story: 6.42 tok/s | 7.02 J/token (CPU, decode) | 3504 MHz | 41.3 C (max 44.0)
+2026-10-07 03:01:33 | INFO    | <<< Unit 139/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 03:01:33 | INFO    | >>> Unit 140/158: session_01|thread_scaling|8B-Q4_K_M|1|r09 (order 4 in round)
+2026-10-07 03:01:38 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 9] model loaded in 5.12 s
+2026-10-07 03:02:52 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 9] cpu_arch: 2.93 tok/s | 8.94 J/token (CPU, decode) | 3504 MHz | 38.6 C (max 41.0)
+2026-10-07 03:03:28 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 9] transformer: 2.94 tok/s | 8.88 J/token (CPU, decode) | 3504 MHz | 37.7 C (max 41.0)
+2026-10-07 03:04:05 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 9] story: 2.94 tok/s | 8.93 J/token (CPU, decode) | 3504 MHz | 36.9 C (max 40.0)
+2026-10-07 03:04:05 | INFO    | <<< Unit 140/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 03:04:05 | INFO    | >>> Unit 141/158: session_01|thread_scaling|8B-Q4_K_M|8|r09 (order 5 in round)
+2026-10-07 03:04:11 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 9] model loaded in 5.19 s
+2026-10-07 03:04:43 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 9] cpu_arch: 6.41 tok/s | 9.39 J/token (CPU, decode) | 3504 MHz | 41.7 C (max 45.0)
+2026-10-07 03:04:59 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 9] transformer: 6.44 tok/s | 9.35 J/token (CPU, decode) | 3504 MHz | 41.8 C (max 43.0)
+2026-10-07 03:05:15 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 9] story: 6.42 tok/s | 9.50 J/token (CPU, decode) | 3504 MHz | 42.2 C (max 43.0)
+2026-10-07 03:05:15 | INFO    | <<< Unit 141/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 03:05:15 | INFO    | >>> Unit 142/158: session_01|thread_scaling|8B-Q4_K_M|16|r09 (order 6 in round)
+2026-10-07 03:05:20 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 9] model loaded in 5.18 s
+2026-10-07 03:05:53 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 9] cpu_arch: 6.30 tok/s | 10.19 J/token (CPU, decode) | 3504 MHz | 43.6 C (max 46.0)
+2026-10-07 03:06:09 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 9] transformer: 6.27 tok/s | 10.30 J/token (CPU, decode) | 3504 MHz | 43.8 C (max 48.0)
+2026-10-07 03:06:26 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 9] story: 6.30 tok/s | 10.21 J/token (CPU, decode) | 3504 MHz | 44.1 C (max 49.0)
+2026-10-07 03:06:26 | INFO    | <<< Unit 142/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 03:06:26 | INFO    | >>> Unit 143/158: session_01|thread_scaling|8B-Q4_K_M|12|r09 (order 7 in round)
+2026-10-07 03:06:31 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 9] model loaded in 5.14 s
+2026-10-07 03:07:03 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 9] cpu_arch: 6.31 tok/s | 10.11 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 46.0)
+2026-10-07 03:07:20 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 9] transformer: 6.36 tok/s | 10.09 J/token (CPU, decode) | 3504 MHz | 44.5 C (max 48.0)
+2026-10-07 03:07:36 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 9] story: 6.34 tok/s | 10.11 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 45.0)
+2026-10-07 03:07:36 | INFO    | <<< Unit 143/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 03:07:36 | INFO    | >>> Unit 144/158: session_01|thread_scaling|8B-Q4_K_M|6|r10 (order 1 in round)
+2026-10-07 03:07:41 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 10] model loaded in 5.17 s
+2026-10-07 03:08:13 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 10] cpu_arch: 6.42 tok/s | 8.67 J/token (CPU, decode) | 3504 MHz | 43.6 C (max 48.0)
+2026-10-07 03:08:29 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 10] transformer: 6.44 tok/s | 8.46 J/token (CPU, decode) | 3504 MHz | 43.6 C (max 47.0)
+2026-10-07 03:08:46 | INFO    | [thread_scaling | 8B-Q4_K_M | 6 thr | round 10] story: 6.45 tok/s | 8.46 J/token (CPU, decode) | 3504 MHz | 43.6 C (max 48.0)
+2026-10-07 03:08:46 | INFO    | <<< Unit 144/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 03:08:46 | INFO    | >>> Unit 145/158: session_01|thread_scaling|8B-Q4_K_M|8|r10 (order 2 in round)
+2026-10-07 03:08:51 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 10] model loaded in 5.13 s
+2026-10-07 03:09:23 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 10] cpu_arch: 6.38 tok/s | 9.65 J/token (CPU, decode) | 3504 MHz | 43.7 C (max 45.0)
+2026-10-07 03:09:39 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 10] transformer: 6.36 tok/s | 9.67 J/token (CPU, decode) | 3504 MHz | 44.2 C (max 49.0)
+2026-10-07 03:09:56 | INFO    | [thread_scaling | 8B-Q4_K_M | 8 thr | round 10] story: 6.39 tok/s | 9.69 J/token (CPU, decode) | 3504 MHz | 44.3 C (max 48.0)
+2026-10-07 03:09:56 | INFO    | <<< Unit 145/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 03:09:56 | INFO    | >>> Unit 146/158: session_01|thread_scaling|8B-Q4_K_M|16|r10 (order 3 in round)
+2026-10-07 03:10:01 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 10] model loaded in 5.18 s
+2026-10-07 03:10:34 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 10] cpu_arch: 6.23 tok/s | 10.38 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 48.0)
+2026-10-07 03:10:50 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 10] transformer: 6.25 tok/s | 10.30 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 48.0)
+2026-10-07 03:11:06 | INFO    | [thread_scaling | 8B-Q4_K_M | 16 thr | round 10] story: 6.31 tok/s | 10.18 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 47.0)
+2026-10-07 03:11:07 | INFO    | <<< Unit 146/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 03:11:07 | INFO    | >>> Unit 147/158: session_01|thread_scaling|8B-Q4_K_M|1|r10 (order 4 in round)
+2026-10-07 03:11:12 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 10] model loaded in 5.10 s
+2026-10-07 03:12:25 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 10] cpu_arch: 2.93 tok/s | 9.00 J/token (CPU, decode) | 3504 MHz | 39.4 C (max 43.0)
+2026-10-07 03:13:01 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 10] transformer: 2.94 tok/s | 8.96 J/token (CPU, decode) | 3504 MHz | 38.4 C (max 40.0)
+2026-10-07 03:13:38 | INFO    | [thread_scaling | 8B-Q4_K_M | 1 thr | round 10] story: 2.95 tok/s | 8.82 J/token (CPU, decode) | 3504 MHz | 37.7 C (max 40.0)
+2026-10-07 03:13:39 | INFO    | <<< Unit 147/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 03:13:39 | INFO    | >>> Unit 148/158: session_01|thread_scaling|8B-Q4_K_M|2|r10 (order 5 in round)
+2026-10-07 03:13:44 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 10] model loaded in 5.11 s
+2026-10-07 03:14:24 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 10] cpu_arch: 5.30 tok/s | 6.55 J/token (CPU, decode) | 3504 MHz | 39.1 C (max 42.0)
+2026-10-07 03:14:44 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 10] transformer: 5.30 tok/s | 6.55 J/token (CPU, decode) | 3504 MHz | 40.7 C (max 43.0)
+2026-10-07 03:15:05 | INFO    | [thread_scaling | 8B-Q4_K_M | 2 thr | round 10] story: 5.19 tok/s | 6.75 J/token (CPU, decode) | 3504 MHz | 40.9 C (max 43.0)
+2026-10-07 03:15:05 | INFO    | <<< Unit 148/158 finished in 1.4 min (incl. 0 s cool-down)
+2026-10-07 03:15:05 | INFO    | >>> Unit 149/158: session_01|thread_scaling|8B-Q4_K_M|4|r10 (order 6 in round)
+2026-10-07 03:15:10 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 10] model loaded in 5.12 s
+2026-10-07 03:15:43 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 10] cpu_arch: 6.42 tok/s | 7.01 J/token (CPU, decode) | 3504 MHz | 41.5 C (max 44.0)
+2026-10-07 03:15:59 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 10] transformer: 6.43 tok/s | 7.02 J/token (CPU, decode) | 3504 MHz | 40.7 C (max 45.0)
+2026-10-07 03:16:15 | INFO    | [thread_scaling | 8B-Q4_K_M | 4 thr | round 10] story: 6.35 tok/s | 7.02 J/token (CPU, decode) | 3504 MHz | 42.2 C (max 45.0)
+2026-10-07 03:16:16 | INFO    | <<< Unit 149/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 03:16:16 | INFO    | >>> Unit 150/158: session_01|thread_scaling|8B-Q4_K_M|12|r10 (order 7 in round)
+2026-10-07 03:16:21 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 10] model loaded in 5.10 s
+2026-10-07 03:16:53 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 10] cpu_arch: 6.37 tok/s | 9.94 J/token (CPU, decode) | 3504 MHz | 43.1 C (max 44.0)
+2026-10-07 03:17:09 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 10] transformer: 6.33 tok/s | 10.04 J/token (CPU, decode) | 3504 MHz | 43.4 C (max 45.0)
+2026-10-07 03:17:25 | INFO    | [thread_scaling | 8B-Q4_K_M | 12 thr | round 10] story: 6.37 tok/s | 9.93 J/token (CPU, decode) | 3504 MHz | 43.7 C (max 48.0)
+2026-10-07 03:17:25 | INFO    | <<< Unit 150/158 finished in 1.2 min (incl. 0 s cool-down)
+2026-10-07 03:17:25 | INFO    | Summary of session_01 / thread_scaling written (28 rows)
+2026-10-07 03:17:25 | INFO    | >>> Unit 151/158: session_01|cognitive|8B-Q8_0|8 (order 1 in round)
+2026-10-07 03:17:25 | INFO    | [cognitive | 8B-Q8_0] loading model...
+2026-10-07 03:17:34 | INFO    | [cognitive | 8B-Q8_0] 289076 tokens in the test text, 564 chunks; evaluating 60 chunks
+2026-10-07 03:20:32 | INFO    | [cognitive | 8B-Q8_0] chunk 10/60 | running PPL 10.3792 | 178 s
+2026-10-07 03:23:27 | INFO    | [cognitive | 8B-Q8_0] chunk 20/60 | running PPL 9.6556 | 353 s
+2026-10-07 03:26:21 | INFO    | [cognitive | 8B-Q8_0] chunk 30/60 | running PPL 8.1451 | 527 s
+2026-10-07 03:29:15 | INFO    | [cognitive | 8B-Q8_0] chunk 40/60 | running PPL 8.3157 | 701 s
+2026-10-07 03:32:10 | INFO    | [cognitive | 8B-Q8_0] chunk 50/60 | running PPL 8.3279 | 877 s
+2026-10-07 03:35:05 | INFO    | [cognitive | 8B-Q8_0] chunk 60/60 | running PPL 8.5951 | 1052 s
+2026-10-07 03:35:06 | INFO    | [cognitive | 8B-Q8_0] DONE: PPL 8.5951 [7.7787, 9.4972] | 0.7201 bits/byte | top-1 54.03 % | dPPL vs 8B-Q8_0: +0.00 % | 1052 s
+2026-10-07 03:35:06 | INFO    | <<< Unit 151/158 finished in 17.7 min (incl. 0 s cool-down)
+2026-10-07 03:35:06 | INFO    | >>> Unit 152/158: session_01|cognitive|8B-Q4_K_M|8 (order 2 in round)
+2026-10-07 03:35:06 | INFO    | [cognitive | 8B-Q4_K_M] loading model...
+2026-10-07 03:35:12 | INFO    | [cognitive | 8B-Q4_K_M] 289076 tokens in the test text, 564 chunks; evaluating 60 chunks
+2026-10-07 03:37:07 | INFO    | [cognitive | 8B-Q4_K_M] chunk 10/60 | running PPL 10.3826 | 115 s
+2026-10-07 03:39:02 | INFO    | [cognitive | 8B-Q4_K_M] chunk 20/60 | running PPL 9.7296 | 230 s
+2026-10-07 03:40:57 | INFO    | [cognitive | 8B-Q4_K_M] chunk 30/60 | running PPL 8.2433 | 345 s
+2026-10-07 03:42:52 | INFO    | [cognitive | 8B-Q4_K_M] chunk 40/60 | running PPL 8.4265 | 460 s
+2026-10-07 03:44:46 | INFO    | [cognitive | 8B-Q4_K_M] chunk 50/60 | running PPL 8.4364 | 575 s
+2026-10-07 03:46:41 | INFO    | [cognitive | 8B-Q4_K_M] chunk 60/60 | running PPL 8.7077 | 689 s
+2026-10-07 03:46:41 | INFO    | [cognitive | 8B-Q4_K_M] DONE: PPL 8.7077 [7.8921, 9.6076] | 0.7244 bits/byte | top-1 53.77 % | dPPL vs 8B-Q8_0: +1.31 % | 689 s
+2026-10-07 03:46:41 | INFO    | <<< Unit 152/158 finished in 11.6 min (incl. 0 s cool-down)
+2026-10-07 03:46:41 | INFO    | >>> Unit 153/158: session_01|cognitive|3B-Q4_K_M|8 (order 3 in round)
+2026-10-07 03:46:41 | INFO    | [cognitive | 3B-Q4_K_M] loading model...
+2026-10-07 03:46:44 | INFO    | [cognitive | 3B-Q4_K_M] 289076 tokens in the test text, 564 chunks; evaluating 60 chunks
+2026-10-07 03:47:39 | INFO    | [cognitive | 3B-Q4_K_M] chunk 10/60 | running PPL 12.6803 | 54 s
+2026-10-07 03:48:33 | INFO    | [cognitive | 3B-Q4_K_M] chunk 20/60 | running PPL 12.0259 | 109 s
+2026-10-07 03:49:27 | INFO    | [cognitive | 3B-Q4_K_M] chunk 30/60 | running PPL 10.6479 | 163 s
+2026-10-07 03:50:22 | INFO    | [cognitive | 3B-Q4_K_M] chunk 40/60 | running PPL 10.8574 | 217 s
+2026-10-07 03:51:16 | INFO    | [cognitive | 3B-Q4_K_M] chunk 50/60 | running PPL 10.8785 | 272 s
+2026-10-07 03:52:11 | INFO    | [cognitive | 3B-Q4_K_M] chunk 60/60 | running PPL 11.2306 | 326 s
+2026-10-07 03:52:11 | INFO    | [cognitive | 3B-Q4_K_M] DONE: PPL 11.2306 [10.2315, 12.3272] | 0.8096 bits/byte | top-1 49.52 % | dPPL vs 8B-Q8_0: +30.66 % | 326 s
+2026-10-07 03:52:11 | INFO    | <<< Unit 153/158 finished in 5.5 min (incl. 0 s cool-down)
+2026-10-07 03:52:11 | INFO    | >>> Unit 154/158: session_01|cognitive|3B-Q8_0|8 (order 4 in round)
+2026-10-07 03:52:11 | INFO    | [cognitive | 3B-Q8_0] loading model...
+2026-10-07 03:52:13 | INFO    | [cognitive | 3B-Q8_0] 289076 tokens in the test text, 564 chunks; evaluating 60 chunks
+2026-10-07 03:53:34 | INFO    | [cognitive | 3B-Q8_0] chunk 10/60 | running PPL 12.3209 | 81 s
+2026-10-07 03:54:54 | INFO    | [cognitive | 3B-Q8_0] chunk 20/60 | running PPL 11.7412 | 161 s
+2026-10-07 03:56:16 | INFO    | [cognitive | 3B-Q8_0] chunk 30/60 | running PPL 10.4033 | 243 s
+2026-10-07 03:57:37 | INFO    | [cognitive | 3B-Q8_0] chunk 40/60 | running PPL 10.6205 | 323 s
+2026-10-07 03:58:57 | INFO    | [cognitive | 3B-Q8_0] chunk 50/60 | running PPL 10.6262 | 403 s
+2026-10-07 04:00:17 | INFO    | [cognitive | 3B-Q8_0] chunk 60/60 | running PPL 10.9417 | 484 s
+2026-10-07 04:00:18 | INFO    | [cognitive | 3B-Q8_0] DONE: PPL 10.9417 [9.9744, 12.0028] | 0.8009 bits/byte | top-1 50.10 % | dPPL vs 8B-Q8_0: +27.30 % | 484 s
+2026-10-07 04:00:18 | INFO    | <<< Unit 154/158 finished in 8.1 min (incl. 0 s cool-down)
+2026-10-07 04:00:18 | INFO    | >>> Unit 155/158: session_01|cognitive|1B-Q4_K_M|8 (order 5 in round)
+2026-10-07 04:00:18 | INFO    | [cognitive | 1B-Q4_K_M] loading model...
+2026-10-07 04:00:19 | INFO    | [cognitive | 1B-Q4_K_M] 289076 tokens in the test text, 564 chunks; evaluating 60 chunks
+2026-10-07 04:00:45 | INFO    | [cognitive | 1B-Q4_K_M] chunk 10/60 | running PPL 16.9490 | 25 s
+2026-10-07 04:01:10 | INFO    | [cognitive | 1B-Q4_K_M] chunk 20/60 | running PPL 16.5086 | 50 s
+2026-10-07 04:01:34 | INFO    | [cognitive | 1B-Q4_K_M] chunk 30/60 | running PPL 14.6320 | 75 s
+2026-10-07 04:01:59 | INFO    | [cognitive | 1B-Q4_K_M] chunk 40/60 | running PPL 15.0068 | 100 s
+2026-10-07 04:02:24 | INFO    | [cognitive | 1B-Q4_K_M] chunk 50/60 | running PPL 14.9064 | 124 s
+2026-10-07 04:02:48 | INFO    | [cognitive | 1B-Q4_K_M] chunk 60/60 | running PPL 15.2903 | 149 s
+2026-10-07 04:02:49 | INFO    | [cognitive | 1B-Q4_K_M] DONE: PPL 15.2903 [13.9595, 16.7479] | 0.9129 bits/byte | top-1 46.10 % | dPPL vs 8B-Q8_0: +77.90 % | 149 s
+2026-10-07 04:02:49 | INFO    | <<< Unit 155/158 finished in 2.5 min (incl. 0 s cool-down)
+2026-10-07 04:02:49 | INFO    | >>> Unit 156/158: session_01|cognitive|1B-Q8_0|8 (order 6 in round)
+2026-10-07 04:02:49 | INFO    | [cognitive | 1B-Q8_0] loading model...
+2026-10-07 04:02:50 | INFO    | [cognitive | 1B-Q8_0] 289076 tokens in the test text, 564 chunks; evaluating 60 chunks
+2026-10-07 04:03:25 | INFO    | [cognitive | 1B-Q8_0] chunk 10/60 | running PPL 16.1812 | 35 s
+2026-10-07 04:04:01 | INFO    | [cognitive | 1B-Q8_0] chunk 20/60 | running PPL 15.7706 | 70 s
+2026-10-07 04:04:35 | INFO    | [cognitive | 1B-Q8_0] chunk 30/60 | running PPL 14.0702 | 105 s
+2026-10-07 04:05:11 | INFO    | [cognitive | 1B-Q8_0] chunk 40/60 | running PPL 14.4631 | 140 s
+2026-10-07 04:05:45 | INFO    | [cognitive | 1B-Q8_0] chunk 50/60 | running PPL 14.4098 | 175 s
+2026-10-07 04:06:20 | INFO    | [cognitive | 1B-Q8_0] chunk 60/60 | running PPL 14.7944 | 210 s
+2026-10-07 04:06:20 | INFO    | [cognitive | 1B-Q8_0] DONE: PPL 14.7944 [13.5090, 16.2021] | 0.9018 bits/byte | top-1 46.58 % | dPPL vs 8B-Q8_0: +72.13 % | 210 s
+2026-10-07 04:06:20 | INFO    | <<< Unit 156/158 finished in 3.5 min (incl. 0 s cool-down)
+2026-10-07 04:06:20 | INFO    | >>> Unit 157/158: session_01|cognitive|Sparse8B-Q4_K_M|8 (order 7 in round)
+2026-10-07 04:06:20 | INFO    | [cognitive | Sparse8B-Q4_K_M] loading model...
+2026-10-07 04:06:28 | INFO    | [cognitive | Sparse8B-Q4_K_M] 289076 tokens in the test text, 564 chunks; evaluating 60 chunks
+2026-10-07 04:08:23 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 10/60 | running PPL 9.1486 | 115 s
+2026-10-07 04:10:17 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 20/60 | running PPL 9.1953 | 229 s
+2026-10-07 04:12:12 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 30/60 | running PPL 7.8141 | 344 s
+2026-10-07 04:14:06 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 40/60 | running PPL 7.9767 | 458 s
+2026-10-07 04:16:00 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 50/60 | running PPL 8.0054 | 572 s
+2026-10-07 04:17:55 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 60/60 | running PPL 8.2133 | 686 s
+2026-10-07 04:17:55 | INFO    | [cognitive | Sparse8B-Q4_K_M] DONE: PPL 8.2133 [7.5054, 8.9880] | 0.7049 bits/byte | top-1 53.46 % | dPPL vs 8B-Q8_0: -4.44 % | 686 s
+2026-10-07 04:17:55 | INFO    | <<< Unit 157/158 finished in 11.6 min (incl. 0 s cool-down)
+2026-10-07 04:17:55 | INFO    | >>> Unit 158/158: session_01|cognitive|Sparse8B-Q8_0|8 (order 8 in round)
+2026-10-07 04:17:55 | INFO    | [cognitive | Sparse8B-Q8_0] loading model...
+2026-10-07 04:18:03 | INFO    | [cognitive | Sparse8B-Q8_0] 289076 tokens in the test text, 564 chunks; evaluating 60 chunks
+2026-10-07 04:20:57 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 10/60 | running PPL 8.9304 | 175 s
+2026-10-07 04:23:53 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 20/60 | running PPL 9.0428 | 350 s
+2026-10-07 04:26:47 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 30/60 | running PPL 7.6767 | 524 s
+2026-10-07 04:29:42 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 40/60 | running PPL 7.8272 | 699 s
+2026-10-07 04:32:38 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 50/60 | running PPL 7.8472 | 875 s
+2026-10-07 04:35:33 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 60/60 | running PPL 8.0517 | 1050 s
+2026-10-07 04:35:33 | INFO    | [cognitive | Sparse8B-Q8_0] DONE: PPL 8.0517 [7.3504, 8.8199] | 0.6982 bits/byte | top-1 53.98 % | dPPL vs 8B-Q8_0: -6.32 % | 1050 s
+2026-10-07 04:35:33 | INFO    | <<< Unit 158/158 finished in 17.6 min (incl. 0 s cool-down)
+2026-10-07 04:35:33 | INFO    | session_01 is complete.
+2026-10-07 04:35:34 | INFO    | Run 20261007T001559-d4dffe finished with status 'completed'
+2026-10-07 04:35:34 | INFO    | Sleep prevention released.
+2026-10-07 04:35:34 | INFO    | Run finished in 259.6 min: 158 completed, 0 failed, 0 still pending in session_01.

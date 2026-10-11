@@ -1,0 +1,1007 @@
+2026-10-10 00:36:04 | INFO    | System sleep and display sleep are prevented until the run ends.
+2026-10-10 00:36:04 | INFO    | Run 20261010T003604-8845e8 | night_02 | experiments: night_b1_pre, night_a2_rest | models: 8B-Q8_0, 1B-Q4_K_M, 8B-Q4_K_M, 8B-Q5_K_M, 8B-Q6_K, 3B-Q4_K_M, 3B-Q8_0, 1B-Q8_0, Sparse8B-Q4_K_M, Sparse8B-Q8_0
+2026-10-10 00:36:04 | INFO    | Power: plan Dengeli (balanced), max processor state AC 99 % / DC 99 %, turbo disabled: True
+2026-10-10 00:36:05 | INFO    | Thermal monitor: 11th Gen Intel Core i9-11900K / CPU Package | now 32.0 C | fuse 85 C for 10 s, hard limit 95 C (administrator: True)
+2026-10-10 00:36:05 | INFO    | Topology: 8 physical cores, 16 logical processors, hybrid=False, P-cores=8
+2026-10-10 00:36:16 | INFO    | Energy tracking: CPU source = windows_emi (measured: True), GPU tracked: True
+2026-10-10 00:36:31 | INFO    | Waiting for a quiet system: mean CPU utilisation < 2.0 % over 60 s (at most 15 min)...
+2026-10-10 00:37:31 | INFO    | Not quiet yet: mean CPU utilisation 5.56 % over the last 60 s (60 s waited).
+2026-10-10 00:38:27 | INFO    | System is quiet: mean CPU utilisation 1.99 % over the last 60 s (waited 116 s).
+2026-10-10 00:38:27 | INFO    | Measuring idle baseline for 60 s (keep the machine untouched)...
+2026-10-10 00:39:27 | INFO    | Idle baseline: CPU package 13.80 W | RAM (est.) 20.00 W | GPU 23.37 W | CPU utilisation 1.0 % | 32.0 C
+2026-10-10 00:39:27 | INFO    | Metadata written to results\night_02\metadata\20261010T003604-8845e8.json
+2026-10-10 00:39:34 | INFO    | Warm-up load (not measured): 8B-Q4_K_M, 8 threads, 300 s
+2026-10-10 00:40:39 | INFO    | Warm-up load: 65 / 300 s | 42.0 C
+2026-10-10 00:41:44 | INFO    | Warm-up load: 130 / 300 s | 44.0 C
+2026-10-10 00:42:49 | INFO    | Warm-up load: 195 / 300 s | 44.0 C
+2026-10-10 00:43:54 | INFO    | Warm-up load: 260 / 300 s | 45.0 C
+2026-10-10 00:44:35 | INFO    | Warm-up load done: 301 s, 1850 tokens, 49.0 C max
+2026-10-10 00:44:35 | INFO    | a2_rest completes the perplexity run in results\night: 90 earlier chunks, 2 re-evaluated (overlap)
+2026-10-10 00:44:35 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 00:47:11 | INFO    | Heat probe (Turbo on): 8B-Q4_K_M, 8 threads, 120 s -> peak 77.0 C, mean 64.6 C
+2026-10-10 00:47:11 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 00:47:11 | INFO    | === Block b1_pre: 60 units pending (~100 min)
+2026-10-10 00:47:11 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 00:47:41 | INFO    | >>> [b1_pre] Unit 1/60: night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r01
+2026-10-10 00:47:47 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 1] model loaded in 5.94 s
+2026-10-10 00:48:40 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 1] cpu_arch: 3.86 tok/s | 35.87 J/token (CPU, decode) | 4804 MHz | 63.0 C (max 69.0)
+2026-10-10 00:49:06 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 1] transformer: 3.85 tok/s | 36.11 J/token (CPU, decode) | 4803 MHz | 64.4 C (max 87.0)
+2026-10-10 00:49:32 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 1] story: 3.85 tok/s | 36.08 J/token (CPU, decode) | 4803 MHz | 64.4 C (max 80.0)
+2026-10-10 00:49:33 | INFO    | <<< [b1_pre] Unit 1/60 finished in 1.9 min
+2026-10-10 00:49:33 | INFO    | >>> [b1_pre] Unit 2/60: night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r01
+2026-10-10 00:49:33 | INFO    | Cooling down: 64.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r01)
+2026-10-10 00:49:34 | INFO    | Cooled down to 43.0 C in 1 s
+2026-10-10 00:49:35 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 1] model loaded in 1.12 s
+2026-10-10 00:49:41 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 1] cpu_arch: 35.27 tok/s | 4.31 J/token (CPU, decode) | 4803 MHz | 69.0 C (max 73.0)
+2026-10-10 00:49:44 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 1] transformer: 36.60 tok/s | 4.11 J/token (CPU, decode) | 4803 MHz | 68.5 C (max 69.0)
+2026-10-10 00:49:46 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 1] story: 36.59 tok/s | 4.10 J/token (CPU, decode) | 4803 MHz | 68.6 C (max 73.0)
+2026-10-10 00:49:47 | INFO    | <<< [b1_pre] Unit 2/60 finished in 0.2 min
+2026-10-10 00:49:47 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 00:50:17 | INFO    | >>> [b1_pre] Unit 3/60: night_02|night_b1_pre_turbo_off|8B-Q4_K_M|8|r01
+2026-10-10 00:50:22 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 1] model loaded in 4.98 s
+2026-10-10 00:50:54 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 1] cpu_arch: 6.43 tok/s | 9.70 J/token (CPU, decode) | 3504 MHz | 46.5 C (max 50.0)
+2026-10-10 00:51:09 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 1] transformer: 6.40 tok/s | 9.73 J/token (CPU, decode) | 3504 MHz | 46.1 C (max 47.0)
+2026-10-10 00:51:26 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 1] story: 6.34 tok/s | 9.83 J/token (CPU, decode) | 3504 MHz | 46.3 C (max 48.0)
+2026-10-10 00:51:26 | INFO    | <<< [b1_pre] Unit 3/60 finished in 1.2 min
+2026-10-10 00:51:26 | INFO    | >>> [b1_pre] Unit 4/60: night_02|night_b1_pre_turbo_off|8B-Q8_0|8|r01
+2026-10-10 00:51:29 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 1] model loaded in 3.21 s
+2026-10-10 00:52:23 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 1] cpu_arch: 3.82 tok/s | 15.50 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 48.0)
+2026-10-10 00:52:49 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 1] transformer: 3.83 tok/s | 15.46 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 53.0)
+2026-10-10 00:53:16 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 1] story: 3.83 tok/s | 15.54 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 52.0)
+2026-10-10 00:53:16 | INFO    | <<< [b1_pre] Unit 4/60 finished in 1.8 min
+2026-10-10 00:53:16 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 00:53:46 | INFO    | >>> [b1_pre] Unit 5/60: night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r01
+2026-10-10 00:53:50 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 1] model loaded in 3.72 s
+2026-10-10 00:54:22 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 1] cpu_arch: 6.50 tok/s | 22.27 J/token (CPU, decode) | 4804 MHz | 62.7 C (max 71.0)
+2026-10-10 00:54:37 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 1] transformer: 6.50 tok/s | 22.31 J/token (CPU, decode) | 4803 MHz | 63.7 C (max 70.0)
+2026-10-10 00:54:53 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 1] story: 6.52 tok/s | 22.21 J/token (CPU, decode) | 4803 MHz | 63.9 C (max 69.0)
+2026-10-10 00:54:53 | INFO    | <<< [b1_pre] Unit 5/60 finished in 1.1 min
+2026-10-10 00:54:53 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 00:55:23 | INFO    | >>> [b1_pre] Unit 6/60: night_02|night_b1_pre_turbo_off|1B-Q4_K_M|8|r01
+2026-10-10 00:55:24 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 1] model loaded in 1.04 s
+2026-10-10 00:55:30 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 1] cpu_arch: 35.93 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 46.5 C (max 47.0)
+2026-10-10 00:55:33 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 1] transformer: 35.95 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 45.8 C (max 47.0)
+2026-10-10 00:55:36 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 1] story: 35.85 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 46.2 C (max 47.0)
+2026-10-10 00:55:36 | INFO    | <<< [b1_pre] Unit 6/60 finished in 0.2 min
+2026-10-10 00:55:36 | INFO    | >>> [b1_pre] Unit 7/60: night_02|night_b1_pre_turbo_off|1B-Q4_K_M|8|r02
+2026-10-10 00:55:37 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 2] model loaded in 1.05 s
+2026-10-10 00:55:43 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 2] cpu_arch: 35.92 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 46.0)
+2026-10-10 00:55:46 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 2] transformer: 35.92 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 45.8 C (max 46.0)
+2026-10-10 00:55:48 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 2] story: 35.92 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 45.8 C (max 46.0)
+2026-10-10 00:55:49 | INFO    | <<< [b1_pre] Unit 7/60 finished in 0.2 min
+2026-10-10 00:55:49 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 00:56:19 | INFO    | >>> [b1_pre] Unit 8/60: night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r02
+2026-10-10 00:56:19 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 2] model loaded in 0.78 s
+2026-10-10 00:56:25 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 2] cpu_arch: 36.62 tok/s | 4.02 J/token (CPU, decode) | 4805 MHz | 62.0 C (max 62.0)
+2026-10-10 00:56:28 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 2] transformer: 36.62 tok/s | 4.00 J/token (CPU, decode) | 4805 MHz | 62.8 C (max 64.0)
+2026-10-10 00:56:31 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 2] story: 36.59 tok/s | 4.02 J/token (CPU, decode) | 4805 MHz | 62.2 C (max 63.0)
+2026-10-10 00:56:31 | INFO    | <<< [b1_pre] Unit 8/60 finished in 0.2 min
+2026-10-10 00:56:31 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 00:57:01 | INFO    | >>> [b1_pre] Unit 9/60: night_02|night_b1_pre_turbo_off|8B-Q4_K_M|8|r02
+2026-10-10 00:57:06 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 2] model loaded in 5.06 s
+2026-10-10 00:57:38 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 2] cpu_arch: 6.45 tok/s | 9.64 J/token (CPU, decode) | 3504 MHz | 44.6 C (max 46.0)
+2026-10-10 00:57:53 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 2] transformer: 6.44 tok/s | 9.65 J/token (CPU, decode) | 3504 MHz | 44.7 C (max 45.0)
+2026-10-10 00:58:10 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 2] story: 6.42 tok/s | 9.70 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 50.0)
+2026-10-10 00:58:10 | INFO    | <<< [b1_pre] Unit 9/60 finished in 1.2 min
+2026-10-10 00:58:10 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 00:58:40 | INFO    | >>> [b1_pre] Unit 10/60: night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r02
+2026-10-10 00:58:42 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 2] model loaded in 2.42 s
+2026-10-10 00:59:35 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 2] cpu_arch: 3.85 tok/s | 35.72 J/token (CPU, decode) | 4805 MHz | 61.8 C (max 69.0)
+2026-10-10 01:00:02 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 2] transformer: 3.85 tok/s | 36.00 J/token (CPU, decode) | 4804 MHz | 62.7 C (max 83.0)
+2026-10-10 01:00:28 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 2] story: 3.85 tok/s | 36.02 J/token (CPU, decode) | 4804 MHz | 62.9 C (max 68.0)
+2026-10-10 01:00:29 | INFO    | <<< [b1_pre] Unit 10/60 finished in 1.8 min
+2026-10-10 01:00:29 | INFO    | >>> [b1_pre] Unit 11/60: night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r02
+2026-10-10 01:00:29 | INFO    | Cooling down: 68.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r02)
+2026-10-10 01:00:30 | INFO    | Cooled down to 45.0 C in 1 s
+2026-10-10 01:00:33 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 2] model loaded in 3.73 s
+2026-10-10 01:01:05 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 2] cpu_arch: 6.50 tok/s | 22.51 J/token (CPU, decode) | 4803 MHz | 66.3 C (max 74.0)
+2026-10-10 01:01:20 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 2] transformer: 6.52 tok/s | 22.43 J/token (CPU, decode) | 4803 MHz | 66.5 C (max 70.0)
+2026-10-10 01:01:36 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 2] story: 6.52 tok/s | 22.46 J/token (CPU, decode) | 4802 MHz | 66.4 C (max 69.0)
+2026-10-10 01:01:36 | INFO    | <<< [b1_pre] Unit 11/60 finished in 1.1 min
+2026-10-10 01:01:36 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:02:06 | INFO    | >>> [b1_pre] Unit 12/60: night_02|night_b1_pre_turbo_off|8B-Q8_0|8|r02
+2026-10-10 01:02:09 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 2] model loaded in 3.04 s
+2026-10-10 01:03:03 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 2] cpu_arch: 3.83 tok/s | 15.54 J/token (CPU, decode) | 3504 MHz | 45.6 C (max 50.0)
+2026-10-10 01:03:29 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 2] transformer: 3.83 tok/s | 15.49 J/token (CPU, decode) | 3504 MHz | 45.5 C (max 54.0)
+2026-10-10 01:03:56 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 2] story: 3.84 tok/s | 15.47 J/token (CPU, decode) | 3504 MHz | 45.4 C (max 54.0)
+2026-10-10 01:03:57 | INFO    | <<< [b1_pre] Unit 12/60 finished in 1.8 min
+2026-10-10 01:03:57 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:04:27 | INFO    | >>> [b1_pre] Unit 13/60: night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r03
+2026-10-10 01:04:27 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 3] model loaded in 0.78 s
+2026-10-10 01:04:33 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 3] cpu_arch: 36.70 tok/s | 4.02 J/token (CPU, decode) | 4805 MHz | 62.2 C (max 63.0)
+2026-10-10 01:04:36 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 3] transformer: 36.67 tok/s | 4.02 J/token (CPU, decode) | 4804 MHz | 62.0 C (max 62.0)
+2026-10-10 01:04:39 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 3] story: 36.67 tok/s | 4.03 J/token (CPU, decode) | 4805 MHz | 62.5 C (max 63.0)
+2026-10-10 01:04:39 | INFO    | <<< [b1_pre] Unit 13/60 finished in 0.2 min
+2026-10-10 01:04:39 | INFO    | >>> [b1_pre] Unit 14/60: night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r03
+2026-10-10 01:04:39 | INFO    | Cooling down: 63.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r03)
+2026-10-10 01:04:40 | INFO    | Cooled down to 41.0 C in 1 s
+2026-10-10 01:04:42 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 3] model loaded in 2.41 s
+2026-10-10 01:05:35 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 3] cpu_arch: 3.85 tok/s | 35.87 J/token (CPU, decode) | 4804 MHz | 62.3 C (max 71.0)
+2026-10-10 01:06:01 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 3] transformer: 3.85 tok/s | 36.12 J/token (CPU, decode) | 4804 MHz | 63.6 C (max 85.0)
+2026-10-10 01:06:28 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 3] story: 3.85 tok/s | 36.19 J/token (CPU, decode) | 4803 MHz | 64.2 C (max 69.0)
+2026-10-10 01:06:28 | INFO    | <<< [b1_pre] Unit 14/60 finished in 1.8 min
+2026-10-10 01:06:28 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:06:58 | INFO    | >>> [b1_pre] Unit 15/60: night_02|night_b1_pre_turbo_off|8B-Q8_0|8|r03
+2026-10-10 01:07:01 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 3] model loaded in 3.08 s
+2026-10-10 01:07:55 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 3] cpu_arch: 3.84 tok/s | 15.49 J/token (CPU, decode) | 3504 MHz | 45.9 C (max 50.0)
+2026-10-10 01:08:21 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 3] transformer: 3.83 tok/s | 15.53 J/token (CPU, decode) | 3504 MHz | 45.9 C (max 53.0)
+2026-10-10 01:08:48 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 3] story: 3.83 tok/s | 15.47 J/token (CPU, decode) | 3504 MHz | 45.3 C (max 51.0)
+2026-10-10 01:08:48 | INFO    | <<< [b1_pre] Unit 15/60 finished in 1.8 min
+2026-10-10 01:08:48 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:09:18 | INFO    | >>> [b1_pre] Unit 16/60: night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r03
+2026-10-10 01:09:22 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 3] model loaded in 3.65 s
+2026-10-10 01:09:53 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 3] cpu_arch: 6.52 tok/s | 22.15 J/token (CPU, decode) | 4804 MHz | 62.9 C (max 71.0)
+2026-10-10 01:10:09 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 3] transformer: 6.50 tok/s | 22.34 J/token (CPU, decode) | 4804 MHz | 63.8 C (max 67.0)
+2026-10-10 01:10:25 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 3] story: 6.52 tok/s | 22.32 J/token (CPU, decode) | 4803 MHz | 64.6 C (max 67.0)
+2026-10-10 01:10:25 | INFO    | <<< [b1_pre] Unit 16/60 finished in 1.1 min
+2026-10-10 01:10:25 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:10:55 | INFO    | >>> [b1_pre] Unit 17/60: night_02|night_b1_pre_turbo_off|1B-Q4_K_M|8|r03
+2026-10-10 01:10:56 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 3] model loaded in 1.05 s
+2026-10-10 01:11:02 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 3] cpu_arch: 35.07 tok/s | 1.81 J/token (CPU, decode) | 3504 MHz | 46.8 C (max 47.0)
+2026-10-10 01:11:05 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 3] transformer: 35.94 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 47.0)
+2026-10-10 01:11:08 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 3] story: 35.90 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 46.2 C (max 47.0)
+2026-10-10 01:11:08 | INFO    | <<< [b1_pre] Unit 17/60 finished in 0.2 min
+2026-10-10 01:11:08 | INFO    | >>> [b1_pre] Unit 18/60: night_02|night_b1_pre_turbo_off|8B-Q4_K_M|8|r03
+2026-10-10 01:11:13 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 3] model loaded in 5.05 s
+2026-10-10 01:11:45 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 3] cpu_arch: 6.44 tok/s | 9.66 J/token (CPU, decode) | 3504 MHz | 46.0 C (max 50.0)
+2026-10-10 01:12:01 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 3] transformer: 6.41 tok/s | 9.77 J/token (CPU, decode) | 3504 MHz | 46.4 C (max 51.0)
+2026-10-10 01:12:17 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 3] story: 6.44 tok/s | 9.64 J/token (CPU, decode) | 3504 MHz | 45.9 C (max 49.0)
+2026-10-10 01:12:17 | INFO    | <<< [b1_pre] Unit 18/60 finished in 1.2 min
+2026-10-10 01:12:17 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:12:47 | INFO    | >>> [b1_pre] Unit 19/60: night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r04
+2026-10-10 01:12:48 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 4] model loaded in 0.76 s
+2026-10-10 01:12:53 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 4] cpu_arch: 36.64 tok/s | 4.04 J/token (CPU, decode) | 4804 MHz | 62.0 C (max 62.0)
+2026-10-10 01:12:56 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 4] transformer: 36.65 tok/s | 4.04 J/token (CPU, decode) | 4805 MHz | 62.8 C (max 64.0)
+2026-10-10 01:12:59 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 4] story: 36.70 tok/s | 4.03 J/token (CPU, decode) | 4805 MHz | 63.0 C (max 66.0)
+2026-10-10 01:12:59 | INFO    | <<< [b1_pre] Unit 19/60 finished in 0.2 min
+2026-10-10 01:12:59 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:13:29 | INFO    | >>> [b1_pre] Unit 20/60: night_02|night_b1_pre_turbo_off|8B-Q4_K_M|8|r04
+2026-10-10 01:13:34 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 4] model loaded in 5.05 s
+2026-10-10 01:14:06 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 4] cpu_arch: 6.42 tok/s | 9.69 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 48.0)
+2026-10-10 01:14:22 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 4] transformer: 6.44 tok/s | 9.65 J/token (CPU, decode) | 3504 MHz | 44.9 C (max 50.0)
+2026-10-10 01:14:38 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 4] story: 6.44 tok/s | 9.66 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 48.0)
+2026-10-10 01:14:38 | INFO    | <<< [b1_pre] Unit 20/60 finished in 1.2 min
+2026-10-10 01:14:38 | INFO    | >>> [b1_pre] Unit 21/60: night_02|night_b1_pre_turbo_off|1B-Q4_K_M|8|r04
+2026-10-10 01:14:39 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 4] model loaded in 1.06 s
+2026-10-10 01:14:45 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 4] cpu_arch: 35.94 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 45.0)
+2026-10-10 01:14:48 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 4] transformer: 35.86 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 45.0)
+2026-10-10 01:14:51 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 4] story: 35.89 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 44.8 C (max 45.0)
+2026-10-10 01:14:51 | INFO    | <<< [b1_pre] Unit 21/60 finished in 0.2 min
+2026-10-10 01:14:51 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:15:21 | INFO    | >>> [b1_pre] Unit 22/60: night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r04
+2026-10-10 01:15:25 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 4] model loaded in 3.73 s
+2026-10-10 01:15:56 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 4] cpu_arch: 6.52 tok/s | 22.09 J/token (CPU, decode) | 4805 MHz | 62.2 C (max 64.0)
+2026-10-10 01:16:12 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 4] transformer: 6.49 tok/s | 22.26 J/token (CPU, decode) | 4804 MHz | 63.0 C (max 64.0)
+2026-10-10 01:16:27 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 4] story: 6.52 tok/s | 22.21 J/token (CPU, decode) | 4803 MHz | 64.2 C (max 75.0)
+2026-10-10 01:16:28 | INFO    | <<< [b1_pre] Unit 22/60 finished in 1.1 min
+2026-10-10 01:16:28 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:16:58 | INFO    | >>> [b1_pre] Unit 23/60: night_02|night_b1_pre_turbo_off|8B-Q8_0|8|r04
+2026-10-10 01:17:01 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 4] model loaded in 3.07 s
+2026-10-10 01:17:54 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 4] cpu_arch: 3.83 tok/s | 15.45 J/token (CPU, decode) | 3504 MHz | 45.0 C (max 48.0)
+2026-10-10 01:18:21 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 4] transformer: 3.83 tok/s | 15.51 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 51.0)
+2026-10-10 01:18:47 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 4] story: 3.83 tok/s | 15.47 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 51.0)
+2026-10-10 01:18:48 | INFO    | <<< [b1_pre] Unit 23/60 finished in 1.8 min
+2026-10-10 01:18:48 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:19:18 | INFO    | >>> [b1_pre] Unit 24/60: night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r04
+2026-10-10 01:19:20 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 4] model loaded in 2.41 s
+2026-10-10 01:20:13 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 4] cpu_arch: 3.84 tok/s | 35.84 J/token (CPU, decode) | 4804 MHz | 61.8 C (max 65.0)
+2026-10-10 01:20:40 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 4] transformer: 3.85 tok/s | 35.96 J/token (CPU, decode) | 4804 MHz | 63.0 C (max 74.0)
+2026-10-10 01:21:06 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 4] story: 3.85 tok/s | 36.16 J/token (CPU, decode) | 4803 MHz | 63.8 C (max 84.0)
+2026-10-10 01:21:07 | INFO    | <<< [b1_pre] Unit 24/60 finished in 1.8 min
+2026-10-10 01:21:07 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:21:37 | INFO    | >>> [b1_pre] Unit 25/60: night_02|night_b1_pre_turbo_off|8B-Q8_0|8|r05
+2026-10-10 01:21:40 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 5] model loaded in 3.04 s
+2026-10-10 01:22:33 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 5] cpu_arch: 3.83 tok/s | 15.47 J/token (CPU, decode) | 3504 MHz | 45.5 C (max 50.0)
+2026-10-10 01:23:00 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 5] transformer: 3.83 tok/s | 15.46 J/token (CPU, decode) | 3504 MHz | 45.3 C (max 54.0)
+2026-10-10 01:23:27 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 5] story: 3.83 tok/s | 15.48 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 52.0)
+2026-10-10 01:23:27 | INFO    | <<< [b1_pre] Unit 25/60 finished in 1.8 min
+2026-10-10 01:23:27 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:23:57 | INFO    | >>> [b1_pre] Unit 26/60: night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r05
+2026-10-10 01:24:01 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 5] model loaded in 3.75 s
+2026-10-10 01:24:32 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 5] cpu_arch: 6.52 tok/s | 22.17 J/token (CPU, decode) | 4804 MHz | 62.4 C (max 63.0)
+2026-10-10 01:24:48 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 5] transformer: 6.52 tok/s | 22.20 J/token (CPU, decode) | 4804 MHz | 64.1 C (max 80.0)
+2026-10-10 01:25:04 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 5] story: 6.50 tok/s | 22.35 J/token (CPU, decode) | 4802 MHz | 64.5 C (max 69.0)
+2026-10-10 01:25:04 | INFO    | <<< [b1_pre] Unit 26/60 finished in 1.1 min
+2026-10-10 01:25:04 | INFO    | >>> [b1_pre] Unit 27/60: night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r05
+2026-10-10 01:25:04 | INFO    | Cooling down: 64.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r05)
+2026-10-10 01:25:05 | INFO    | Cooled down to 45.0 C in 1 s
+2026-10-10 01:25:07 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 5] model loaded in 2.40 s
+2026-10-10 01:26:00 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 5] cpu_arch: 3.85 tok/s | 36.23 J/token (CPU, decode) | 4803 MHz | 63.6 C (max 71.0)
+2026-10-10 01:26:27 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 5] transformer: 3.85 tok/s | 36.29 J/token (CPU, decode) | 4803 MHz | 64.7 C (max 85.0)
+2026-10-10 01:26:53 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 5] story: 3.85 tok/s | 36.36 J/token (CPU, decode) | 4803 MHz | 65.0 C (max 69.0)
+2026-10-10 01:26:54 | INFO    | <<< [b1_pre] Unit 27/60 finished in 1.8 min
+2026-10-10 01:26:54 | INFO    | >>> [b1_pre] Unit 28/60: night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r05
+2026-10-10 01:26:54 | INFO    | Cooling down: 67.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r05)
+2026-10-10 01:26:55 | INFO    | Cooled down to 45.0 C in 1 s
+2026-10-10 01:26:55 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 5] model loaded in 0.77 s
+2026-10-10 01:27:01 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 5] cpu_arch: 35.96 tok/s | 4.21 J/token (CPU, decode) | 4801 MHz | 68.0 C (max 70.0)
+2026-10-10 01:27:04 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 5] transformer: 36.60 tok/s | 4.12 J/token (CPU, decode) | 4802 MHz | 67.8 C (max 69.0)
+2026-10-10 01:27:07 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 5] story: 36.63 tok/s | 4.13 J/token (CPU, decode) | 4803 MHz | 67.8 C (max 69.0)
+2026-10-10 01:27:07 | INFO    | <<< [b1_pre] Unit 28/60 finished in 0.2 min
+2026-10-10 01:27:07 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:27:37 | INFO    | >>> [b1_pre] Unit 29/60: night_02|night_b1_pre_turbo_off|8B-Q4_K_M|8|r05
+2026-10-10 01:27:42 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 5] model loaded in 5.04 s
+2026-10-10 01:28:14 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 5] cpu_arch: 6.42 tok/s | 9.74 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 48.0)
+2026-10-10 01:28:29 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 5] transformer: 6.45 tok/s | 9.68 J/token (CPU, decode) | 3504 MHz | 47.1 C (max 48.0)
+2026-10-10 01:28:45 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 5] story: 6.45 tok/s | 9.69 J/token (CPU, decode) | 3504 MHz | 46.7 C (max 48.0)
+2026-10-10 01:28:46 | INFO    | <<< [b1_pre] Unit 29/60 finished in 1.1 min
+2026-10-10 01:28:46 | INFO    | >>> [b1_pre] Unit 30/60: night_02|night_b1_pre_turbo_off|1B-Q4_K_M|8|r05
+2026-10-10 01:28:47 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 5] model loaded in 1.04 s
+2026-10-10 01:28:53 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 5] cpu_arch: 35.93 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 47.0)
+2026-10-10 01:28:55 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 5] transformer: 35.90 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 47.0)
+2026-10-10 01:28:58 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 5] story: 35.97 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 46.8 C (max 47.0)
+2026-10-10 01:28:58 | INFO    | <<< [b1_pre] Unit 30/60 finished in 0.2 min
+2026-10-10 01:28:58 | INFO    | >>> [b1_pre] Unit 31/60: night_02|night_b1_pre_turbo_off|8B-Q4_K_M|8|r06
+2026-10-10 01:29:03 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 6] model loaded in 5.07 s
+2026-10-10 01:29:35 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 6] cpu_arch: 6.44 tok/s | 9.66 J/token (CPU, decode) | 3504 MHz | 46.0 C (max 48.0)
+2026-10-10 01:29:51 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 6] transformer: 6.45 tok/s | 9.66 J/token (CPU, decode) | 3504 MHz | 46.2 C (max 50.0)
+2026-10-10 01:30:07 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 6] story: 6.42 tok/s | 9.71 J/token (CPU, decode) | 3504 MHz | 46.4 C (max 50.0)
+2026-10-10 01:30:07 | INFO    | <<< [b1_pre] Unit 31/60 finished in 1.2 min
+2026-10-10 01:30:07 | INFO    | >>> [b1_pre] Unit 32/60: night_02|night_b1_pre_turbo_off|8B-Q8_0|8|r06
+2026-10-10 01:30:10 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 6] model loaded in 3.03 s
+2026-10-10 01:31:04 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 6] cpu_arch: 3.79 tok/s | 15.68 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 48.0)
+2026-10-10 01:31:31 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 6] transformer: 3.83 tok/s | 15.42 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 51.0)
+2026-10-10 01:31:57 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 6] story: 3.83 tok/s | 15.47 J/token (CPU, decode) | 3504 MHz | 45.3 C (max 54.0)
+2026-10-10 01:31:58 | INFO    | <<< [b1_pre] Unit 32/60 finished in 1.8 min
+2026-10-10 01:31:58 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:32:28 | INFO    | >>> [b1_pre] Unit 33/60: night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r06
+2026-10-10 01:32:30 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 6] model loaded in 2.41 s
+2026-10-10 01:33:23 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 6] cpu_arch: 3.85 tok/s | 35.89 J/token (CPU, decode) | 4805 MHz | 62.0 C (max 70.0)
+2026-10-10 01:33:50 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 6] transformer: 3.85 tok/s | 36.00 J/token (CPU, decode) | 4804 MHz | 62.7 C (max 67.0)
+2026-10-10 01:34:16 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 6] story: 3.85 tok/s | 36.18 J/token (CPU, decode) | 4803 MHz | 63.9 C (max 78.0)
+2026-10-10 01:34:17 | INFO    | <<< [b1_pre] Unit 33/60 finished in 1.8 min
+2026-10-10 01:34:17 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:34:47 | INFO    | >>> [b1_pre] Unit 34/60: night_02|night_b1_pre_turbo_off|1B-Q4_K_M|8|r06
+2026-10-10 01:34:48 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 6] model loaded in 1.06 s
+2026-10-10 01:34:53 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 6] cpu_arch: 36.00 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 47.0)
+2026-10-10 01:34:56 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 6] transformer: 35.94 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 47.2 C (max 49.0)
+2026-10-10 01:34:59 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 6] story: 35.95 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 47.0)
+2026-10-10 01:34:59 | INFO    | <<< [b1_pre] Unit 34/60 finished in 0.2 min
+2026-10-10 01:34:59 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:35:29 | INFO    | >>> [b1_pre] Unit 35/60: night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r06
+2026-10-10 01:35:33 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 6] model loaded in 3.75 s
+2026-10-10 01:36:04 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 6] cpu_arch: 6.50 tok/s | 22.32 J/token (CPU, decode) | 4804 MHz | 63.2 C (max 68.0)
+2026-10-10 01:36:20 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 6] transformer: 6.52 tok/s | 22.32 J/token (CPU, decode) | 4804 MHz | 64.6 C (max 80.0)
+2026-10-10 01:36:36 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 6] story: 6.52 tok/s | 22.33 J/token (CPU, decode) | 4803 MHz | 65.1 C (max 70.0)
+2026-10-10 01:36:36 | INFO    | <<< [b1_pre] Unit 35/60 finished in 1.1 min
+2026-10-10 01:36:36 | INFO    | >>> [b1_pre] Unit 36/60: night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r06
+2026-10-10 01:36:36 | INFO    | Cooling down: 66.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r06)
+2026-10-10 01:36:37 | INFO    | Cooled down to 47.0 C in 1 s
+2026-10-10 01:36:38 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 6] model loaded in 0.76 s
+2026-10-10 01:36:43 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 6] cpu_arch: 36.71 tok/s | 4.07 J/token (CPU, decode) | 4804 MHz | 65.5 C (max 66.0)
+2026-10-10 01:36:46 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 6] transformer: 36.67 tok/s | 4.08 J/token (CPU, decode) | 4804 MHz | 66.2 C (max 67.0)
+2026-10-10 01:36:49 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 6] story: 36.64 tok/s | 4.08 J/token (CPU, decode) | 4803 MHz | 66.0 C (max 66.0)
+2026-10-10 01:36:49 | INFO    | <<< [b1_pre] Unit 36/60 finished in 0.2 min
+2026-10-10 01:36:49 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:37:19 | INFO    | >>> [b1_pre] Unit 37/60: night_02|night_b1_pre_turbo_off|1B-Q4_K_M|8|r07
+2026-10-10 01:37:20 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 7] model loaded in 1.05 s
+2026-10-10 01:37:26 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 7] cpu_arch: 35.88 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 47.0)
+2026-10-10 01:37:29 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 7] transformer: 35.86 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 48.0)
+2026-10-10 01:37:32 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 7] story: 35.88 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 48.0)
+2026-10-10 01:37:32 | INFO    | <<< [b1_pre] Unit 37/60 finished in 0.2 min
+2026-10-10 01:37:32 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:38:02 | INFO    | >>> [b1_pre] Unit 38/60: night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r07
+2026-10-10 01:38:04 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 7] model loaded in 2.41 s
+2026-10-10 01:38:57 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 7] cpu_arch: 3.85 tok/s | 35.94 J/token (CPU, decode) | 4804 MHz | 62.1 C (max 64.0)
+2026-10-10 01:39:24 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 7] transformer: 3.85 tok/s | 36.18 J/token (CPU, decode) | 4803 MHz | 63.6 C (max 81.0)
+2026-10-10 01:39:50 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 7] story: 3.85 tok/s | 36.21 J/token (CPU, decode) | 4803 MHz | 64.0 C (max 77.0)
+2026-10-10 01:39:50 | INFO    | <<< [b1_pre] Unit 38/60 finished in 1.8 min
+2026-10-10 01:39:50 | INFO    | >>> [b1_pre] Unit 39/60: night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r07
+2026-10-10 01:39:50 | INFO    | Cooling down: 63.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r07)
+2026-10-10 01:39:51 | INFO    | Cooled down to 43.0 C in 1 s
+2026-10-10 01:39:52 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 7] model loaded in 0.76 s
+2026-10-10 01:39:58 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 7] cpu_arch: 36.62 tok/s | 4.10 J/token (CPU, decode) | 4804 MHz | 66.8 C (max 68.0)
+2026-10-10 01:40:01 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 7] transformer: 36.06 tok/s | 4.18 J/token (CPU, decode) | 4801 MHz | 68.0 C (max 71.0)
+2026-10-10 01:40:03 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 7] story: 36.38 tok/s | 4.14 J/token (CPU, decode) | 4803 MHz | 67.8 C (max 69.0)
+2026-10-10 01:40:03 | INFO    | <<< [b1_pre] Unit 39/60 finished in 0.2 min
+2026-10-10 01:40:03 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:40:33 | INFO    | >>> [b1_pre] Unit 40/60: night_02|night_b1_pre_turbo_off|8B-Q8_0|8|r07
+2026-10-10 01:40:36 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 7] model loaded in 3.01 s
+2026-10-10 01:41:30 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 7] cpu_arch: 3.84 tok/s | 15.50 J/token (CPU, decode) | 3504 MHz | 45.8 C (max 48.0)
+2026-10-10 01:41:56 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 7] transformer: 3.84 tok/s | 15.48 J/token (CPU, decode) | 3504 MHz | 45.6 C (max 49.0)
+2026-10-10 01:42:23 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 7] story: 3.83 tok/s | 15.57 J/token (CPU, decode) | 3504 MHz | 45.6 C (max 51.0)
+2026-10-10 01:42:24 | INFO    | <<< [b1_pre] Unit 40/60 finished in 1.8 min
+2026-10-10 01:42:24 | INFO    | >>> [b1_pre] Unit 41/60: night_02|night_b1_pre_turbo_off|8B-Q4_K_M|8|r07
+2026-10-10 01:42:29 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 7] model loaded in 5.08 s
+2026-10-10 01:43:00 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 7] cpu_arch: 6.43 tok/s | 9.70 J/token (CPU, decode) | 3504 MHz | 45.7 C (max 47.0)
+2026-10-10 01:43:16 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 7] transformer: 6.45 tok/s | 9.65 J/token (CPU, decode) | 3504 MHz | 45.9 C (max 47.0)
+2026-10-10 01:43:32 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 7] story: 6.45 tok/s | 9.64 J/token (CPU, decode) | 3504 MHz | 45.9 C (max 48.0)
+2026-10-10 01:43:33 | INFO    | <<< [b1_pre] Unit 41/60 finished in 1.2 min
+2026-10-10 01:43:33 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:44:03 | INFO    | >>> [b1_pre] Unit 42/60: night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r07
+2026-10-10 01:44:06 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 7] model loaded in 3.72 s
+2026-10-10 01:44:38 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 7] cpu_arch: 6.53 tok/s | 22.14 J/token (CPU, decode) | 4804 MHz | 62.8 C (max 70.0)
+2026-10-10 01:44:53 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 7] transformer: 6.53 tok/s | 22.21 J/token (CPU, decode) | 4804 MHz | 63.4 C (max 69.0)
+2026-10-10 01:45:09 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 7] story: 6.49 tok/s | 22.43 J/token (CPU, decode) | 4803 MHz | 64.4 C (max 68.0)
+2026-10-10 01:45:09 | INFO    | <<< [b1_pre] Unit 42/60 finished in 1.1 min
+2026-10-10 01:45:09 | INFO    | >>> [b1_pre] Unit 43/60: night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r08
+2026-10-10 01:45:09 | INFO    | Cooling down: 65.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r08)
+2026-10-10 01:45:10 | INFO    | Cooled down to 44.0 C in 1 s
+2026-10-10 01:45:11 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 8] model loaded in 0.76 s
+2026-10-10 01:45:17 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 8] cpu_arch: 36.69 tok/s | 4.06 J/token (CPU, decode) | 4804 MHz | 65.0 C (max 65.0)
+2026-10-10 01:45:19 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 8] transformer: 36.67 tok/s | 4.07 J/token (CPU, decode) | 4804 MHz | 65.4 C (max 66.0)
+2026-10-10 01:45:22 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 8] story: 36.63 tok/s | 4.07 J/token (CPU, decode) | 4804 MHz | 65.5 C (max 66.0)
+2026-10-10 01:45:22 | INFO    | <<< [b1_pre] Unit 43/60 finished in 0.2 min
+2026-10-10 01:45:22 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:45:52 | INFO    | >>> [b1_pre] Unit 44/60: night_02|night_b1_pre_turbo_off|8B-Q4_K_M|8|r08
+2026-10-10 01:45:57 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 8] model loaded in 5.01 s
+2026-10-10 01:46:29 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 8] cpu_arch: 6.45 tok/s | 9.65 J/token (CPU, decode) | 3504 MHz | 46.4 C (max 48.0)
+2026-10-10 01:46:45 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 8] transformer: 6.46 tok/s | 9.65 J/token (CPU, decode) | 3504 MHz | 46.4 C (max 47.0)
+2026-10-10 01:47:01 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 8] story: 6.43 tok/s | 9.70 J/token (CPU, decode) | 3504 MHz | 46.2 C (max 48.0)
+2026-10-10 01:47:01 | INFO    | <<< [b1_pre] Unit 44/60 finished in 1.1 min
+2026-10-10 01:47:01 | INFO    | >>> [b1_pre] Unit 45/60: night_02|night_b1_pre_turbo_off|1B-Q4_K_M|8|r08
+2026-10-10 01:47:02 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 8] model loaded in 1.05 s
+2026-10-10 01:47:08 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 8] cpu_arch: 35.96 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.8 C (max 46.0)
+2026-10-10 01:47:11 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 8] transformer: 36.01 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 46.0 C (max 46.0)
+2026-10-10 01:47:14 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 8] story: 35.91 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 45.8 C (max 47.0)
+2026-10-10 01:47:14 | INFO    | <<< [b1_pre] Unit 45/60 finished in 0.2 min
+2026-10-10 01:47:14 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:47:44 | INFO    | >>> [b1_pre] Unit 46/60: night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r08
+2026-10-10 01:47:48 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 8] model loaded in 3.74 s
+2026-10-10 01:48:19 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 8] cpu_arch: 6.52 tok/s | 22.13 J/token (CPU, decode) | 4804 MHz | 62.9 C (max 71.0)
+2026-10-10 01:48:35 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 8] transformer: 6.52 tok/s | 22.20 J/token (CPU, decode) | 4804 MHz | 63.5 C (max 71.0)
+2026-10-10 01:48:50 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 8] story: 6.52 tok/s | 22.29 J/token (CPU, decode) | 4803 MHz | 64.3 C (max 68.0)
+2026-10-10 01:48:51 | INFO    | <<< [b1_pre] Unit 46/60 finished in 1.1 min
+2026-10-10 01:48:51 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:49:21 | INFO    | >>> [b1_pre] Unit 47/60: night_02|night_b1_pre_turbo_off|8B-Q8_0|8|r08
+2026-10-10 01:49:24 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 8] model loaded in 3.03 s
+2026-10-10 01:50:17 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 8] cpu_arch: 3.83 tok/s | 15.52 J/token (CPU, decode) | 3504 MHz | 45.3 C (max 48.0)
+2026-10-10 01:50:44 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 8] transformer: 3.84 tok/s | 15.46 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 48.0)
+2026-10-10 01:51:10 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 8] story: 3.83 tok/s | 15.52 J/token (CPU, decode) | 3504 MHz | 45.2 C (max 51.0)
+2026-10-10 01:51:11 | INFO    | <<< [b1_pre] Unit 47/60 finished in 1.8 min
+2026-10-10 01:51:11 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:51:41 | INFO    | >>> [b1_pre] Unit 48/60: night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r08
+2026-10-10 01:51:43 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 8] model loaded in 2.40 s
+2026-10-10 01:52:36 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 8] cpu_arch: 3.85 tok/s | 35.85 J/token (CPU, decode) | 4805 MHz | 62.0 C (max 71.0)
+2026-10-10 01:53:03 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 8] transformer: 3.84 tok/s | 36.09 J/token (CPU, decode) | 4804 MHz | 63.1 C (max 85.0)
+2026-10-10 01:53:29 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 8] story: 3.85 tok/s | 36.00 J/token (CPU, decode) | 4803 MHz | 63.4 C (max 69.0)
+2026-10-10 01:53:30 | INFO    | <<< [b1_pre] Unit 48/60 finished in 1.8 min
+2026-10-10 01:53:30 | INFO    | >>> [b1_pre] Unit 49/60: night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r09
+2026-10-10 01:53:30 | INFO    | Cooling down: 63.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r09)
+2026-10-10 01:53:31 | INFO    | Cooled down to 44.0 C in 1 s
+2026-10-10 01:53:31 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 9] model loaded in 0.76 s
+2026-10-10 01:53:37 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 9] cpu_arch: 36.74 tok/s | 4.09 J/token (CPU, decode) | 4804 MHz | 66.2 C (max 67.0)
+2026-10-10 01:53:40 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 9] transformer: 36.64 tok/s | 4.08 J/token (CPU, decode) | 4804 MHz | 67.0 C (max 68.0)
+2026-10-10 01:53:43 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 9] story: 36.67 tok/s | 4.08 J/token (CPU, decode) | 4803 MHz | 66.6 C (max 67.0)
+2026-10-10 01:53:43 | INFO    | <<< [b1_pre] Unit 49/60 finished in 0.2 min
+2026-10-10 01:53:43 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 01:54:13 | INFO    | >>> [b1_pre] Unit 50/60: night_02|night_b1_pre_turbo_off|8B-Q4_K_M|8|r09
+2026-10-10 01:54:18 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 9] model loaded in 5.03 s
+2026-10-10 01:54:49 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 9] cpu_arch: 6.46 tok/s | 9.66 J/token (CPU, decode) | 3504 MHz | 46.6 C (max 50.0)
+2026-10-10 01:55:05 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 9] transformer: 6.43 tok/s | 9.71 J/token (CPU, decode) | 3504 MHz | 46.5 C (max 50.0)
+2026-10-10 01:55:21 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 9] story: 6.45 tok/s | 9.67 J/token (CPU, decode) | 3504 MHz | 46.3 C (max 49.0)
+2026-10-10 01:55:22 | INFO    | <<< [b1_pre] Unit 50/60 finished in 1.1 min
+2026-10-10 01:55:22 | INFO    | >>> [b1_pre] Unit 51/60: night_02|night_b1_pre_turbo_off|1B-Q4_K_M|8|r09
+2026-10-10 01:55:23 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 9] model loaded in 1.03 s
+2026-10-10 01:55:28 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 9] cpu_arch: 35.98 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 46.5 C (max 48.0)
+2026-10-10 01:55:31 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 9] transformer: 35.96 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 46.6 C (max 47.0)
+2026-10-10 01:55:34 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 9] story: 35.93 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 46.8 C (max 47.0)
+2026-10-10 01:55:34 | INFO    | <<< [b1_pre] Unit 51/60 finished in 0.2 min
+2026-10-10 01:55:34 | INFO    | >>> [b1_pre] Unit 52/60: night_02|night_b1_pre_turbo_off|8B-Q8_0|8|r09
+2026-10-10 01:55:37 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 9] model loaded in 3.04 s
+2026-10-10 01:56:31 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 9] cpu_arch: 3.83 tok/s | 15.51 J/token (CPU, decode) | 3504 MHz | 45.3 C (max 48.0)
+2026-10-10 01:56:57 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 9] transformer: 3.83 tok/s | 15.47 J/token (CPU, decode) | 3504 MHz | 45.1 C (max 48.0)
+2026-10-10 01:57:24 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 9] story: 3.83 tok/s | 15.55 J/token (CPU, decode) | 3504 MHz | 45.3 C (max 54.0)
+2026-10-10 01:57:24 | INFO    | <<< [b1_pre] Unit 52/60 finished in 1.8 min
+2026-10-10 01:57:25 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 01:57:55 | INFO    | >>> [b1_pre] Unit 53/60: night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r09
+2026-10-10 01:57:57 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 9] model loaded in 2.40 s
+2026-10-10 01:58:50 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 9] cpu_arch: 3.86 tok/s | 35.81 J/token (CPU, decode) | 4805 MHz | 61.9 C (max 68.0)
+2026-10-10 01:59:16 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 9] transformer: 3.85 tok/s | 36.05 J/token (CPU, decode) | 4804 MHz | 63.2 C (max 83.0)
+2026-10-10 01:59:43 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 9] story: 3.86 tok/s | 36.08 J/token (CPU, decode) | 4804 MHz | 63.4 C (max 69.0)
+2026-10-10 01:59:43 | INFO    | <<< [b1_pre] Unit 53/60 finished in 1.8 min
+2026-10-10 01:59:43 | INFO    | >>> [b1_pre] Unit 54/60: night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r09
+2026-10-10 01:59:43 | INFO    | Cooling down: 68.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r09)
+2026-10-10 01:59:44 | INFO    | Cooled down to 45.0 C in 1 s
+2026-10-10 01:59:48 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 9] model loaded in 3.71 s
+2026-10-10 02:00:19 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 9] cpu_arch: 6.53 tok/s | 22.43 J/token (CPU, decode) | 4803 MHz | 65.9 C (max 75.0)
+2026-10-10 02:00:35 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 9] transformer: 6.53 tok/s | 22.47 J/token (CPU, decode) | 4803 MHz | 66.3 C (max 69.0)
+2026-10-10 02:00:50 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 9] story: 6.53 tok/s | 22.49 J/token (CPU, decode) | 4802 MHz | 66.7 C (max 69.0)
+2026-10-10 02:00:51 | INFO    | <<< [b1_pre] Unit 54/60 finished in 1.1 min
+2026-10-10 02:00:51 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 02:01:21 | INFO    | >>> [b1_pre] Unit 55/60: night_02|night_b1_pre_turbo_off|8B-Q4_K_M|8|r10
+2026-10-10 02:01:26 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 10] model loaded in 5.04 s
+2026-10-10 02:01:58 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 10] cpu_arch: 6.46 tok/s | 9.68 J/token (CPU, decode) | 3504 MHz | 46.8 C (max 48.0)
+2026-10-10 02:02:13 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 10] transformer: 6.41 tok/s | 9.80 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 51.0)
+2026-10-10 02:02:29 | INFO    | [night_b1_pre_turbo_off | 8B-Q4_K_M | 8 thr | round 10] story: 6.45 tok/s | 9.68 J/token (CPU, decode) | 3504 MHz | 47.0 C (max 51.0)
+2026-10-10 02:02:30 | INFO    | <<< [b1_pre] Unit 55/60 finished in 1.1 min
+2026-10-10 02:02:30 | INFO    | >>> [b1_pre] Unit 56/60: night_02|night_b1_pre_turbo_off|1B-Q4_K_M|8|r10
+2026-10-10 02:02:31 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 10] model loaded in 1.03 s
+2026-10-10 02:02:37 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 10] cpu_arch: 35.95 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 47.2 C (max 48.0)
+2026-10-10 02:02:39 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 10] transformer: 35.99 tok/s | 1.76 J/token (CPU, decode) | 3504 MHz | 46.8 C (max 48.0)
+2026-10-10 02:02:42 | INFO    | [night_b1_pre_turbo_off | 1B-Q4_K_M | 8 thr | round 10] story: 35.92 tok/s | 1.75 J/token (CPU, decode) | 3504 MHz | 46.5 C (max 47.0)
+2026-10-10 02:02:42 | INFO    | <<< [b1_pre] Unit 56/60 finished in 0.2 min
+2026-10-10 02:02:42 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 02:03:12 | INFO    | >>> [b1_pre] Unit 57/60: night_02|night_b1_pre_turbo_on|8B-Q8_0|8|r10
+2026-10-10 02:03:15 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 10] model loaded in 2.39 s
+2026-10-10 02:04:08 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 10] cpu_arch: 3.85 tok/s | 36.00 J/token (CPU, decode) | 4804 MHz | 62.3 C (max 69.0)
+2026-10-10 02:04:34 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 10] transformer: 3.85 tok/s | 35.98 J/token (CPU, decode) | 4804 MHz | 63.3 C (max 85.0)
+2026-10-10 02:05:01 | INFO    | [night_b1_pre_turbo_on | 8B-Q8_0 | 8 thr | round 10] story: 3.85 tok/s | 36.19 J/token (CPU, decode) | 4804 MHz | 63.5 C (max 68.0)
+2026-10-10 02:05:01 | INFO    | <<< [b1_pre] Unit 57/60 finished in 1.8 min
+2026-10-10 02:05:01 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 02:05:31 | INFO    | >>> [b1_pre] Unit 58/60: night_02|night_b1_pre_turbo_off|8B-Q8_0|8|r10
+2026-10-10 02:05:34 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 10] model loaded in 3.02 s
+2026-10-10 02:06:28 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 10] cpu_arch: 3.83 tok/s | 15.52 J/token (CPU, decode) | 3504 MHz | 45.8 C (max 49.0)
+2026-10-10 02:06:54 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 10] transformer: 3.83 tok/s | 15.49 J/token (CPU, decode) | 3504 MHz | 45.5 C (max 50.0)
+2026-10-10 02:07:21 | INFO    | [night_b1_pre_turbo_off | 8B-Q8_0 | 8 thr | round 10] story: 3.83 tok/s | 15.53 J/token (CPU, decode) | 3504 MHz | 45.6 C (max 53.0)
+2026-10-10 02:07:21 | INFO    | <<< [b1_pre] Unit 58/60 finished in 1.8 min
+2026-10-10 02:07:21 | INFO    | Turbo: maximum processor state set to 100 % (Turbo Boost ON)
+2026-10-10 02:07:51 | INFO    | >>> [b1_pre] Unit 59/60: night_02|night_b1_pre_turbo_on|1B-Q4_K_M|8|r10
+2026-10-10 02:07:52 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 10] model loaded in 0.77 s
+2026-10-10 02:07:58 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 10] cpu_arch: 36.69 tok/s | 4.02 J/token (CPU, decode) | 4805 MHz | 62.0 C (max 62.0)
+2026-10-10 02:08:01 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 10] transformer: 36.06 tok/s | 4.11 J/token (CPU, decode) | 4805 MHz | 63.2 C (max 65.0)
+2026-10-10 02:08:03 | INFO    | [night_b1_pre_turbo_on | 1B-Q4_K_M | 8 thr | round 10] story: 36.43 tok/s | 4.06 J/token (CPU, decode) | 4804 MHz | 63.5 C (max 66.0)
+2026-10-10 02:08:03 | INFO    | <<< [b1_pre] Unit 59/60 finished in 0.2 min
+2026-10-10 02:08:03 | INFO    | >>> [b1_pre] Unit 60/60: night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r10
+2026-10-10 02:08:03 | INFO    | Cooling down: 63.0 C -> target 55 C (max 300 s) (night_02|night_b1_pre_turbo_on|8B-Q4_K_M|8|r10)
+2026-10-10 02:08:04 | INFO    | Cooled down to 40.0 C in 1 s
+2026-10-10 02:08:08 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 10] model loaded in 3.71 s
+2026-10-10 02:08:40 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 10] cpu_arch: 6.52 tok/s | 22.19 J/token (CPU, decode) | 4804 MHz | 63.2 C (max 68.0)
+2026-10-10 02:08:55 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 10] transformer: 6.52 tok/s | 22.25 J/token (CPU, decode) | 4804 MHz | 63.7 C (max 66.0)
+2026-10-10 02:09:11 | INFO    | [night_b1_pre_turbo_on | 8B-Q4_K_M | 8 thr | round 10] story: 6.50 tok/s | 22.48 J/token (CPU, decode) | 4803 MHz | 65.5 C (max 76.0)
+2026-10-10 02:09:11 | INFO    | <<< [b1_pre] Unit 60/60 finished in 1.1 min
+2026-10-10 02:09:11 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 02:09:11 | INFO    | Summary of block b1_pre written (24 rows)
+2026-10-10 02:09:11 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 02:09:11 | INFO    | === Block a2_rest: 10 units pending (~858 min)
+2026-10-10 02:09:11 | INFO    | >>> [a2_rest] Unit 1/10: night_02|night_a2_rest|8B-Q8_0|8
+2026-10-10 02:09:11 | INFO    | Cooling down: 66.0 C -> target 55 C (max 300 s) (night_02|night_a2_rest|8B-Q8_0|8)
+2026-10-10 02:09:12 | INFO    | Cooled down to 44.0 C in 1 s
+2026-10-10 02:09:12 | INFO    | [cognitive | 8B-Q8_0] loading model...
+2026-10-10 02:09:16 | INFO    | [cognitive | 8B-Q8_0] 289076 tokens in the test text, 564 chunks; evaluating chunks 88-563 (476)
+2026-10-10 02:12:30 | INFO    | [cognitive | 8B-Q8_0] chunk 10/476 | running PPL 9.0549 | 170 s
+2026-10-10 02:15:20 | INFO    | [cognitive | 8B-Q8_0] chunk 20/476 | running PPL 10.0859 | 340 s
+2026-10-10 02:18:09 | INFO    | [cognitive | 8B-Q8_0] chunk 30/476 | running PPL 9.7448 | 508 s
+2026-10-10 02:20:58 | INFO    | [cognitive | 8B-Q8_0] chunk 40/476 | running PPL 8.4948 | 677 s
+2026-10-10 02:23:48 | INFO    | [cognitive | 8B-Q8_0] chunk 50/476 | running PPL 8.5815 | 847 s
+2026-10-10 02:26:36 | INFO    | [cognitive | 8B-Q8_0] chunk 60/476 | running PPL 7.7618 | 1016 s
+2026-10-10 02:29:25 | INFO    | [cognitive | 8B-Q8_0] chunk 70/476 | running PPL 7.2127 | 1184 s
+2026-10-10 02:32:15 | INFO    | [cognitive | 8B-Q8_0] chunk 80/476 | running PPL 7.6102 | 1354 s
+2026-10-10 02:35:04 | INFO    | [cognitive | 8B-Q8_0] chunk 90/476 | running PPL 8.0047 | 1524 s
+2026-10-10 02:37:55 | INFO    | [cognitive | 8B-Q8_0] chunk 100/476 | running PPL 8.2751 | 1694 s
+2026-10-10 02:40:43 | INFO    | [cognitive | 8B-Q8_0] chunk 110/476 | running PPL 8.3045 | 1863 s
+2026-10-10 02:43:32 | INFO    | [cognitive | 8B-Q8_0] chunk 120/476 | running PPL 8.0692 | 2032 s
+2026-10-10 02:46:22 | INFO    | [cognitive | 8B-Q8_0] chunk 130/476 | running PPL 7.9221 | 2201 s
+2026-10-10 02:49:10 | INFO    | [cognitive | 8B-Q8_0] chunk 140/476 | running PPL 7.7586 | 2369 s
+2026-10-10 02:52:00 | INFO    | [cognitive | 8B-Q8_0] chunk 150/476 | running PPL 7.8511 | 2539 s
+2026-10-10 02:54:50 | INFO    | [cognitive | 8B-Q8_0] chunk 160/476 | running PPL 8.0236 | 2709 s
+2026-10-10 02:57:50 | INFO    | [cognitive | 8B-Q8_0] chunk 170/476 | running PPL 7.8929 | 2889 s
+2026-10-10 03:00:51 | INFO    | [cognitive | 8B-Q8_0] chunk 180/476 | running PPL 7.7463 | 3070 s
+2026-10-10 03:03:41 | INFO    | [cognitive | 8B-Q8_0] chunk 190/476 | running PPL 7.6294 | 3240 s
+2026-10-10 03:06:30 | INFO    | [cognitive | 8B-Q8_0] chunk 200/476 | running PPL 7.7538 | 3409 s
+2026-10-10 03:09:36 | INFO    | [cognitive | 8B-Q8_0] chunk 210/476 | running PPL 7.7613 | 3596 s
+2026-10-10 03:12:26 | INFO    | [cognitive | 8B-Q8_0] chunk 220/476 | running PPL 7.7879 | 3766 s
+2026-10-10 03:15:15 | INFO    | [cognitive | 8B-Q8_0] chunk 230/476 | running PPL 7.8879 | 3935 s
+2026-10-10 03:18:04 | INFO    | [cognitive | 8B-Q8_0] chunk 240/476 | running PPL 7.8554 | 4103 s
+2026-10-10 03:20:53 | INFO    | [cognitive | 8B-Q8_0] chunk 250/476 | running PPL 7.7812 | 4272 s
+2026-10-10 03:23:42 | INFO    | [cognitive | 8B-Q8_0] chunk 260/476 | running PPL 7.8527 | 4441 s
+2026-10-10 03:26:31 | INFO    | [cognitive | 8B-Q8_0] chunk 270/476 | running PPL 8.0270 | 4610 s
+2026-10-10 03:29:20 | INFO    | [cognitive | 8B-Q8_0] chunk 280/476 | running PPL 8.1631 | 4779 s
+2026-10-10 03:32:10 | INFO    | [cognitive | 8B-Q8_0] chunk 290/476 | running PPL 8.2672 | 4949 s
+2026-10-10 03:34:59 | INFO    | [cognitive | 8B-Q8_0] chunk 300/476 | running PPL 8.2964 | 5118 s
+2026-10-10 03:37:48 | INFO    | [cognitive | 8B-Q8_0] chunk 310/476 | running PPL 8.2808 | 5287 s
+2026-10-10 03:40:37 | INFO    | [cognitive | 8B-Q8_0] chunk 320/476 | running PPL 8.2836 | 5456 s
+2026-10-10 03:43:26 | INFO    | [cognitive | 8B-Q8_0] chunk 330/476 | running PPL 8.2950 | 5626 s
+2026-10-10 03:46:15 | INFO    | [cognitive | 8B-Q8_0] chunk 340/476 | running PPL 8.2688 | 5795 s
+2026-10-10 03:49:04 | INFO    | [cognitive | 8B-Q8_0] chunk 350/476 | running PPL 8.2130 | 5963 s
+2026-10-10 03:51:55 | INFO    | [cognitive | 8B-Q8_0] chunk 360/476 | running PPL 8.2485 | 6135 s
+2026-10-10 03:54:46 | INFO    | [cognitive | 8B-Q8_0] chunk 370/476 | running PPL 8.2462 | 6305 s
+2026-10-10 03:57:34 | INFO    | [cognitive | 8B-Q8_0] chunk 380/476 | running PPL 8.2884 | 6474 s
+2026-10-10 04:00:23 | INFO    | [cognitive | 8B-Q8_0] chunk 390/476 | running PPL 8.2466 | 6643 s
+2026-10-10 04:03:13 | INFO    | [cognitive | 8B-Q8_0] chunk 400/476 | running PPL 8.2605 | 6813 s
+2026-10-10 04:06:03 | INFO    | [cognitive | 8B-Q8_0] chunk 410/476 | running PPL 8.2722 | 6982 s
+2026-10-10 04:08:52 | INFO    | [cognitive | 8B-Q8_0] chunk 420/476 | running PPL 8.2680 | 7151 s
+2026-10-10 04:11:40 | INFO    | [cognitive | 8B-Q8_0] chunk 430/476 | running PPL 8.2661 | 7320 s
+2026-10-10 04:14:29 | INFO    | [cognitive | 8B-Q8_0] chunk 440/476 | running PPL 8.2880 | 7489 s
+2026-10-10 04:17:18 | INFO    | [cognitive | 8B-Q8_0] chunk 450/476 | running PPL 8.2262 | 7657 s
+2026-10-10 04:20:06 | INFO    | [cognitive | 8B-Q8_0] chunk 460/476 | running PPL 8.2740 | 7826 s
+2026-10-10 04:22:56 | INFO    | [cognitive | 8B-Q8_0] chunk 470/476 | running PPL 8.2660 | 7995 s
+2026-10-10 04:24:37 | INFO    | [cognitive | 8B-Q8_0] chunk 476/476 | running PPL 8.2947 | 8097 s
+2026-10-10 04:24:38 | INFO    | [cognitive | 8B-Q8_0] MERGE CHECK: text hash/bytes after chunk 90 MATCH; overlap chunks 88-89 bit-identical: True (max |dNLL| 0)
+2026-10-10 04:24:38 | INFO    | [cognitive | 8B-Q8_0] PART chunks 88-563: PPL 8.2947 [7.9949, 8.6057] | 0.6805 bits/byte | top-1 55.18 % | dPPL vs 8B-Q8_0: +0.00 % | 8097 s | 476 chunks
+2026-10-10 04:24:38 | INFO    | [cognitive | 8B-Q8_0] FULL SET (90 earlier + 474 new chunks): PPL 8.3673 [8.0908, 8.6533] | 0.6861 bits/byte | top-1 54.95 % | dPPL vs 8B-Q8_0: +0.00 % | 9744 s | 564 chunks
+2026-10-10 04:24:38 | INFO    | <<< [a2_rest] Unit 1/10 finished in 135.4 min
+2026-10-10 04:24:38 | INFO    | >>> [a2_rest] Unit 2/10: night_02|night_a2_rest|8B-Q4_K_M|8
+2026-10-10 04:24:38 | INFO    | [cognitive | 8B-Q4_K_M] loading model...
+2026-10-10 04:24:43 | INFO    | [cognitive | 8B-Q4_K_M] 289076 tokens in the test text, 564 chunks; evaluating chunks 88-563 (476)
+2026-10-10 04:26:56 | INFO    | [cognitive | 8B-Q4_K_M] chunk 10/476 | running PPL 9.1323 | 111 s
+2026-10-10 04:28:46 | INFO    | [cognitive | 8B-Q4_K_M] chunk 20/476 | running PPL 10.1922 | 221 s
+2026-10-10 04:30:37 | INFO    | [cognitive | 8B-Q4_K_M] chunk 30/476 | running PPL 9.8096 | 333 s
+2026-10-10 04:32:29 | INFO    | [cognitive | 8B-Q4_K_M] chunk 40/476 | running PPL 8.5847 | 444 s
+2026-10-10 04:34:21 | INFO    | [cognitive | 8B-Q4_K_M] chunk 50/476 | running PPL 8.6576 | 556 s
+2026-10-10 04:36:12 | INFO    | [cognitive | 8B-Q4_K_M] chunk 60/476 | running PPL 7.8454 | 667 s
+2026-10-10 04:38:03 | INFO    | [cognitive | 8B-Q4_K_M] chunk 70/476 | running PPL 7.3006 | 778 s
+2026-10-10 04:39:54 | INFO    | [cognitive | 8B-Q4_K_M] chunk 80/476 | running PPL 7.7056 | 889 s
+2026-10-10 04:41:45 | INFO    | [cognitive | 8B-Q4_K_M] chunk 90/476 | running PPL 8.1007 | 1000 s
+2026-10-10 04:43:37 | INFO    | [cognitive | 8B-Q4_K_M] chunk 100/476 | running PPL 8.3654 | 1112 s
+2026-10-10 04:45:28 | INFO    | [cognitive | 8B-Q4_K_M] chunk 110/476 | running PPL 8.3989 | 1223 s
+2026-10-10 04:47:19 | INFO    | [cognitive | 8B-Q4_K_M] chunk 120/476 | running PPL 8.1695 | 1334 s
+2026-10-10 04:49:10 | INFO    | [cognitive | 8B-Q4_K_M] chunk 130/476 | running PPL 8.0152 | 1445 s
+2026-10-10 04:51:02 | INFO    | [cognitive | 8B-Q4_K_M] chunk 140/476 | running PPL 7.8533 | 1557 s
+2026-10-10 04:52:54 | INFO    | [cognitive | 8B-Q4_K_M] chunk 150/476 | running PPL 7.9407 | 1669 s
+2026-10-10 04:54:47 | INFO    | [cognitive | 8B-Q4_K_M] chunk 160/476 | running PPL 8.1135 | 1782 s
+2026-10-10 04:56:40 | INFO    | [cognitive | 8B-Q4_K_M] chunk 170/476 | running PPL 7.9864 | 1895 s
+2026-10-10 04:58:37 | INFO    | [cognitive | 8B-Q4_K_M] chunk 180/476 | running PPL 7.8422 | 2012 s
+2026-10-10 05:00:36 | INFO    | [cognitive | 8B-Q4_K_M] chunk 190/476 | running PPL 7.7305 | 2131 s
+2026-10-10 05:02:30 | INFO    | [cognitive | 8B-Q4_K_M] chunk 200/476 | running PPL 7.8562 | 2245 s
+2026-10-10 05:04:21 | INFO    | [cognitive | 8B-Q4_K_M] chunk 210/476 | running PPL 7.8590 | 2356 s
+2026-10-10 05:06:12 | INFO    | [cognitive | 8B-Q4_K_M] chunk 220/476 | running PPL 7.8804 | 2467 s
+2026-10-10 05:08:03 | INFO    | [cognitive | 8B-Q4_K_M] chunk 230/476 | running PPL 7.9784 | 2578 s
+2026-10-10 05:09:54 | INFO    | [cognitive | 8B-Q4_K_M] chunk 240/476 | running PPL 7.9433 | 2689 s
+2026-10-10 05:11:45 | INFO    | [cognitive | 8B-Q4_K_M] chunk 250/476 | running PPL 7.8696 | 2800 s
+2026-10-10 05:13:36 | INFO    | [cognitive | 8B-Q4_K_M] chunk 260/476 | running PPL 7.9399 | 2911 s
+2026-10-10 05:15:28 | INFO    | [cognitive | 8B-Q4_K_M] chunk 270/476 | running PPL 8.1158 | 3023 s
+2026-10-10 05:17:19 | INFO    | [cognitive | 8B-Q4_K_M] chunk 280/476 | running PPL 8.2553 | 3134 s
+2026-10-10 05:19:10 | INFO    | [cognitive | 8B-Q4_K_M] chunk 290/476 | running PPL 8.3587 | 3245 s
+2026-10-10 05:21:01 | INFO    | [cognitive | 8B-Q4_K_M] chunk 300/476 | running PPL 8.3857 | 3357 s
+2026-10-10 05:22:54 | INFO    | [cognitive | 8B-Q4_K_M] chunk 310/476 | running PPL 8.3735 | 3469 s
+2026-10-10 05:24:45 | INFO    | [cognitive | 8B-Q4_K_M] chunk 320/476 | running PPL 8.3790 | 3580 s
+2026-10-10 05:26:36 | INFO    | [cognitive | 8B-Q4_K_M] chunk 330/476 | running PPL 8.3946 | 3691 s
+2026-10-10 05:28:26 | INFO    | [cognitive | 8B-Q4_K_M] chunk 340/476 | running PPL 8.3705 | 3802 s
+2026-10-10 05:30:17 | INFO    | [cognitive | 8B-Q4_K_M] chunk 350/476 | running PPL 8.3154 | 3912 s
+2026-10-10 05:32:09 | INFO    | [cognitive | 8B-Q4_K_M] chunk 360/476 | running PPL 8.3527 | 4024 s
+2026-10-10 05:34:01 | INFO    | [cognitive | 8B-Q4_K_M] chunk 370/476 | running PPL 8.3493 | 4136 s
+2026-10-10 05:35:51 | INFO    | [cognitive | 8B-Q4_K_M] chunk 380/476 | running PPL 8.3948 | 4247 s
+2026-10-10 05:37:44 | INFO    | [cognitive | 8B-Q4_K_M] chunk 390/476 | running PPL 8.3518 | 4359 s
+2026-10-10 05:39:35 | INFO    | [cognitive | 8B-Q4_K_M] chunk 400/476 | running PPL 8.3663 | 4470 s
+2026-10-10 05:41:26 | INFO    | [cognitive | 8B-Q4_K_M] chunk 410/476 | running PPL 8.3793 | 4581 s
+2026-10-10 05:43:17 | INFO    | [cognitive | 8B-Q4_K_M] chunk 420/476 | running PPL 8.3756 | 4692 s
+2026-10-10 05:45:08 | INFO    | [cognitive | 8B-Q4_K_M] chunk 430/476 | running PPL 8.3740 | 4804 s
+2026-10-10 05:47:00 | INFO    | [cognitive | 8B-Q4_K_M] chunk 440/476 | running PPL 8.3956 | 4915 s
+2026-10-10 05:48:51 | INFO    | [cognitive | 8B-Q4_K_M] chunk 450/476 | running PPL 8.3334 | 5026 s
+2026-10-10 05:50:42 | INFO    | [cognitive | 8B-Q4_K_M] chunk 460/476 | running PPL 8.3820 | 5138 s
+2026-10-10 05:52:35 | INFO    | [cognitive | 8B-Q4_K_M] chunk 470/476 | running PPL 8.3729 | 5250 s
+2026-10-10 05:53:42 | INFO    | [cognitive | 8B-Q4_K_M] chunk 476/476 | running PPL 8.4023 | 5317 s
+2026-10-10 05:53:42 | INFO    | [cognitive | 8B-Q4_K_M] MERGE CHECK: text hash/bytes after chunk 90 MATCH; overlap chunks 88-89 bit-identical: True (max |dNLL| 0)
+2026-10-10 05:53:42 | INFO    | [cognitive | 8B-Q4_K_M] PART chunks 88-563: PPL 8.4023 [8.1021, 8.7137] | 0.6846 bits/byte | top-1 54.77 % | dPPL vs 8B-Q8_0: +1.30 % | 5317 s | 476 chunks
+2026-10-10 05:53:42 | INFO    | [cognitive | 8B-Q4_K_M] FULL SET (90 earlier + 474 new chunks): PPL 8.4780 [8.2014, 8.7639] | 0.6903 bits/byte | top-1 54.56 % | dPPL vs 8B-Q8_0: +1.32 % | 6381 s | 564 chunks
+2026-10-10 05:53:42 | INFO    | <<< [a2_rest] Unit 2/10 finished in 89.1 min
+2026-10-10 05:53:42 | INFO    | >>> [a2_rest] Unit 3/10: night_02|night_a2_rest|8B-Q5_K_M|8
+2026-10-10 05:53:42 | INFO    | [cognitive | 8B-Q5_K_M] loading model...
+2026-10-10 05:53:47 | INFO    | [cognitive | 8B-Q5_K_M] 289076 tokens in the test text, 564 chunks; evaluating chunks 88-563 (476)
+2026-10-10 05:56:18 | INFO    | [cognitive | 8B-Q5_K_M] chunk 10/476 | running PPL 9.0808 | 127 s
+2026-10-10 05:58:24 | INFO    | [cognitive | 8B-Q5_K_M] chunk 20/476 | running PPL 10.1014 | 253 s
+2026-10-10 06:00:30 | INFO    | [cognitive | 8B-Q5_K_M] chunk 30/476 | running PPL 9.7677 | 379 s
+2026-10-10 06:02:36 | INFO    | [cognitive | 8B-Q5_K_M] chunk 40/476 | running PPL 8.5272 | 505 s
+2026-10-10 06:04:43 | INFO    | [cognitive | 8B-Q5_K_M] chunk 50/476 | running PPL 8.6110 | 632 s
+2026-10-10 06:06:49 | INFO    | [cognitive | 8B-Q5_K_M] chunk 60/476 | running PPL 7.7917 | 758 s
+2026-10-10 06:08:55 | INFO    | [cognitive | 8B-Q5_K_M] chunk 70/476 | running PPL 7.2468 | 884 s
+2026-10-10 06:11:01 | INFO    | [cognitive | 8B-Q5_K_M] chunk 80/476 | running PPL 7.6447 | 1010 s
+2026-10-10 06:13:08 | INFO    | [cognitive | 8B-Q5_K_M] chunk 90/476 | running PPL 8.0418 | 1137 s
+2026-10-10 06:15:14 | INFO    | [cognitive | 8B-Q5_K_M] chunk 100/476 | running PPL 8.3148 | 1263 s
+2026-10-10 06:17:20 | INFO    | [cognitive | 8B-Q5_K_M] chunk 110/476 | running PPL 8.3423 | 1389 s
+2026-10-10 06:19:26 | INFO    | [cognitive | 8B-Q5_K_M] chunk 120/476 | running PPL 8.1083 | 1515 s
+2026-10-10 06:21:34 | INFO    | [cognitive | 8B-Q5_K_M] chunk 130/476 | running PPL 7.9580 | 1643 s
+2026-10-10 06:23:40 | INFO    | [cognitive | 8B-Q5_K_M] chunk 140/476 | running PPL 7.7983 | 1769 s
+2026-10-10 06:25:46 | INFO    | [cognitive | 8B-Q5_K_M] chunk 150/476 | running PPL 7.8884 | 1895 s
+2026-10-10 06:27:52 | INFO    | [cognitive | 8B-Q5_K_M] chunk 160/476 | running PPL 8.0601 | 2021 s
+2026-10-10 06:29:58 | INFO    | [cognitive | 8B-Q5_K_M] chunk 170/476 | running PPL 7.9270 | 2147 s
+2026-10-10 06:32:05 | INFO    | [cognitive | 8B-Q5_K_M] chunk 180/476 | running PPL 7.7822 | 2274 s
+2026-10-10 06:34:12 | INFO    | [cognitive | 8B-Q5_K_M] chunk 190/476 | running PPL 7.6669 | 2401 s
+2026-10-10 06:36:18 | INFO    | [cognitive | 8B-Q5_K_M] chunk 200/476 | running PPL 7.7895 | 2527 s
+2026-10-10 06:38:24 | INFO    | [cognitive | 8B-Q5_K_M] chunk 210/476 | running PPL 7.7946 | 2653 s
+2026-10-10 06:40:31 | INFO    | [cognitive | 8B-Q5_K_M] chunk 220/476 | running PPL 7.8177 | 2780 s
+2026-10-10 06:42:37 | INFO    | [cognitive | 8B-Q5_K_M] chunk 230/476 | running PPL 7.9184 | 2906 s
+2026-10-10 06:44:43 | INFO    | [cognitive | 8B-Q5_K_M] chunk 240/476 | running PPL 7.8850 | 3032 s
+2026-10-10 06:46:49 | INFO    | [cognitive | 8B-Q5_K_M] chunk 250/476 | running PPL 7.8108 | 3158 s
+2026-10-10 06:48:56 | INFO    | [cognitive | 8B-Q5_K_M] chunk 260/476 | running PPL 7.8811 | 3285 s
+2026-10-10 06:51:02 | INFO    | [cognitive | 8B-Q5_K_M] chunk 270/476 | running PPL 8.0559 | 3411 s
+2026-10-10 06:53:09 | INFO    | [cognitive | 8B-Q5_K_M] chunk 280/476 | running PPL 8.1920 | 3538 s
+2026-10-10 06:55:15 | INFO    | [cognitive | 8B-Q5_K_M] chunk 290/476 | running PPL 8.2962 | 3664 s
+2026-10-10 06:57:24 | INFO    | [cognitive | 8B-Q5_K_M] chunk 300/476 | running PPL 8.3238 | 3793 s
+2026-10-10 06:59:34 | INFO    | [cognitive | 8B-Q5_K_M] chunk 310/476 | running PPL 8.3084 | 3923 s
+2026-10-10 07:01:45 | INFO    | [cognitive | 8B-Q5_K_M] chunk 320/476 | running PPL 8.3128 | 4054 s
+2026-10-10 07:03:52 | INFO    | [cognitive | 8B-Q5_K_M] chunk 330/476 | running PPL 8.3263 | 4181 s
+2026-10-10 07:05:58 | INFO    | [cognitive | 8B-Q5_K_M] chunk 340/476 | running PPL 8.3001 | 4307 s
+2026-10-10 07:08:04 | INFO    | [cognitive | 8B-Q5_K_M] chunk 350/476 | running PPL 8.2460 | 4434 s
+2026-10-10 07:10:11 | INFO    | [cognitive | 8B-Q5_K_M] chunk 360/476 | running PPL 8.2824 | 4560 s
+2026-10-10 07:12:17 | INFO    | [cognitive | 8B-Q5_K_M] chunk 370/476 | running PPL 8.2803 | 4686 s
+2026-10-10 07:14:23 | INFO    | [cognitive | 8B-Q5_K_M] chunk 380/476 | running PPL 8.3239 | 4812 s
+2026-10-10 07:16:29 | INFO    | [cognitive | 8B-Q5_K_M] chunk 390/476 | running PPL 8.2799 | 4938 s
+2026-10-10 07:18:35 | INFO    | [cognitive | 8B-Q5_K_M] chunk 400/476 | running PPL 8.2938 | 5064 s
+2026-10-10 07:20:41 | INFO    | [cognitive | 8B-Q5_K_M] chunk 410/476 | running PPL 8.3056 | 5190 s
+2026-10-10 07:22:48 | INFO    | [cognitive | 8B-Q5_K_M] chunk 420/476 | running PPL 8.3021 | 5317 s
+2026-10-10 07:24:54 | INFO    | [cognitive | 8B-Q5_K_M] chunk 430/476 | running PPL 8.2995 | 5443 s
+2026-10-10 07:27:00 | INFO    | [cognitive | 8B-Q5_K_M] chunk 440/476 | running PPL 8.3217 | 5569 s
+2026-10-10 07:29:06 | INFO    | [cognitive | 8B-Q5_K_M] chunk 450/476 | running PPL 8.2597 | 5695 s
+2026-10-10 07:31:12 | INFO    | [cognitive | 8B-Q5_K_M] chunk 460/476 | running PPL 8.3072 | 5821 s
+2026-10-10 07:33:19 | INFO    | [cognitive | 8B-Q5_K_M] chunk 470/476 | running PPL 8.2998 | 5948 s
+2026-10-10 07:34:35 | INFO    | [cognitive | 8B-Q5_K_M] chunk 476/476 | running PPL 8.3292 | 6024 s
+2026-10-10 07:34:35 | INFO    | [cognitive | 8B-Q5_K_M] MERGE CHECK: text hash/bytes after chunk 90 MATCH; overlap chunks 88-89 bit-identical: True (max |dNLL| 0)
+2026-10-10 07:34:35 | INFO    | [cognitive | 8B-Q5_K_M] PART chunks 88-563: PPL 8.3292 [8.0292, 8.6404] | 0.6818 bits/byte | top-1 55.02 % | dPPL vs 8B-Q8_0: +0.42 % | 6024 s | 476 chunks
+2026-10-10 07:34:35 | INFO    | [cognitive | 8B-Q5_K_M] FULL SET (90 earlier + 474 new chunks): PPL 8.4032 [8.1267, 8.6891] | 0.6874 bits/byte | top-1 54.81 % | dPPL vs 8B-Q8_0: +0.43 % | 7194 s | 564 chunks
+2026-10-10 07:34:35 | INFO    | <<< [a2_rest] Unit 3/10 finished in 100.9 min
+2026-10-10 07:34:35 | INFO    | >>> [a2_rest] Unit 4/10: night_02|night_a2_rest|8B-Q6_K|8
+2026-10-10 07:34:35 | INFO    | [cognitive | 8B-Q6_K] loading model...
+2026-10-10 07:34:41 | INFO    | [cognitive | 8B-Q6_K] 289076 tokens in the test text, 564 chunks; evaluating chunks 88-563 (476)
+2026-10-10 07:37:11 | INFO    | [cognitive | 8B-Q6_K] chunk 10/476 | running PPL 9.0485 | 127 s
+2026-10-10 07:39:18 | INFO    | [cognitive | 8B-Q6_K] chunk 20/476 | running PPL 10.0626 | 254 s
+2026-10-10 07:41:25 | INFO    | [cognitive | 8B-Q6_K] chunk 30/476 | running PPL 9.7277 | 381 s
+2026-10-10 07:43:33 | INFO    | [cognitive | 8B-Q6_K] chunk 40/476 | running PPL 8.4929 | 509 s
+2026-10-10 07:45:40 | INFO    | [cognitive | 8B-Q6_K] chunk 50/476 | running PPL 8.5719 | 636 s
+2026-10-10 07:47:47 | INFO    | [cognitive | 8B-Q6_K] chunk 60/476 | running PPL 7.7570 | 763 s
+2026-10-10 07:49:54 | INFO    | [cognitive | 8B-Q6_K] chunk 70/476 | running PPL 7.2141 | 890 s
+2026-10-10 07:52:01 | INFO    | [cognitive | 8B-Q6_K] chunk 80/476 | running PPL 7.6104 | 1017 s
+2026-10-10 07:54:09 | INFO    | [cognitive | 8B-Q6_K] chunk 90/476 | running PPL 8.0011 | 1144 s
+2026-10-10 07:56:15 | INFO    | [cognitive | 8B-Q6_K] chunk 100/476 | running PPL 8.2710 | 1271 s
+2026-10-10 07:58:22 | INFO    | [cognitive | 8B-Q6_K] chunk 110/476 | running PPL 8.3035 | 1398 s
+2026-10-10 08:00:29 | INFO    | [cognitive | 8B-Q6_K] chunk 120/476 | running PPL 8.0705 | 1525 s
+2026-10-10 08:02:36 | INFO    | [cognitive | 8B-Q6_K] chunk 130/476 | running PPL 7.9224 | 1652 s
+2026-10-10 08:04:43 | INFO    | [cognitive | 8B-Q6_K] chunk 140/476 | running PPL 7.7611 | 1779 s
+2026-10-10 08:06:50 | INFO    | [cognitive | 8B-Q6_K] chunk 150/476 | running PPL 7.8534 | 1906 s
+2026-10-10 08:08:57 | INFO    | [cognitive | 8B-Q6_K] chunk 160/476 | running PPL 8.0263 | 2033 s
+2026-10-10 08:11:04 | INFO    | [cognitive | 8B-Q6_K] chunk 170/476 | running PPL 7.8952 | 2160 s
+2026-10-10 08:13:11 | INFO    | [cognitive | 8B-Q6_K] chunk 180/476 | running PPL 7.7494 | 2286 s
+2026-10-10 08:15:17 | INFO    | [cognitive | 8B-Q6_K] chunk 190/476 | running PPL 7.6353 | 2413 s
+2026-10-10 08:17:24 | INFO    | [cognitive | 8B-Q6_K] chunk 200/476 | running PPL 7.7595 | 2540 s
+2026-10-10 08:19:31 | INFO    | [cognitive | 8B-Q6_K] chunk 210/476 | running PPL 7.7671 | 2667 s
+2026-10-10 08:21:38 | INFO    | [cognitive | 8B-Q6_K] chunk 220/476 | running PPL 7.7905 | 2794 s
+2026-10-10 08:23:45 | INFO    | [cognitive | 8B-Q6_K] chunk 230/476 | running PPL 7.8892 | 2921 s
+2026-10-10 08:25:52 | INFO    | [cognitive | 8B-Q6_K] chunk 240/476 | running PPL 7.8562 | 3047 s
+2026-10-10 08:27:59 | INFO    | [cognitive | 8B-Q6_K] chunk 250/476 | running PPL 7.7813 | 3174 s
+2026-10-10 08:30:05 | INFO    | [cognitive | 8B-Q6_K] chunk 260/476 | running PPL 7.8514 | 3301 s
+2026-10-10 08:32:12 | INFO    | [cognitive | 8B-Q6_K] chunk 270/476 | running PPL 8.0258 | 3428 s
+2026-10-10 08:34:19 | INFO    | [cognitive | 8B-Q6_K] chunk 280/476 | running PPL 8.1612 | 3555 s
+2026-10-10 08:36:26 | INFO    | [cognitive | 8B-Q6_K] chunk 290/476 | running PPL 8.2644 | 3682 s
+2026-10-10 08:38:33 | INFO    | [cognitive | 8B-Q6_K] chunk 300/476 | running PPL 8.2932 | 3809 s
+2026-10-10 08:40:40 | INFO    | [cognitive | 8B-Q6_K] chunk 310/476 | running PPL 8.2783 | 3935 s
+2026-10-10 08:42:47 | INFO    | [cognitive | 8B-Q6_K] chunk 320/476 | running PPL 8.2817 | 4062 s
+2026-10-10 08:44:54 | INFO    | [cognitive | 8B-Q6_K] chunk 330/476 | running PPL 8.2927 | 4190 s
+2026-10-10 08:47:01 | INFO    | [cognitive | 8B-Q6_K] chunk 340/476 | running PPL 8.2655 | 4317 s
+2026-10-10 08:49:08 | INFO    | [cognitive | 8B-Q6_K] chunk 350/476 | running PPL 8.2102 | 4444 s
+2026-10-10 08:51:15 | INFO    | [cognitive | 8B-Q6_K] chunk 360/476 | running PPL 8.2464 | 4571 s
+2026-10-10 08:53:23 | INFO    | [cognitive | 8B-Q6_K] chunk 370/476 | running PPL 8.2441 | 4699 s
+2026-10-10 08:55:30 | INFO    | [cognitive | 8B-Q6_K] chunk 380/476 | running PPL 8.2881 | 4825 s
+2026-10-10 08:57:37 | INFO    | [cognitive | 8B-Q6_K] chunk 390/476 | running PPL 8.2458 | 4953 s
+2026-10-10 08:59:45 | INFO    | [cognitive | 8B-Q6_K] chunk 400/476 | running PPL 8.2597 | 5081 s
+2026-10-10 09:01:58 | INFO    | [cognitive | 8B-Q6_K] chunk 410/476 | running PPL 8.2708 | 5214 s
+2026-10-10 09:04:08 | INFO    | [cognitive | 8B-Q6_K] chunk 420/476 | running PPL 8.2683 | 5344 s
+2026-10-10 09:06:15 | INFO    | [cognitive | 8B-Q6_K] chunk 430/476 | running PPL 8.2664 | 5471 s
+2026-10-10 09:08:22 | INFO    | [cognitive | 8B-Q6_K] chunk 440/476 | running PPL 8.2883 | 5598 s
+2026-10-10 09:10:29 | INFO    | [cognitive | 8B-Q6_K] chunk 450/476 | running PPL 8.2268 | 5725 s
+2026-10-10 09:12:36 | INFO    | [cognitive | 8B-Q6_K] chunk 460/476 | running PPL 8.2745 | 5851 s
+2026-10-10 09:14:42 | INFO    | [cognitive | 8B-Q6_K] chunk 470/476 | running PPL 8.2660 | 5978 s
+2026-10-10 09:15:58 | INFO    | [cognitive | 8B-Q6_K] chunk 476/476 | running PPL 8.2948 | 6054 s
+2026-10-10 09:15:59 | INFO    | [cognitive | 8B-Q6_K] MERGE CHECK: text hash/bytes after chunk 90 MATCH; overlap chunks 88-89 bit-identical: True (max |dNLL| 0)
+2026-10-10 09:15:59 | INFO    | [cognitive | 8B-Q6_K] PART chunks 88-563: PPL 8.2948 [7.9962, 8.6045] | 0.6805 bits/byte | top-1 55.15 % | dPPL vs 8B-Q8_0: +0.00 % | 6054 s | 476 chunks
+2026-10-10 09:15:59 | INFO    | [cognitive | 8B-Q6_K] FULL SET (90 earlier + 474 new chunks): PPL 8.3675 [8.0921, 8.6523] | 0.6861 bits/byte | top-1 54.92 % | dPPL vs 8B-Q8_0: +0.00 % | 7248 s | 564 chunks
+2026-10-10 09:15:59 | INFO    | <<< [a2_rest] Unit 4/10 finished in 101.4 min
+2026-10-10 09:15:59 | INFO    | >>> [a2_rest] Unit 5/10: night_02|night_a2_rest|3B-Q4_K_M|8
+2026-10-10 09:15:59 | INFO    | [cognitive | 3B-Q4_K_M] loading model...
+2026-10-10 09:16:02 | INFO    | [cognitive | 3B-Q4_K_M] 289076 tokens in the test text, 564 chunks; evaluating chunks 88-563 (476)
+2026-10-10 09:17:14 | INFO    | [cognitive | 3B-Q4_K_M] chunk 10/476 | running PPL 11.8216 | 53 s
+2026-10-10 09:18:07 | INFO    | [cognitive | 3B-Q4_K_M] chunk 20/476 | running PPL 12.9875 | 106 s
+2026-10-10 09:19:00 | INFO    | [cognitive | 3B-Q4_K_M] chunk 30/476 | running PPL 12.2869 | 159 s
+2026-10-10 09:19:53 | INFO    | [cognitive | 3B-Q4_K_M] chunk 40/476 | running PPL 10.9339 | 212 s
+2026-10-10 09:20:46 | INFO    | [cognitive | 3B-Q4_K_M] chunk 50/476 | running PPL 10.8329 | 265 s
+2026-10-10 09:21:39 | INFO    | [cognitive | 3B-Q4_K_M] chunk 60/476 | running PPL 9.7825 | 318 s
+2026-10-10 09:22:32 | INFO    | [cognitive | 3B-Q4_K_M] chunk 70/476 | running PPL 9.1595 | 371 s
+2026-10-10 09:23:25 | INFO    | [cognitive | 3B-Q4_K_M] chunk 80/476 | running PPL 9.6605 | 424 s
+2026-10-10 09:24:19 | INFO    | [cognitive | 3B-Q4_K_M] chunk 90/476 | running PPL 10.2301 | 477 s
+2026-10-10 09:25:11 | INFO    | [cognitive | 3B-Q4_K_M] chunk 100/476 | running PPL 10.5574 | 530 s
+2026-10-10 09:26:04 | INFO    | [cognitive | 3B-Q4_K_M] chunk 110/476 | running PPL 10.5779 | 583 s
+2026-10-10 09:26:57 | INFO    | [cognitive | 3B-Q4_K_M] chunk 120/476 | running PPL 10.3541 | 636 s
+2026-10-10 09:27:50 | INFO    | [cognitive | 3B-Q4_K_M] chunk 130/476 | running PPL 10.1855 | 689 s
+2026-10-10 09:28:43 | INFO    | [cognitive | 3B-Q4_K_M] chunk 140/476 | running PPL 10.0133 | 742 s
+2026-10-10 09:29:36 | INFO    | [cognitive | 3B-Q4_K_M] chunk 150/476 | running PPL 10.1140 | 795 s
+2026-10-10 09:30:29 | INFO    | [cognitive | 3B-Q4_K_M] chunk 160/476 | running PPL 10.3151 | 848 s
+2026-10-10 09:31:22 | INFO    | [cognitive | 3B-Q4_K_M] chunk 170/476 | running PPL 10.1435 | 900 s
+2026-10-10 09:32:15 | INFO    | [cognitive | 3B-Q4_K_M] chunk 180/476 | running PPL 9.9476 | 954 s
+2026-10-10 09:33:08 | INFO    | [cognitive | 3B-Q4_K_M] chunk 190/476 | running PPL 9.8338 | 1007 s
+2026-10-10 09:34:01 | INFO    | [cognitive | 3B-Q4_K_M] chunk 200/476 | running PPL 9.9685 | 1060 s
+2026-10-10 09:34:54 | INFO    | [cognitive | 3B-Q4_K_M] chunk 210/476 | running PPL 9.9588 | 1113 s
+2026-10-10 09:35:47 | INFO    | [cognitive | 3B-Q4_K_M] chunk 220/476 | running PPL 9.9776 | 1166 s
+2026-10-10 09:36:40 | INFO    | [cognitive | 3B-Q4_K_M] chunk 230/476 | running PPL 10.0917 | 1219 s
+2026-10-10 09:37:33 | INFO    | [cognitive | 3B-Q4_K_M] chunk 240/476 | running PPL 10.0264 | 1272 s
+2026-10-10 09:38:26 | INFO    | [cognitive | 3B-Q4_K_M] chunk 250/476 | running PPL 9.9180 | 1325 s
+2026-10-10 09:39:19 | INFO    | [cognitive | 3B-Q4_K_M] chunk 260/476 | running PPL 9.9994 | 1378 s
+2026-10-10 09:40:13 | INFO    | [cognitive | 3B-Q4_K_M] chunk 270/476 | running PPL 10.2132 | 1431 s
+2026-10-10 09:41:06 | INFO    | [cognitive | 3B-Q4_K_M] chunk 280/476 | running PPL 10.4096 | 1484 s
+2026-10-10 09:41:59 | INFO    | [cognitive | 3B-Q4_K_M] chunk 290/476 | running PPL 10.5324 | 1537 s
+2026-10-10 09:42:52 | INFO    | [cognitive | 3B-Q4_K_M] chunk 300/476 | running PPL 10.5675 | 1590 s
+2026-10-10 09:43:45 | INFO    | [cognitive | 3B-Q4_K_M] chunk 310/476 | running PPL 10.5562 | 1643 s
+2026-10-10 09:44:37 | INFO    | [cognitive | 3B-Q4_K_M] chunk 320/476 | running PPL 10.5816 | 1696 s
+2026-10-10 09:45:31 | INFO    | [cognitive | 3B-Q4_K_M] chunk 330/476 | running PPL 10.6243 | 1750 s
+2026-10-10 09:46:32 | INFO    | [cognitive | 3B-Q4_K_M] chunk 340/476 | running PPL 10.6133 | 1811 s
+2026-10-10 09:47:30 | INFO    | [cognitive | 3B-Q4_K_M] chunk 350/476 | running PPL 10.5677 | 1869 s
+2026-10-10 09:48:26 | INFO    | [cognitive | 3B-Q4_K_M] chunk 360/476 | running PPL 10.6153 | 1925 s
+2026-10-10 09:49:19 | INFO    | [cognitive | 3B-Q4_K_M] chunk 370/476 | running PPL 10.6235 | 1978 s
+2026-10-10 09:50:13 | INFO    | [cognitive | 3B-Q4_K_M] chunk 380/476 | running PPL 10.6879 | 2031 s
+2026-10-10 09:51:06 | INFO    | [cognitive | 3B-Q4_K_M] chunk 390/476 | running PPL 10.6044 | 2084 s
+2026-10-10 09:51:59 | INFO    | [cognitive | 3B-Q4_K_M] chunk 400/476 | running PPL 10.6141 | 2138 s
+2026-10-10 09:52:53 | INFO    | [cognitive | 3B-Q4_K_M] chunk 410/476 | running PPL 10.6261 | 2192 s
+2026-10-10 09:53:46 | INFO    | [cognitive | 3B-Q4_K_M] chunk 420/476 | running PPL 10.6301 | 2245 s
+2026-10-10 09:54:39 | INFO    | [cognitive | 3B-Q4_K_M] chunk 430/476 | running PPL 10.6288 | 2298 s
+2026-10-10 09:55:32 | INFO    | [cognitive | 3B-Q4_K_M] chunk 440/476 | running PPL 10.6725 | 2351 s
+2026-10-10 09:56:26 | INFO    | [cognitive | 3B-Q4_K_M] chunk 450/476 | running PPL 10.5853 | 2404 s
+2026-10-10 09:57:19 | INFO    | [cognitive | 3B-Q4_K_M] chunk 460/476 | running PPL 10.6408 | 2458 s
+2026-10-10 09:58:12 | INFO    | [cognitive | 3B-Q4_K_M] chunk 470/476 | running PPL 10.6422 | 2511 s
+2026-10-10 09:58:44 | INFO    | [cognitive | 3B-Q4_K_M] chunk 476/476 | running PPL 10.6722 | 2542 s
+2026-10-10 09:58:44 | INFO    | [cognitive | 3B-Q4_K_M] MERGE CHECK: text hash/bytes after chunk 90 MATCH; overlap chunks 88-89 bit-identical: True (max |dNLL| 0)
+2026-10-10 09:58:44 | INFO    | [cognitive | 3B-Q4_K_M] PART chunks 88-563: PPL 10.6722 [10.2950, 11.0633] | 0.7615 bits/byte | top-1 50.78 % | dPPL vs 8B-Q8_0: +28.66 % | 2542 s | 476 chunks
+2026-10-10 09:58:44 | INFO    | [cognitive | 3B-Q4_K_M] FULL SET (90 earlier + 474 new chunks): PPL 10.7976 [10.4515, 11.1552] | 0.7684 bits/byte | top-1 50.55 % | dPPL vs 8B-Q8_0: +29.04 % | 3052 s | 564 chunks
+2026-10-10 09:58:44 | INFO    | <<< [a2_rest] Unit 5/10 finished in 42.7 min
+2026-10-10 09:58:44 | INFO    | >>> [a2_rest] Unit 6/10: night_02|night_a2_rest|3B-Q8_0|8
+2026-10-10 09:58:44 | INFO    | [cognitive | 3B-Q8_0] loading model...
+2026-10-10 09:58:47 | INFO    | [cognitive | 3B-Q8_0] 289076 tokens in the test text, 564 chunks; evaluating chunks 88-563 (476)
+2026-10-10 10:00:27 | INFO    | [cognitive | 3B-Q8_0] chunk 10/476 | running PPL 11.6593 | 78 s
+2026-10-10 10:01:45 | INFO    | [cognitive | 3B-Q8_0] chunk 20/476 | running PPL 12.7807 | 156 s
+2026-10-10 10:03:03 | INFO    | [cognitive | 3B-Q8_0] chunk 30/476 | running PPL 12.0685 | 234 s
+2026-10-10 10:04:22 | INFO    | [cognitive | 3B-Q8_0] chunk 40/476 | running PPL 10.7206 | 313 s
+2026-10-10 10:05:40 | INFO    | [cognitive | 3B-Q8_0] chunk 50/476 | running PPL 10.6226 | 391 s
+2026-10-10 10:06:58 | INFO    | [cognitive | 3B-Q8_0] chunk 60/476 | running PPL 9.5891 | 469 s
+2026-10-10 10:08:17 | INFO    | [cognitive | 3B-Q8_0] chunk 70/476 | running PPL 8.9693 | 548 s
+2026-10-10 10:09:35 | INFO    | [cognitive | 3B-Q8_0] chunk 80/476 | running PPL 9.4620 | 626 s
+2026-10-10 10:10:53 | INFO    | [cognitive | 3B-Q8_0] chunk 90/476 | running PPL 10.0072 | 704 s
+2026-10-10 10:12:11 | INFO    | [cognitive | 3B-Q8_0] chunk 100/476 | running PPL 10.3179 | 782 s
+2026-10-10 10:13:29 | INFO    | [cognitive | 3B-Q8_0] chunk 110/476 | running PPL 10.3332 | 860 s
+2026-10-10 10:14:47 | INFO    | [cognitive | 3B-Q8_0] chunk 120/476 | running PPL 10.1114 | 938 s
+2026-10-10 10:16:05 | INFO    | [cognitive | 3B-Q8_0] chunk 130/476 | running PPL 9.9404 | 1017 s
+2026-10-10 10:17:23 | INFO    | [cognitive | 3B-Q8_0] chunk 140/476 | running PPL 9.7712 | 1094 s
+2026-10-10 10:18:41 | INFO    | [cognitive | 3B-Q8_0] chunk 150/476 | running PPL 9.8688 | 1172 s
+2026-10-10 10:19:59 | INFO    | [cognitive | 3B-Q8_0] chunk 160/476 | running PPL 10.0642 | 1251 s
+2026-10-10 10:21:18 | INFO    | [cognitive | 3B-Q8_0] chunk 170/476 | running PPL 9.9001 | 1329 s
+2026-10-10 10:22:36 | INFO    | [cognitive | 3B-Q8_0] chunk 180/476 | running PPL 9.7091 | 1407 s
+2026-10-10 10:23:55 | INFO    | [cognitive | 3B-Q8_0] chunk 190/476 | running PPL 9.6027 | 1486 s
+2026-10-10 10:25:13 | INFO    | [cognitive | 3B-Q8_0] chunk 200/476 | running PPL 9.7335 | 1564 s
+2026-10-10 10:26:31 | INFO    | [cognitive | 3B-Q8_0] chunk 210/476 | running PPL 9.7265 | 1642 s
+2026-10-10 10:27:50 | INFO    | [cognitive | 3B-Q8_0] chunk 220/476 | running PPL 9.7440 | 1721 s
+2026-10-10 10:29:08 | INFO    | [cognitive | 3B-Q8_0] chunk 230/476 | running PPL 9.8583 | 1799 s
+2026-10-10 10:30:27 | INFO    | [cognitive | 3B-Q8_0] chunk 240/476 | running PPL 9.7952 | 1878 s
+2026-10-10 10:31:45 | INFO    | [cognitive | 3B-Q8_0] chunk 250/476 | running PPL 9.6916 | 1956 s
+2026-10-10 10:33:04 | INFO    | [cognitive | 3B-Q8_0] chunk 260/476 | running PPL 9.7692 | 2035 s
+2026-10-10 10:34:23 | INFO    | [cognitive | 3B-Q8_0] chunk 270/476 | running PPL 9.9839 | 2114 s
+2026-10-10 10:35:41 | INFO    | [cognitive | 3B-Q8_0] chunk 280/476 | running PPL 10.1775 | 2192 s
+2026-10-10 10:36:59 | INFO    | [cognitive | 3B-Q8_0] chunk 290/476 | running PPL 10.2960 | 2270 s
+2026-10-10 10:38:17 | INFO    | [cognitive | 3B-Q8_0] chunk 300/476 | running PPL 10.3328 | 2349 s
+2026-10-10 10:39:36 | INFO    | [cognitive | 3B-Q8_0] chunk 310/476 | running PPL 10.3213 | 2427 s
+2026-10-10 10:40:53 | INFO    | [cognitive | 3B-Q8_0] chunk 320/476 | running PPL 10.3460 | 2505 s
+2026-10-10 10:42:11 | INFO    | [cognitive | 3B-Q8_0] chunk 330/476 | running PPL 10.3842 | 2583 s
+2026-10-10 10:43:29 | INFO    | [cognitive | 3B-Q8_0] chunk 340/476 | running PPL 10.3699 | 2661 s
+2026-10-10 10:44:47 | INFO    | [cognitive | 3B-Q8_0] chunk 350/476 | running PPL 10.3217 | 2738 s
+2026-10-10 10:46:05 | INFO    | [cognitive | 3B-Q8_0] chunk 360/476 | running PPL 10.3696 | 2817 s
+2026-10-10 10:47:23 | INFO    | [cognitive | 3B-Q8_0] chunk 370/476 | running PPL 10.3748 | 2895 s
+2026-10-10 10:48:42 | INFO    | [cognitive | 3B-Q8_0] chunk 380/476 | running PPL 10.4389 | 2973 s
+2026-10-10 10:50:01 | INFO    | [cognitive | 3B-Q8_0] chunk 390/476 | running PPL 10.3542 | 3053 s
+2026-10-10 10:51:20 | INFO    | [cognitive | 3B-Q8_0] chunk 400/476 | running PPL 10.3636 | 3131 s
+2026-10-10 10:52:39 | INFO    | [cognitive | 3B-Q8_0] chunk 410/476 | running PPL 10.3743 | 3210 s
+2026-10-10 10:53:57 | INFO    | [cognitive | 3B-Q8_0] chunk 420/476 | running PPL 10.3769 | 3288 s
+2026-10-10 10:55:16 | INFO    | [cognitive | 3B-Q8_0] chunk 430/476 | running PPL 10.3775 | 3367 s
+2026-10-10 10:56:34 | INFO    | [cognitive | 3B-Q8_0] chunk 440/476 | running PPL 10.4208 | 3446 s
+2026-10-10 10:57:53 | INFO    | [cognitive | 3B-Q8_0] chunk 450/476 | running PPL 10.3348 | 3524 s
+2026-10-10 10:59:11 | INFO    | [cognitive | 3B-Q8_0] chunk 460/476 | running PPL 10.3884 | 3602 s
+2026-10-10 11:00:31 | INFO    | [cognitive | 3B-Q8_0] chunk 470/476 | running PPL 10.3910 | 3683 s
+2026-10-10 11:01:23 | INFO    | [cognitive | 3B-Q8_0] chunk 476/476 | running PPL 10.4205 | 3734 s
+2026-10-10 11:01:23 | INFO    | [cognitive | 3B-Q8_0] MERGE CHECK: text hash/bytes after chunk 90 MATCH; overlap chunks 88-89 bit-identical: True (max |dNLL| 0)
+2026-10-10 11:01:23 | INFO    | [cognitive | 3B-Q8_0] PART chunks 88-563: PPL 10.4205 [10.0509, 10.8038] | 0.7538 bits/byte | top-1 51.18 % | dPPL vs 8B-Q8_0: +25.63 % | 3734 s | 476 chunks
+2026-10-10 11:01:23 | INFO    | [cognitive | 3B-Q8_0] FULL SET (90 earlier + 474 new chunks): PPL 10.5395 [10.2010, 10.8893] | 0.7606 bits/byte | top-1 50.97 % | dPPL vs 8B-Q8_0: +25.96 % | 4512 s | 564 chunks
+2026-10-10 11:01:23 | INFO    | <<< [a2_rest] Unit 6/10 finished in 62.7 min
+2026-10-10 11:01:23 | INFO    | >>> [a2_rest] Unit 7/10: night_02|night_a2_rest|1B-Q4_K_M|8
+2026-10-10 11:01:23 | INFO    | [cognitive | 1B-Q4_K_M] loading model...
+2026-10-10 11:01:25 | INFO    | [cognitive | 1B-Q4_K_M] 289076 tokens in the test text, 564 chunks; evaluating chunks 88-563 (476)
+2026-10-10 11:02:10 | INFO    | [cognitive | 1B-Q4_K_M] chunk 10/476 | running PPL 15.9695 | 25 s
+2026-10-10 11:02:34 | INFO    | [cognitive | 1B-Q4_K_M] chunk 20/476 | running PPL 17.2589 | 50 s
+2026-10-10 11:03:00 | INFO    | [cognitive | 1B-Q4_K_M] chunk 30/476 | running PPL 16.2437 | 75 s
+2026-10-10 11:03:25 | INFO    | [cognitive | 1B-Q4_K_M] chunk 40/476 | running PPL 14.6798 | 101 s
+2026-10-10 11:03:51 | INFO    | [cognitive | 1B-Q4_K_M] chunk 50/476 | running PPL 14.5092 | 126 s
+2026-10-10 11:04:15 | INFO    | [cognitive | 1B-Q4_K_M] chunk 60/476 | running PPL 13.1209 | 150 s
+2026-10-10 11:04:39 | INFO    | [cognitive | 1B-Q4_K_M] chunk 70/476 | running PPL 12.2965 | 174 s
+2026-10-10 11:05:03 | INFO    | [cognitive | 1B-Q4_K_M] chunk 80/476 | running PPL 12.9643 | 198 s
+2026-10-10 11:05:27 | INFO    | [cognitive | 1B-Q4_K_M] chunk 90/476 | running PPL 13.7918 | 223 s
+2026-10-10 11:05:51 | INFO    | [cognitive | 1B-Q4_K_M] chunk 100/476 | running PPL 14.1847 | 247 s
+2026-10-10 11:06:15 | INFO    | [cognitive | 1B-Q4_K_M] chunk 110/476 | running PPL 14.1934 | 271 s
+2026-10-10 11:06:40 | INFO    | [cognitive | 1B-Q4_K_M] chunk 120/476 | running PPL 13.8673 | 295 s
+2026-10-10 11:07:04 | INFO    | [cognitive | 1B-Q4_K_M] chunk 130/476 | running PPL 13.6246 | 319 s
+2026-10-10 11:07:28 | INFO    | [cognitive | 1B-Q4_K_M] chunk 140/476 | running PPL 13.4156 | 343 s
+2026-10-10 11:07:52 | INFO    | [cognitive | 1B-Q4_K_M] chunk 150/476 | running PPL 13.5482 | 367 s
+2026-10-10 11:08:16 | INFO    | [cognitive | 1B-Q4_K_M] chunk 160/476 | running PPL 13.8041 | 392 s
+2026-10-10 11:08:40 | INFO    | [cognitive | 1B-Q4_K_M] chunk 170/476 | running PPL 13.5747 | 416 s
+2026-10-10 11:09:04 | INFO    | [cognitive | 1B-Q4_K_M] chunk 180/476 | running PPL 13.3175 | 440 s
+2026-10-10 11:09:28 | INFO    | [cognitive | 1B-Q4_K_M] chunk 190/476 | running PPL 13.1555 | 464 s
+2026-10-10 11:09:52 | INFO    | [cognitive | 1B-Q4_K_M] chunk 200/476 | running PPL 13.3660 | 488 s
+2026-10-10 11:10:17 | INFO    | [cognitive | 1B-Q4_K_M] chunk 210/476 | running PPL 13.3390 | 512 s
+2026-10-10 11:10:41 | INFO    | [cognitive | 1B-Q4_K_M] chunk 220/476 | running PPL 13.3757 | 536 s
+2026-10-10 11:11:05 | INFO    | [cognitive | 1B-Q4_K_M] chunk 230/476 | running PPL 13.4826 | 560 s
+2026-10-10 11:11:29 | INFO    | [cognitive | 1B-Q4_K_M] chunk 240/476 | running PPL 13.3534 | 584 s
+2026-10-10 11:11:53 | INFO    | [cognitive | 1B-Q4_K_M] chunk 250/476 | running PPL 13.2375 | 608 s
+2026-10-10 11:12:17 | INFO    | [cognitive | 1B-Q4_K_M] chunk 260/476 | running PPL 13.3579 | 632 s
+2026-10-10 11:12:41 | INFO    | [cognitive | 1B-Q4_K_M] chunk 270/476 | running PPL 13.6556 | 656 s
+2026-10-10 11:13:05 | INFO    | [cognitive | 1B-Q4_K_M] chunk 280/476 | running PPL 13.9255 | 681 s
+2026-10-10 11:13:29 | INFO    | [cognitive | 1B-Q4_K_M] chunk 290/476 | running PPL 14.1063 | 705 s
+2026-10-10 11:13:53 | INFO    | [cognitive | 1B-Q4_K_M] chunk 300/476 | running PPL 14.1516 | 729 s
+2026-10-10 11:14:17 | INFO    | [cognitive | 1B-Q4_K_M] chunk 310/476 | running PPL 14.1219 | 753 s
+2026-10-10 11:14:41 | INFO    | [cognitive | 1B-Q4_K_M] chunk 320/476 | running PPL 14.1470 | 777 s
+2026-10-10 11:15:06 | INFO    | [cognitive | 1B-Q4_K_M] chunk 330/476 | running PPL 14.2209 | 801 s
+2026-10-10 11:15:30 | INFO    | [cognitive | 1B-Q4_K_M] chunk 340/476 | running PPL 14.1986 | 825 s
+2026-10-10 11:15:54 | INFO    | [cognitive | 1B-Q4_K_M] chunk 350/476 | running PPL 14.1198 | 849 s
+2026-10-10 11:16:18 | INFO    | [cognitive | 1B-Q4_K_M] chunk 360/476 | running PPL 14.1934 | 874 s
+2026-10-10 11:16:42 | INFO    | [cognitive | 1B-Q4_K_M] chunk 370/476 | running PPL 14.2214 | 898 s
+2026-10-10 11:17:06 | INFO    | [cognitive | 1B-Q4_K_M] chunk 380/476 | running PPL 14.3015 | 922 s
+2026-10-10 11:17:31 | INFO    | [cognitive | 1B-Q4_K_M] chunk 390/476 | running PPL 14.1873 | 946 s
+2026-10-10 11:17:55 | INFO    | [cognitive | 1B-Q4_K_M] chunk 400/476 | running PPL 14.2045 | 970 s
+2026-10-10 11:18:19 | INFO    | [cognitive | 1B-Q4_K_M] chunk 410/476 | running PPL 14.2242 | 994 s
+2026-10-10 11:18:43 | INFO    | [cognitive | 1B-Q4_K_M] chunk 420/476 | running PPL 14.2135 | 1018 s
+2026-10-10 11:19:07 | INFO    | [cognitive | 1B-Q4_K_M] chunk 430/476 | running PPL 14.2147 | 1043 s
+2026-10-10 11:19:31 | INFO    | [cognitive | 1B-Q4_K_M] chunk 440/476 | running PPL 14.2792 | 1067 s
+2026-10-10 11:19:55 | INFO    | [cognitive | 1B-Q4_K_M] chunk 450/476 | running PPL 14.1500 | 1091 s
+2026-10-10 11:20:20 | INFO    | [cognitive | 1B-Q4_K_M] chunk 460/476 | running PPL 14.2235 | 1115 s
+2026-10-10 11:20:44 | INFO    | [cognitive | 1B-Q4_K_M] chunk 470/476 | running PPL 14.2316 | 1139 s
+2026-10-10 11:20:58 | INFO    | [cognitive | 1B-Q4_K_M] chunk 476/476 | running PPL 14.2827 | 1153 s
+2026-10-10 11:20:58 | INFO    | [cognitive | 1B-Q4_K_M] MERGE CHECK: text hash/bytes after chunk 90 MATCH; overlap chunks 88-89 bit-identical: True (max |dNLL| 0)
+2026-10-10 11:20:58 | INFO    | [cognitive | 1B-Q4_K_M] PART chunks 88-563: PPL 14.2827 [13.7651, 14.8198] | 0.8552 bits/byte | top-1 46.84 % | dPPL vs 8B-Q8_0: +72.19 % | 1153 s | 476 chunks
+2026-10-10 11:20:58 | INFO    | [cognitive | 1B-Q4_K_M] FULL SET (90 earlier + 474 new chunks): PPL 14.4699 [13.9958, 14.9600] | 0.8629 bits/byte | top-1 46.68 % | dPPL vs 8B-Q8_0: +72.93 % | 1380 s | 564 chunks
+2026-10-10 11:20:58 | INFO    | <<< [a2_rest] Unit 7/10 finished in 19.6 min
+2026-10-10 11:20:58 | INFO    | >>> [a2_rest] Unit 8/10: night_02|night_a2_rest|1B-Q8_0|8
+2026-10-10 11:20:58 | INFO    | [cognitive | 1B-Q8_0] loading model...
+2026-10-10 11:21:00 | INFO    | [cognitive | 1B-Q8_0] 289076 tokens in the test text, 564 chunks; evaluating chunks 88-563 (476)
+2026-10-10 11:21:54 | INFO    | [cognitive | 1B-Q8_0] chunk 10/476 | running PPL 15.6399 | 34 s
+2026-10-10 11:22:28 | INFO    | [cognitive | 1B-Q8_0] chunk 20/476 | running PPL 16.7522 | 68 s
+2026-10-10 11:23:02 | INFO    | [cognitive | 1B-Q8_0] chunk 30/476 | running PPL 15.6937 | 102 s
+2026-10-10 11:23:36 | INFO    | [cognitive | 1B-Q8_0] chunk 40/476 | running PPL 14.1541 | 136 s
+2026-10-10 11:24:10 | INFO    | [cognitive | 1B-Q8_0] chunk 50/476 | running PPL 14.0513 | 170 s
+2026-10-10 11:24:44 | INFO    | [cognitive | 1B-Q8_0] chunk 60/476 | running PPL 12.7109 | 204 s
+2026-10-10 11:25:18 | INFO    | [cognitive | 1B-Q8_0] chunk 70/476 | running PPL 11.8865 | 238 s
+2026-10-10 11:25:51 | INFO    | [cognitive | 1B-Q8_0] chunk 80/476 | running PPL 12.5279 | 272 s
+2026-10-10 11:26:25 | INFO    | [cognitive | 1B-Q8_0] chunk 90/476 | running PPL 13.3249 | 306 s
+2026-10-10 11:26:59 | INFO    | [cognitive | 1B-Q8_0] chunk 100/476 | running PPL 13.7020 | 340 s
+2026-10-10 11:27:33 | INFO    | [cognitive | 1B-Q8_0] chunk 110/476 | running PPL 13.7067 | 373 s
+2026-10-10 11:28:07 | INFO    | [cognitive | 1B-Q8_0] chunk 120/476 | running PPL 13.3883 | 408 s
+2026-10-10 11:28:41 | INFO    | [cognitive | 1B-Q8_0] chunk 130/476 | running PPL 13.1755 | 442 s
+2026-10-10 11:29:17 | INFO    | [cognitive | 1B-Q8_0] chunk 140/476 | running PPL 12.9748 | 478 s
+2026-10-10 11:29:51 | INFO    | [cognitive | 1B-Q8_0] chunk 150/476 | running PPL 13.0980 | 512 s
+2026-10-10 11:30:25 | INFO    | [cognitive | 1B-Q8_0] chunk 160/476 | running PPL 13.3510 | 546 s
+2026-10-10 11:30:59 | INFO    | [cognitive | 1B-Q8_0] chunk 170/476 | running PPL 13.1261 | 579 s
+2026-10-10 11:31:33 | INFO    | [cognitive | 1B-Q8_0] chunk 180/476 | running PPL 12.8767 | 613 s
+2026-10-10 11:32:07 | INFO    | [cognitive | 1B-Q8_0] chunk 190/476 | running PPL 12.7097 | 647 s
+2026-10-10 11:32:41 | INFO    | [cognitive | 1B-Q8_0] chunk 200/476 | running PPL 12.9123 | 681 s
+2026-10-10 11:33:15 | INFO    | [cognitive | 1B-Q8_0] chunk 210/476 | running PPL 12.8988 | 716 s
+2026-10-10 11:33:50 | INFO    | [cognitive | 1B-Q8_0] chunk 220/476 | running PPL 12.9283 | 750 s
+2026-10-10 11:34:24 | INFO    | [cognitive | 1B-Q8_0] chunk 230/476 | running PPL 13.0384 | 784 s
+2026-10-10 11:34:58 | INFO    | [cognitive | 1B-Q8_0] chunk 240/476 | running PPL 12.9168 | 818 s
+2026-10-10 11:35:31 | INFO    | [cognitive | 1B-Q8_0] chunk 250/476 | running PPL 12.8062 | 852 s
+2026-10-10 11:36:06 | INFO    | [cognitive | 1B-Q8_0] chunk 260/476 | running PPL 12.9250 | 887 s
+2026-10-10 11:36:40 | INFO    | [cognitive | 1B-Q8_0] chunk 270/476 | running PPL 13.2111 | 921 s
+2026-10-10 11:37:14 | INFO    | [cognitive | 1B-Q8_0] chunk 280/476 | running PPL 13.4737 | 955 s
+2026-10-10 11:37:48 | INFO    | [cognitive | 1B-Q8_0] chunk 290/476 | running PPL 13.6506 | 989 s
+2026-10-10 11:38:23 | INFO    | [cognitive | 1B-Q8_0] chunk 300/476 | running PPL 13.6994 | 1023 s
+2026-10-10 11:38:57 | INFO    | [cognitive | 1B-Q8_0] chunk 310/476 | running PPL 13.6671 | 1057 s
+2026-10-10 11:39:31 | INFO    | [cognitive | 1B-Q8_0] chunk 320/476 | running PPL 13.6933 | 1091 s
+2026-10-10 11:40:05 | INFO    | [cognitive | 1B-Q8_0] chunk 330/476 | running PPL 13.7588 | 1125 s
+2026-10-10 11:40:39 | INFO    | [cognitive | 1B-Q8_0] chunk 340/476 | running PPL 13.7344 | 1159 s
+2026-10-10 11:41:13 | INFO    | [cognitive | 1B-Q8_0] chunk 350/476 | running PPL 13.6531 | 1193 s
+2026-10-10 11:41:46 | INFO    | [cognitive | 1B-Q8_0] chunk 360/476 | running PPL 13.7261 | 1227 s
+2026-10-10 11:42:20 | INFO    | [cognitive | 1B-Q8_0] chunk 370/476 | running PPL 13.7561 | 1261 s
+2026-10-10 11:42:54 | INFO    | [cognitive | 1B-Q8_0] chunk 380/476 | running PPL 13.8286 | 1295 s
+2026-10-10 11:43:28 | INFO    | [cognitive | 1B-Q8_0] chunk 390/476 | running PPL 13.7197 | 1329 s
+2026-10-10 11:44:02 | INFO    | [cognitive | 1B-Q8_0] chunk 400/476 | running PPL 13.7309 | 1363 s
+2026-10-10 11:44:36 | INFO    | [cognitive | 1B-Q8_0] chunk 410/476 | running PPL 13.7498 | 1397 s
+2026-10-10 11:45:10 | INFO    | [cognitive | 1B-Q8_0] chunk 420/476 | running PPL 13.7402 | 1431 s
+2026-10-10 11:45:44 | INFO    | [cognitive | 1B-Q8_0] chunk 430/476 | running PPL 13.7443 | 1465 s
+2026-10-10 11:46:19 | INFO    | [cognitive | 1B-Q8_0] chunk 440/476 | running PPL 13.8044 | 1499 s
+2026-10-10 11:46:53 | INFO    | [cognitive | 1B-Q8_0] chunk 450/476 | running PPL 13.6805 | 1533 s
+2026-10-10 11:47:27 | INFO    | [cognitive | 1B-Q8_0] chunk 460/476 | running PPL 13.7518 | 1567 s
+2026-10-10 11:48:01 | INFO    | [cognitive | 1B-Q8_0] chunk 470/476 | running PPL 13.7577 | 1601 s
+2026-10-10 11:48:21 | INFO    | [cognitive | 1B-Q8_0] chunk 476/476 | running PPL 13.8093 | 1621 s
+2026-10-10 11:48:21 | INFO    | [cognitive | 1B-Q8_0] MERGE CHECK: text hash/bytes after chunk 90 MATCH; overlap chunks 88-89 bit-identical: True (max |dNLL| 0)
+2026-10-10 11:48:21 | INFO    | [cognitive | 1B-Q8_0] PART chunks 88-563: PPL 13.8093 [13.3072, 14.3304] | 0.8444 bits/byte | top-1 47.39 % | dPPL vs 8B-Q8_0: +66.48 % | 1621 s | 476 chunks
+2026-10-10 11:48:21 | INFO    | [cognitive | 1B-Q8_0] FULL SET (90 earlier + 474 new chunks): PPL 14.0028 [13.5421, 14.4791] | 0.8523 bits/byte | top-1 47.21 % | dPPL vs 8B-Q8_0: +67.35 % | 1952 s | 564 chunks
+2026-10-10 11:48:21 | INFO    | <<< [a2_rest] Unit 8/10 finished in 27.4 min
+2026-10-10 11:48:21 | INFO    | >>> [a2_rest] Unit 9/10: night_02|night_a2_rest|Sparse8B-Q4_K_M|8
+2026-10-10 11:48:21 | INFO    | Cooling down: 58.0 C -> target 55 C (max 300 s) (night_02|night_a2_rest|Sparse8B-Q4_K_M|8)
+2026-10-10 11:48:22 | INFO    | Cooled down to 40.0 C in 1 s
+2026-10-10 11:48:22 | INFO    | [cognitive | Sparse8B-Q4_K_M] loading model...
+2026-10-10 11:48:30 | INFO    | [cognitive | Sparse8B-Q4_K_M] 289076 tokens in the test text, 564 chunks; evaluating chunks 88-563 (476)
+2026-10-10 11:50:46 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 10/476 | running PPL 8.7817 | 112 s
+2026-10-10 11:52:38 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 20/476 | running PPL 9.6997 | 224 s
+2026-10-10 11:54:30 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 30/476 | running PPL 9.1508 | 335 s
+2026-10-10 11:56:21 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 40/476 | running PPL 8.1050 | 446 s
+2026-10-10 11:58:12 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 50/476 | running PPL 8.0807 | 557 s
+2026-10-10 12:00:05 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 60/476 | running PPL 7.4892 | 670 s
+2026-10-10 12:01:57 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 70/476 | running PPL 7.0429 | 782 s
+2026-10-10 12:03:48 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 80/476 | running PPL 7.4110 | 893 s
+2026-10-10 12:05:40 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 90/476 | running PPL 7.8092 | 1005 s
+2026-10-10 12:07:32 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 100/476 | running PPL 8.0416 | 1117 s
+2026-10-10 12:09:23 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 110/476 | running PPL 8.1213 | 1229 s
+2026-10-10 12:11:15 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 120/476 | running PPL 7.9302 | 1340 s
+2026-10-10 12:13:07 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 130/476 | running PPL 7.7412 | 1452 s
+2026-10-10 12:14:57 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 140/476 | running PPL 7.5898 | 1563 s
+2026-10-10 12:16:48 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 150/476 | running PPL 7.6859 | 1674 s
+2026-10-10 12:18:40 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 160/476 | running PPL 7.8492 | 1785 s
+2026-10-10 12:20:31 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 170/476 | running PPL 7.7790 | 1897 s
+2026-10-10 12:22:23 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 180/476 | running PPL 7.6738 | 2009 s
+2026-10-10 12:24:14 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 190/476 | running PPL 7.6368 | 2119 s
+2026-10-10 12:26:05 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 200/476 | running PPL 7.7792 | 2230 s
+2026-10-10 12:27:56 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 210/476 | running PPL 7.7552 | 2341 s
+2026-10-10 12:29:47 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 220/476 | running PPL 7.7820 | 2452 s
+2026-10-10 12:31:41 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 230/476 | running PPL 7.8412 | 2566 s
+2026-10-10 12:33:34 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 240/476 | running PPL 7.7745 | 2679 s
+2026-10-10 12:35:25 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 250/476 | running PPL 7.7311 | 2791 s
+2026-10-10 12:37:17 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 260/476 | running PPL 7.7857 | 2902 s
+2026-10-10 12:39:09 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 270/476 | running PPL 7.9512 | 3014 s
+2026-10-10 12:41:00 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 280/476 | running PPL 8.0882 | 3126 s
+2026-10-10 12:42:51 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 290/476 | running PPL 8.1957 | 3237 s
+2026-10-10 12:44:43 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 300/476 | running PPL 8.2058 | 3348 s
+2026-10-10 12:46:34 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 310/476 | running PPL 8.1876 | 3460 s
+2026-10-10 12:48:26 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 320/476 | running PPL 8.1909 | 3571 s
+2026-10-10 12:50:17 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 330/476 | running PPL 8.2060 | 3682 s
+2026-10-10 12:52:08 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 340/476 | running PPL 8.1943 | 3794 s
+2026-10-10 12:54:00 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 350/476 | running PPL 8.1562 | 3905 s
+2026-10-10 12:55:51 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 360/476 | running PPL 8.1892 | 4016 s
+2026-10-10 12:57:42 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 370/476 | running PPL 8.1989 | 4128 s
+2026-10-10 12:59:33 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 380/476 | running PPL 8.2687 | 4239 s
+2026-10-10 13:01:28 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 390/476 | running PPL 8.2158 | 4353 s
+2026-10-10 13:03:27 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 400/476 | running PPL 8.2401 | 4472 s
+2026-10-10 13:05:26 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 410/476 | running PPL 8.2493 | 4591 s
+2026-10-10 13:07:17 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 420/476 | running PPL 8.2479 | 4702 s
+2026-10-10 13:09:09 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 430/476 | running PPL 8.2308 | 4814 s
+2026-10-10 13:11:00 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 440/476 | running PPL 8.2531 | 4925 s
+2026-10-10 13:12:50 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 450/476 | running PPL 8.1818 | 5036 s
+2026-10-10 13:14:41 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 460/476 | running PPL 8.2175 | 5147 s
+2026-10-10 13:16:33 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 470/476 | running PPL 8.2152 | 5258 s
+2026-10-10 13:17:39 | INFO    | [cognitive | Sparse8B-Q4_K_M] chunk 476/476 | running PPL 8.2426 | 5325 s
+2026-10-10 13:17:40 | INFO    | [cognitive | Sparse8B-Q4_K_M] MERGE CHECK: text hash/bytes after chunk 90 MATCH; overlap chunks 88-89 bit-identical: True (max |dNLL| 0)
+2026-10-10 13:17:40 | INFO    | [cognitive | Sparse8B-Q4_K_M] PART chunks 88-563: PPL 8.2426 [7.9650, 8.5299] | 0.6784 bits/byte | top-1 54.04 % | dPPL vs 8B-Q8_0: -0.63 % | 5325 s | 476 chunks
+2026-10-10 13:17:40 | INFO    | [cognitive | Sparse8B-Q4_K_M] FULL SET (90 earlier + 474 new chunks): PPL 8.2710 [8.0188, 8.5311] | 0.6823 bits/byte | top-1 53.93 % | dPPL vs 8B-Q8_0: -1.15 % | 6397 s | 564 chunks
+2026-10-10 13:17:40 | INFO    | <<< [a2_rest] Unit 9/10 finished in 89.3 min
+2026-10-10 13:17:40 | INFO    | >>> [a2_rest] Unit 10/10: night_02|night_a2_rest|Sparse8B-Q8_0|8
+2026-10-10 13:17:40 | INFO    | [cognitive | Sparse8B-Q8_0] loading model...
+2026-10-10 13:17:47 | INFO    | [cognitive | Sparse8B-Q8_0] 289076 tokens in the test text, 564 chunks; evaluating chunks 88-563 (476)
+2026-10-10 13:21:01 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 10/476 | running PPL 8.5793 | 170 s
+2026-10-10 13:23:51 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 20/476 | running PPL 9.5152 | 340 s
+2026-10-10 13:26:40 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 30/476 | running PPL 8.9751 | 508 s
+2026-10-10 13:29:30 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 40/476 | running PPL 7.9561 | 678 s
+2026-10-10 13:32:20 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 50/476 | running PPL 7.9280 | 849 s
+2026-10-10 13:35:10 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 60/476 | running PPL 7.3496 | 1018 s
+2026-10-10 13:37:59 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 70/476 | running PPL 6.9184 | 1188 s
+2026-10-10 13:40:49 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 80/476 | running PPL 7.2790 | 1357 s
+2026-10-10 13:43:39 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 90/476 | running PPL 7.6673 | 1528 s
+2026-10-10 13:46:28 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 100/476 | running PPL 7.8946 | 1696 s
+2026-10-10 13:49:18 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 110/476 | running PPL 7.9791 | 1866 s
+2026-10-10 13:52:08 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 120/476 | running PPL 7.7933 | 2037 s
+2026-10-10 13:54:58 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 130/476 | running PPL 7.6078 | 2207 s
+2026-10-10 13:57:59 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 140/476 | running PPL 7.4574 | 2388 s
+2026-10-10 14:00:48 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 150/476 | running PPL 7.5535 | 2557 s
+2026-10-10 14:03:38 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 160/476 | running PPL 7.7123 | 2726 s
+2026-10-10 14:06:27 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 170/476 | running PPL 7.6409 | 2895 s
+2026-10-10 14:09:16 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 180/476 | running PPL 7.5348 | 3065 s
+2026-10-10 14:12:05 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 190/476 | running PPL 7.4958 | 3234 s
+2026-10-10 14:14:54 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 200/476 | running PPL 7.6366 | 3403 s
+2026-10-10 14:17:44 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 210/476 | running PPL 7.6164 | 3573 s
+2026-10-10 14:20:34 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 220/476 | running PPL 7.6421 | 3742 s
+2026-10-10 14:23:23 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 230/476 | running PPL 7.7001 | 3912 s
+2026-10-10 14:26:12 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 240/476 | running PPL 7.6328 | 4081 s
+2026-10-10 14:29:02 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 250/476 | running PPL 7.5905 | 4250 s
+2026-10-10 14:31:51 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 260/476 | running PPL 7.6439 | 4420 s
+2026-10-10 14:34:41 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 270/476 | running PPL 7.8069 | 4589 s
+2026-10-10 14:37:30 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 280/476 | running PPL 7.9404 | 4759 s
+2026-10-10 14:40:20 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 290/476 | running PPL 8.0466 | 4929 s
+2026-10-10 14:43:09 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 300/476 | running PPL 8.0580 | 5097 s
+2026-10-10 14:45:58 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 310/476 | running PPL 8.0394 | 5267 s
+2026-10-10 14:48:47 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 320/476 | running PPL 8.0406 | 5436 s
+2026-10-10 14:51:37 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 330/476 | running PPL 8.0548 | 5606 s
+2026-10-10 14:54:27 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 340/476 | running PPL 8.0408 | 5776 s
+2026-10-10 14:57:16 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 350/476 | running PPL 8.0030 | 5945 s
+2026-10-10 15:00:07 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 360/476 | running PPL 8.0352 | 6115 s
+2026-10-10 15:03:02 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 370/476 | running PPL 8.0435 | 6291 s
+2026-10-10 15:06:08 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 380/476 | running PPL 8.1118 | 6477 s
+2026-10-10 15:08:58 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 390/476 | running PPL 8.0614 | 6647 s
+2026-10-10 15:11:49 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 400/476 | running PPL 8.0841 | 6817 s
+2026-10-10 15:14:38 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 410/476 | running PPL 8.0912 | 6987 s
+2026-10-10 15:17:27 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 420/476 | running PPL 8.0901 | 7156 s
+2026-10-10 15:20:17 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 430/476 | running PPL 8.0739 | 7325 s
+2026-10-10 15:23:07 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 440/476 | running PPL 8.0963 | 7496 s
+2026-10-10 15:25:56 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 450/476 | running PPL 8.0279 | 7665 s
+2026-10-10 15:28:46 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 460/476 | running PPL 8.0633 | 7834 s
+2026-10-10 15:31:35 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 470/476 | running PPL 8.0613 | 8003 s
+2026-10-10 15:33:17 | INFO    | [cognitive | Sparse8B-Q8_0] chunk 476/476 | running PPL 8.0885 | 8106 s
+2026-10-10 15:33:18 | INFO    | [cognitive | Sparse8B-Q8_0] MERGE CHECK: text hash/bytes after chunk 90 MATCH; overlap chunks 88-89 bit-identical: True (max |dNLL| 0)
+2026-10-10 15:33:18 | INFO    | [cognitive | Sparse8B-Q8_0] PART chunks 88-563: PPL 8.0885 [7.8165, 8.3700] | 0.6724 bits/byte | top-1 54.33 % | dPPL vs 8B-Q8_0: -2.49 % | 8106 s | 476 chunks
+2026-10-10 15:33:18 | INFO    | [cognitive | Sparse8B-Q8_0] FULL SET (90 earlier + 474 new chunks): PPL 8.1168 [7.8693, 8.3720] | 0.6762 bits/byte | top-1 54.23 % | dPPL vs 8B-Q8_0: -2.99 % | 9761 s | 564 chunks
+2026-10-10 15:33:18 | INFO    | <<< [a2_rest] Unit 10/10 finished in 135.6 min
+2026-10-10 15:33:18 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 15:33:18 | INFO    | night_02 is complete.
+2026-10-10 15:33:19 | INFO    | Run 20261010T003604-8845e8 finished with status 'completed'
+2026-10-10 15:33:19 | INFO    | Sleep prevention released.
+2026-10-10 15:33:19 | INFO    | Turbo: maximum processor state set to 99 % (Turbo Boost OFF)
+2026-10-10 15:33:19 | INFO    | Turbo restored: maximum processor state 99 %.
+2026-10-10 15:33:19 | INFO    | Night run finished: exit 0, 70 units completed this run, failed blocks: none, blocks: {'b1_pre': 'completed', 'a2_rest': 'completed', 'b1_post': 'disabled'}

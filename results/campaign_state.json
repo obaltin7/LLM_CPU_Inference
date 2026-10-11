@@ -1,0 +1,3864 @@
+{
+  "version": 2,
+  "sessions": {
+    "session_01": {
+      "session_id": "session_01",
+      "created_at": "2026-10-07T00:17:38+03:00",
+      "shuffle_seed": 735051882,
+      "shuffle_seed_base": 20261006,
+      "fingerprints": {
+        "energy": "c38f93e927eaa246",
+        "thread_scaling": "3634d5481e887ad9",
+        "cognitive": "47e0b8878ae09099"
+      },
+      "planned_units": [
+        "session_01|energy|1B-Q4_K_M|8|r01",
+        "session_01|energy|3B-Q8_0|8|r01",
+        "session_01|energy|Sparse8B-Q8_0|8|r01",
+        "session_01|energy|Sparse8B-Q4_K_M|8|r01",
+        "session_01|energy|1B-Q8_0|8|r01",
+        "session_01|energy|8B-Q4_K_M|8|r01",
+        "session_01|energy|8B-Q8_0|8|r01",
+        "session_01|energy|3B-Q4_K_M|8|r01",
+        "session_01|energy|Sparse8B-Q4_K_M|8|r02",
+        "session_01|energy|1B-Q8_0|8|r02",
+        "session_01|energy|3B-Q8_0|8|r02",
+        "session_01|energy|Sparse8B-Q8_0|8|r02",
+        "session_01|energy|3B-Q4_K_M|8|r02",
+        "session_01|energy|8B-Q4_K_M|8|r02",
+        "session_01|energy|1B-Q4_K_M|8|r02",
+        "session_01|energy|8B-Q8_0|8|r02",
+        "session_01|energy|8B-Q8_0|8|r03",
+        "session_01|energy|Sparse8B-Q4_K_M|8|r03",
+        "session_01|energy|8B-Q4_K_M|8|r03",
+        "session_01|energy|3B-Q8_0|8|r03",
+        "session_01|energy|1B-Q8_0|8|r03",
+        "session_01|energy|1B-Q4_K_M|8|r03",
+        "session_01|energy|3B-Q4_K_M|8|r03",
+        "session_01|energy|Sparse8B-Q8_0|8|r03",
+        "session_01|energy|3B-Q4_K_M|8|r04",
+        "session_01|energy|1B-Q8_0|8|r04",
+        "session_01|energy|3B-Q8_0|8|r04",
+        "session_01|energy|1B-Q4_K_M|8|r04",
+        "session_01|energy|8B-Q4_K_M|8|r04",
+        "session_01|energy|Sparse8B-Q8_0|8|r04",
+        "session_01|energy|8B-Q8_0|8|r04",
+        "session_01|energy|Sparse8B-Q4_K_M|8|r04",
+        "session_01|energy|1B-Q8_0|8|r05",
+        "session_01|energy|Sparse8B-Q4_K_M|8|r05",
+        "session_01|energy|1B-Q4_K_M|8|r05",
+        "session_01|energy|3B-Q4_K_M|8|r05",
+        "session_01|energy|Sparse8B-Q8_0|8|r05",
+        "session_01|energy|8B-Q4_K_M|8|r05",
+        "session_01|energy|3B-Q8_0|8|r05",
+        "session_01|energy|8B-Q8_0|8|r05",
+        "session_01|energy|3B-Q4_K_M|8|r06",
+        "session_01|energy|1B-Q8_0|8|r06",
+        "session_01|energy|Sparse8B-Q4_K_M|8|r06",
+        "session_01|energy|8B-Q8_0|8|r06",
+        "session_01|energy|1B-Q4_K_M|8|r06",
+        "session_01|energy|Sparse8B-Q8_0|8|r06",
+        "session_01|energy|8B-Q4_K_M|8|r06",
+        "session_01|energy|3B-Q8_0|8|r06",
+        "session_01|energy|1B-Q8_0|8|r07",
+        "session_01|energy|1B-Q4_K_M|8|r07",
+        "session_01|energy|3B-Q8_0|8|r07",
+        "session_01|energy|3B-Q4_K_M|8|r07",
+        "session_01|energy|Sparse8B-Q8_0|8|r07",
+        "session_01|energy|8B-Q4_K_M|8|r07",
+        "session_01|energy|Sparse8B-Q4_K_M|8|r07",
+        "session_01|energy|8B-Q8_0|8|r07",
+        "session_01|energy|8B-Q8_0|8|r08",
+        "session_01|energy|Sparse8B-Q4_K_M|8|r08",
+        "session_01|energy|1B-Q4_K_M|8|r08",
+        "session_01|energy|8B-Q4_K_M|8|r08",
+        "session_01|energy|Sparse8B-Q8_0|8|r08",
+        "session_01|energy|3B-Q4_K_M|8|r08",
+        "session_01|energy|1B-Q8_0|8|r08",
+        "session_01|energy|3B-Q8_0|8|r08",
+        "session_01|energy|8B-Q4_K_M|8|r09",
+        "session_01|energy|Sparse8B-Q4_K_M|8|r09",
+        "session_01|energy|3B-Q8_0|8|r09",
+        "session_01|energy|1B-Q4_K_M|8|r09",
+        "session_01|energy|3B-Q4_K_M|8|r09",
+        "session_01|energy|1B-Q8_0|8|r09",
+        "session_01|energy|Sparse8B-Q8_0|8|r09",
+        "session_01|energy|8B-Q8_0|8|r09",
+        "session_01|energy|1B-Q4_K_M|8|r10",
+        "session_01|energy|8B-Q8_0|8|r10",
+        "session_01|energy|3B-Q4_K_M|8|r10",
+        "session_01|energy|Sparse8B-Q8_0|8|r10",
+        "session_01|energy|Sparse8B-Q4_K_M|8|r10",
+        "session_01|energy|1B-Q8_0|8|r10",
+        "session_01|energy|8B-Q4_K_M|8|r10",
+        "session_01|energy|3B-Q8_0|8|r10",
+        "session_01|thread_scaling|8B-Q4_K_M|16|r01",
+        "session_01|thread_scaling|8B-Q4_K_M|4|r01",
+        "session_01|thread_scaling|8B-Q4_K_M|8|r01",
+        "session_01|thread_scaling|8B-Q4_K_M|2|r01",
+        "session_01|thread_scaling|8B-Q4_K_M|12|r01",
+        "session_01|thread_scaling|8B-Q4_K_M|1|r01",
+        "session_01|thread_scaling|8B-Q4_K_M|6|r01",
+        "session_01|thread_scaling|8B-Q4_K_M|6|r02",
+        "session_01|thread_scaling|8B-Q4_K_M|12|r02",
+        "session_01|thread_scaling|8B-Q4_K_M|16|r02",
+        "session_01|thread_scaling|8B-Q4_K_M|8|r02",
+        "session_01|thread_scaling|8B-Q4_K_M|4|r02",
+        "session_01|thread_scaling|8B-Q4_K_M|1|r02",
+        "session_01|thread_scaling|8B-Q4_K_M|2|r02",
+        "session_01|thread_scaling|8B-Q4_K_M|1|r03",
+        "session_01|thread_scaling|8B-Q4_K_M|2|r03",
+        "session_01|thread_scaling|8B-Q4_K_M|12|r03",
+        "session_01|thread_scaling|8B-Q4_K_M|8|r03",
+        "session_01|thread_scaling|8B-Q4_K_M|16|r03",
+        "session_01|thread_scaling|8B-Q4_K_M|6|r03",
+        "session_01|thread_scaling|8B-Q4_K_M|4|r03",
+        "session_01|thread_scaling|8B-Q4_K_M|12|r04",
+        "session_01|thread_scaling|8B-Q4_K_M|1|r04",
+        "session_01|thread_scaling|8B-Q4_K_M|4|r04",
+        "session_01|thread_scaling|8B-Q4_K_M|16|r04",
+        "session_01|thread_scaling|8B-Q4_K_M|6|r04",
+        "session_01|thread_scaling|8B-Q4_K_M|2|r04",
+        "session_01|thread_scaling|8B-Q4_K_M|8|r04",
+        "session_01|thread_scaling|8B-Q4_K_M|8|r05",
+        "session_01|thread_scaling|8B-Q4_K_M|2|r05",
+        "session_01|thread_scaling|8B-Q4_K_M|4|r05",
+        "session_01|thread_scaling|8B-Q4_K_M|1|r05",
+        "session_01|thread_scaling|8B-Q4_K_M|6|r05",
+        "session_01|thread_scaling|8B-Q4_K_M|12|r05",
+        "session_01|thread_scaling|8B-Q4_K_M|16|r05",
+        "session_01|thread_scaling|8B-Q4_K_M|1|r06",
+        "session_01|thread_scaling|8B-Q4_K_M|12|r06",
+        "session_01|thread_scaling|8B-Q4_K_M|16|r06",
+        "session_01|thread_scaling|8B-Q4_K_M|8|r06",
+        "session_01|thread_scaling|8B-Q4_K_M|6|r06",
+        "session_01|thread_scaling|8B-Q4_K_M|2|r06",
+        "session_01|thread_scaling|8B-Q4_K_M|4|r06",
+        "session_01|thread_scaling|8B-Q4_K_M|12|r07",
+        "session_01|thread_scaling|8B-Q4_K_M|8|r07",
+        "session_01|thread_scaling|8B-Q4_K_M|6|r07",
+        "session_01|thread_scaling|8B-Q4_K_M|4|r07",
+        "session_01|thread_scaling|8B-Q4_K_M|2|r07",
+        "session_01|thread_scaling|8B-Q4_K_M|1|r07",
+        "session_01|thread_scaling|8B-Q4_K_M|16|r07",
+        "session_01|thread_scaling|8B-Q4_K_M|12|r08",
+        "session_01|thread_scaling|8B-Q4_K_M|6|r08",
+        "session_01|thread_scaling|8B-Q4_K_M|16|r08",
+        "session_01|thread_scaling|8B-Q4_K_M|4|r08",
+        "session_01|thread_scaling|8B-Q4_K_M|1|r08",
+        "session_01|thread_scaling|8B-Q4_K_M|2|r08",
+        "session_01|thread_scaling|8B-Q4_K_M|8|r08",
+        "session_01|thread_scaling|8B-Q4_K_M|2|r09",
+        "session_01|thread_scaling|8B-Q4_K_M|6|r09",
+        "session_01|thread_scaling|8B-Q4_K_M|4|r09",
+        "session_01|thread_scaling|8B-Q4_K_M|1|r09",
+        "session_01|thread_scaling|8B-Q4_K_M|8|r09",
+        "session_01|thread_scaling|8B-Q4_K_M|16|r09",
+        "session_01|thread_scaling|8B-Q4_K_M|12|r09",
+        "session_01|thread_scaling|8B-Q4_K_M|6|r10",
+        "session_01|thread_scaling|8B-Q4_K_M|8|r10",
+        "session_01|thread_scaling|8B-Q4_K_M|16|r10",
+        "session_01|thread_scaling|8B-Q4_K_M|1|r10",
+        "session_01|thread_scaling|8B-Q4_K_M|2|r10",
+        "session_01|thread_scaling|8B-Q4_K_M|4|r10",
+        "session_01|thread_scaling|8B-Q4_K_M|12|r10",
+        "session_01|cognitive|8B-Q8_0|8",
+        "session_01|cognitive|8B-Q4_K_M|8",
+        "session_01|cognitive|3B-Q4_K_M|8",
+        "session_01|cognitive|3B-Q8_0|8",
+        "session_01|cognitive|1B-Q4_K_M|8",
+        "session_01|cognitive|1B-Q8_0|8",
+        "session_01|cognitive|Sparse8B-Q4_K_M|8",
+        "session_01|cognitive|Sparse8B-Q8_0|8"
+      ],
+      "orders": {
+        "energy|r01": [
+          "1B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "Sparse8B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "3B-Q4_K_M|8"
+        ],
+        "energy|r02": [
+          "Sparse8B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "3B-Q8_0|8",
+          "Sparse8B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "8B-Q4_K_M|8",
+          "1B-Q4_K_M|8",
+          "8B-Q8_0|8"
+        ],
+        "energy|r03": [
+          "8B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "1B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "3B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8"
+        ],
+        "energy|r04": [
+          "3B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "3B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "8B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "8B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8"
+        ],
+        "energy|r05": [
+          "1B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "1B-Q4_K_M|8",
+          "3B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "8B-Q8_0|8"
+        ],
+        "energy|r06": [
+          "3B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "3B-Q8_0|8"
+        ],
+        "energy|r07": [
+          "1B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q8_0|8"
+        ],
+        "energy|r08": [
+          "8B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "1B-Q4_K_M|8",
+          "8B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "3B-Q8_0|8"
+        ],
+        "energy|r09": [
+          "8B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "3B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "Sparse8B-Q8_0|8",
+          "8B-Q8_0|8"
+        ],
+        "energy|r10": [
+          "1B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "3B-Q8_0|8"
+        ],
+        "thread_scaling|r01": [
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|6"
+        ],
+        "thread_scaling|r02": [
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|2"
+        ],
+        "thread_scaling|r03": [
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|4"
+        ],
+        "thread_scaling|r04": [
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|8"
+        ],
+        "thread_scaling|r05": [
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|16"
+        ],
+        "thread_scaling|r06": [
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|4"
+        ],
+        "thread_scaling|r07": [
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|16"
+        ],
+        "thread_scaling|r08": [
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|8"
+        ],
+        "thread_scaling|r09": [
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|12"
+        ],
+        "thread_scaling|r10": [
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|12"
+        ],
+        "cognitive": [
+          "8B-Q8_0",
+          "8B-Q4_K_M",
+          "3B-Q4_K_M",
+          "3B-Q8_0",
+          "1B-Q4_K_M",
+          "1B-Q8_0",
+          "Sparse8B-Q4_K_M",
+          "Sparse8B-Q8_0"
+        ]
+      },
+      "summaries_written": [
+        "energy",
+        "thread_scaling"
+      ],
+      "completed_at": "2026-10-07T04:35:33+03:00",
+      "post_hoc_notes": {
+        "added_at": "2026-10-07",
+        "added_by": "post-hoc review (operator decision of 2026-10-07)",
+        "notes": [
+          "No reboot before the session: the system had been up since 2026-10-06 12:41 (about 11.5 h); the protocol requires a reboot before every session. The heat test and the smoke test ran in the same boot.",
+          "Start-up transient: rounds 1-2 (00:17-00:33) show +3-10 % CPU J/token and lower tokens/s for almost every model; values settle from round 3. Excluding rounds 1-2 changes absolute means by at most 2 % and the ratios to 8B-Q8_0 by at most 0.01 (interleaving spread the transient over all models).",
+          "The idle baseline (16.39 W, 4.1 % CPU utilisation, just below the 5 % warning limit) was measured during that transient; net (idle-subtracted) values of this session are less reliable than the raw values.",
+          "Isolated outliers occur after round 2 as well (largest: round 10, 8B-Q8_0 'transformer', 18.67 J/token).",
+          "Final use of session_01 (in the main tables, or treated as an outlier session) will be decided after sessions 02-03 are available. Until then the data is kept unchanged."
+        ]
+      }
+    },
+    "session_02": {
+      "session_id": "session_02",
+      "created_at": "2026-10-07T16:40:56+03:00",
+      "shuffle_seed": 2304274476,
+      "shuffle_seed_base": 20261006,
+      "fingerprints": {
+        "energy": "c38f93e927eaa246",
+        "thread_scaling": "3634d5481e887ad9",
+        "cognitive": "47e0b8878ae09099"
+      },
+      "planned_units": [
+        "session_02|energy|Sparse8B-Q8_0|8|r01",
+        "session_02|energy|1B-Q4_K_M|8|r01",
+        "session_02|energy|3B-Q4_K_M|8|r01",
+        "session_02|energy|Sparse8B-Q4_K_M|8|r01",
+        "session_02|energy|8B-Q8_0|8|r01",
+        "session_02|energy|1B-Q8_0|8|r01",
+        "session_02|energy|8B-Q4_K_M|8|r01",
+        "session_02|energy|3B-Q8_0|8|r01",
+        "session_02|energy|8B-Q4_K_M|8|r02",
+        "session_02|energy|1B-Q8_0|8|r02",
+        "session_02|energy|Sparse8B-Q4_K_M|8|r02",
+        "session_02|energy|Sparse8B-Q8_0|8|r02",
+        "session_02|energy|8B-Q8_0|8|r02",
+        "session_02|energy|3B-Q4_K_M|8|r02",
+        "session_02|energy|1B-Q4_K_M|8|r02",
+        "session_02|energy|3B-Q8_0|8|r02",
+        "session_02|energy|3B-Q8_0|8|r03",
+        "session_02|energy|1B-Q8_0|8|r03",
+        "session_02|energy|8B-Q8_0|8|r03",
+        "session_02|energy|8B-Q4_K_M|8|r03",
+        "session_02|energy|Sparse8B-Q4_K_M|8|r03",
+        "session_02|energy|Sparse8B-Q8_0|8|r03",
+        "session_02|energy|1B-Q4_K_M|8|r03",
+        "session_02|energy|3B-Q4_K_M|8|r03",
+        "session_02|energy|3B-Q8_0|8|r04",
+        "session_02|energy|Sparse8B-Q8_0|8|r04",
+        "session_02|energy|8B-Q8_0|8|r04",
+        "session_02|energy|3B-Q4_K_M|8|r04",
+        "session_02|energy|1B-Q4_K_M|8|r04",
+        "session_02|energy|1B-Q8_0|8|r04",
+        "session_02|energy|Sparse8B-Q4_K_M|8|r04",
+        "session_02|energy|8B-Q4_K_M|8|r04",
+        "session_02|energy|Sparse8B-Q8_0|8|r05",
+        "session_02|energy|1B-Q4_K_M|8|r05",
+        "session_02|energy|8B-Q4_K_M|8|r05",
+        "session_02|energy|1B-Q8_0|8|r05",
+        "session_02|energy|3B-Q4_K_M|8|r05",
+        "session_02|energy|3B-Q8_0|8|r05",
+        "session_02|energy|Sparse8B-Q4_K_M|8|r05",
+        "session_02|energy|8B-Q8_0|8|r05",
+        "session_02|energy|3B-Q8_0|8|r06",
+        "session_02|energy|1B-Q4_K_M|8|r06",
+        "session_02|energy|Sparse8B-Q8_0|8|r06",
+        "session_02|energy|Sparse8B-Q4_K_M|8|r06",
+        "session_02|energy|1B-Q8_0|8|r06",
+        "session_02|energy|8B-Q4_K_M|8|r06",
+        "session_02|energy|8B-Q8_0|8|r06",
+        "session_02|energy|3B-Q4_K_M|8|r06",
+        "session_02|energy|1B-Q8_0|8|r07",
+        "session_02|energy|Sparse8B-Q4_K_M|8|r07",
+        "session_02|energy|8B-Q8_0|8|r07",
+        "session_02|energy|3B-Q4_K_M|8|r07",
+        "session_02|energy|3B-Q8_0|8|r07",
+        "session_02|energy|Sparse8B-Q8_0|8|r07",
+        "session_02|energy|8B-Q4_K_M|8|r07",
+        "session_02|energy|1B-Q4_K_M|8|r07",
+        "session_02|energy|Sparse8B-Q8_0|8|r08",
+        "session_02|energy|1B-Q8_0|8|r08",
+        "session_02|energy|8B-Q8_0|8|r08",
+        "session_02|energy|1B-Q4_K_M|8|r08",
+        "session_02|energy|Sparse8B-Q4_K_M|8|r08",
+        "session_02|energy|3B-Q8_0|8|r08",
+        "session_02|energy|3B-Q4_K_M|8|r08",
+        "session_02|energy|8B-Q4_K_M|8|r08",
+        "session_02|energy|3B-Q4_K_M|8|r09",
+        "session_02|energy|1B-Q4_K_M|8|r09",
+        "session_02|energy|Sparse8B-Q4_K_M|8|r09",
+        "session_02|energy|1B-Q8_0|8|r09",
+        "session_02|energy|8B-Q8_0|8|r09",
+        "session_02|energy|Sparse8B-Q8_0|8|r09",
+        "session_02|energy|3B-Q8_0|8|r09",
+        "session_02|energy|8B-Q4_K_M|8|r09",
+        "session_02|energy|3B-Q4_K_M|8|r10",
+        "session_02|energy|Sparse8B-Q4_K_M|8|r10",
+        "session_02|energy|8B-Q8_0|8|r10",
+        "session_02|energy|1B-Q8_0|8|r10",
+        "session_02|energy|Sparse8B-Q8_0|8|r10",
+        "session_02|energy|8B-Q4_K_M|8|r10",
+        "session_02|energy|1B-Q4_K_M|8|r10",
+        "session_02|energy|3B-Q8_0|8|r10",
+        "session_02|thread_scaling|8B-Q4_K_M|8|r01",
+        "session_02|thread_scaling|8B-Q4_K_M|6|r01",
+        "session_02|thread_scaling|8B-Q4_K_M|4|r01",
+        "session_02|thread_scaling|8B-Q4_K_M|12|r01",
+        "session_02|thread_scaling|8B-Q4_K_M|16|r01",
+        "session_02|thread_scaling|8B-Q4_K_M|1|r01",
+        "session_02|thread_scaling|8B-Q4_K_M|2|r01",
+        "session_02|thread_scaling|8B-Q4_K_M|12|r02",
+        "session_02|thread_scaling|8B-Q4_K_M|2|r02",
+        "session_02|thread_scaling|8B-Q4_K_M|6|r02",
+        "session_02|thread_scaling|8B-Q4_K_M|8|r02",
+        "session_02|thread_scaling|8B-Q4_K_M|16|r02",
+        "session_02|thread_scaling|8B-Q4_K_M|4|r02",
+        "session_02|thread_scaling|8B-Q4_K_M|1|r02",
+        "session_02|thread_scaling|8B-Q4_K_M|2|r03",
+        "session_02|thread_scaling|8B-Q4_K_M|4|r03",
+        "session_02|thread_scaling|8B-Q4_K_M|6|r03",
+        "session_02|thread_scaling|8B-Q4_K_M|8|r03",
+        "session_02|thread_scaling|8B-Q4_K_M|12|r03",
+        "session_02|thread_scaling|8B-Q4_K_M|1|r03",
+        "session_02|thread_scaling|8B-Q4_K_M|16|r03",
+        "session_02|thread_scaling|8B-Q4_K_M|2|r04",
+        "session_02|thread_scaling|8B-Q4_K_M|12|r04",
+        "session_02|thread_scaling|8B-Q4_K_M|1|r04",
+        "session_02|thread_scaling|8B-Q4_K_M|16|r04",
+        "session_02|thread_scaling|8B-Q4_K_M|6|r04",
+        "session_02|thread_scaling|8B-Q4_K_M|4|r04",
+        "session_02|thread_scaling|8B-Q4_K_M|8|r04",
+        "session_02|thread_scaling|8B-Q4_K_M|8|r05",
+        "session_02|thread_scaling|8B-Q4_K_M|4|r05",
+        "session_02|thread_scaling|8B-Q4_K_M|12|r05",
+        "session_02|thread_scaling|8B-Q4_K_M|16|r05",
+        "session_02|thread_scaling|8B-Q4_K_M|1|r05",
+        "session_02|thread_scaling|8B-Q4_K_M|6|r05",
+        "session_02|thread_scaling|8B-Q4_K_M|2|r05",
+        "session_02|thread_scaling|8B-Q4_K_M|16|r06",
+        "session_02|thread_scaling|8B-Q4_K_M|8|r06",
+        "session_02|thread_scaling|8B-Q4_K_M|4|r06",
+        "session_02|thread_scaling|8B-Q4_K_M|1|r06",
+        "session_02|thread_scaling|8B-Q4_K_M|12|r06",
+        "session_02|thread_scaling|8B-Q4_K_M|6|r06",
+        "session_02|thread_scaling|8B-Q4_K_M|2|r06",
+        "session_02|thread_scaling|8B-Q4_K_M|16|r07",
+        "session_02|thread_scaling|8B-Q4_K_M|2|r07",
+        "session_02|thread_scaling|8B-Q4_K_M|8|r07",
+        "session_02|thread_scaling|8B-Q4_K_M|6|r07",
+        "session_02|thread_scaling|8B-Q4_K_M|1|r07",
+        "session_02|thread_scaling|8B-Q4_K_M|12|r07",
+        "session_02|thread_scaling|8B-Q4_K_M|4|r07",
+        "session_02|thread_scaling|8B-Q4_K_M|12|r08",
+        "session_02|thread_scaling|8B-Q4_K_M|6|r08",
+        "session_02|thread_scaling|8B-Q4_K_M|4|r08",
+        "session_02|thread_scaling|8B-Q4_K_M|8|r08",
+        "session_02|thread_scaling|8B-Q4_K_M|16|r08",
+        "session_02|thread_scaling|8B-Q4_K_M|2|r08",
+        "session_02|thread_scaling|8B-Q4_K_M|1|r08",
+        "session_02|thread_scaling|8B-Q4_K_M|1|r09",
+        "session_02|thread_scaling|8B-Q4_K_M|2|r09",
+        "session_02|thread_scaling|8B-Q4_K_M|12|r09",
+        "session_02|thread_scaling|8B-Q4_K_M|4|r09",
+        "session_02|thread_scaling|8B-Q4_K_M|16|r09",
+        "session_02|thread_scaling|8B-Q4_K_M|6|r09",
+        "session_02|thread_scaling|8B-Q4_K_M|8|r09",
+        "session_02|thread_scaling|8B-Q4_K_M|1|r10",
+        "session_02|thread_scaling|8B-Q4_K_M|4|r10",
+        "session_02|thread_scaling|8B-Q4_K_M|6|r10",
+        "session_02|thread_scaling|8B-Q4_K_M|12|r10",
+        "session_02|thread_scaling|8B-Q4_K_M|8|r10",
+        "session_02|thread_scaling|8B-Q4_K_M|16|r10",
+        "session_02|thread_scaling|8B-Q4_K_M|2|r10"
+      ],
+      "orders": {
+        "energy|r01": [
+          "Sparse8B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "3B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "1B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "3B-Q8_0|8"
+        ],
+        "energy|r02": [
+          "8B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "8B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "1B-Q4_K_M|8",
+          "3B-Q8_0|8"
+        ],
+        "energy|r03": [
+          "3B-Q8_0|8",
+          "1B-Q8_0|8",
+          "8B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "3B-Q4_K_M|8"
+        ],
+        "energy|r04": [
+          "3B-Q8_0|8",
+          "Sparse8B-Q8_0|8",
+          "8B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "1B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q4_K_M|8"
+        ],
+        "energy|r05": [
+          "Sparse8B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "8B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q8_0|8"
+        ],
+        "energy|r06": [
+          "3B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "3B-Q4_K_M|8"
+        ],
+        "energy|r07": [
+          "1B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "Sparse8B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "1B-Q4_K_M|8"
+        ],
+        "energy|r08": [
+          "Sparse8B-Q8_0|8",
+          "1B-Q8_0|8",
+          "8B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "8B-Q4_K_M|8"
+        ],
+        "energy|r09": [
+          "3B-Q4_K_M|8",
+          "1B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "8B-Q8_0|8",
+          "Sparse8B-Q8_0|8",
+          "3B-Q8_0|8",
+          "8B-Q4_K_M|8"
+        ],
+        "energy|r10": [
+          "3B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "1B-Q8_0|8",
+          "Sparse8B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "1B-Q4_K_M|8",
+          "3B-Q8_0|8"
+        ],
+        "thread_scaling|r01": [
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|2"
+        ],
+        "thread_scaling|r02": [
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|1"
+        ],
+        "thread_scaling|r03": [
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|16"
+        ],
+        "thread_scaling|r04": [
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|8"
+        ],
+        "thread_scaling|r05": [
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|2"
+        ],
+        "thread_scaling|r06": [
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|2"
+        ],
+        "thread_scaling|r07": [
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|4"
+        ],
+        "thread_scaling|r08": [
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|1"
+        ],
+        "thread_scaling|r09": [
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|8"
+        ],
+        "thread_scaling|r10": [
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|2"
+        ]
+      },
+      "summaries_written": [
+        "energy",
+        "thread_scaling"
+      ],
+      "completed_at": "2026-10-07T19:45:22+03:00"
+    },
+    "session_03": {
+      "session_id": "session_03",
+      "created_at": "2026-10-07T22:19:06+03:00",
+      "shuffle_seed": 3820665989,
+      "shuffle_seed_base": 20261006,
+      "fingerprints": {
+        "energy": "c38f93e927eaa246",
+        "thread_scaling": "3634d5481e887ad9",
+        "cognitive": "47e0b8878ae09099"
+      },
+      "planned_units": [
+        "session_03|energy|1B-Q4_K_M|8|r01",
+        "session_03|energy|3B-Q8_0|8|r01",
+        "session_03|energy|8B-Q8_0|8|r01",
+        "session_03|energy|Sparse8B-Q8_0|8|r01",
+        "session_03|energy|8B-Q4_K_M|8|r01",
+        "session_03|energy|Sparse8B-Q4_K_M|8|r01",
+        "session_03|energy|1B-Q8_0|8|r01",
+        "session_03|energy|3B-Q4_K_M|8|r01",
+        "session_03|energy|Sparse8B-Q8_0|8|r02",
+        "session_03|energy|8B-Q8_0|8|r02",
+        "session_03|energy|1B-Q8_0|8|r02",
+        "session_03|energy|3B-Q4_K_M|8|r02",
+        "session_03|energy|Sparse8B-Q4_K_M|8|r02",
+        "session_03|energy|3B-Q8_0|8|r02",
+        "session_03|energy|1B-Q4_K_M|8|r02",
+        "session_03|energy|8B-Q4_K_M|8|r02",
+        "session_03|energy|1B-Q4_K_M|8|r03",
+        "session_03|energy|Sparse8B-Q4_K_M|8|r03",
+        "session_03|energy|8B-Q8_0|8|r03",
+        "session_03|energy|3B-Q8_0|8|r03",
+        "session_03|energy|8B-Q4_K_M|8|r03",
+        "session_03|energy|1B-Q8_0|8|r03",
+        "session_03|energy|3B-Q4_K_M|8|r03",
+        "session_03|energy|Sparse8B-Q8_0|8|r03",
+        "session_03|energy|Sparse8B-Q8_0|8|r04",
+        "session_03|energy|3B-Q4_K_M|8|r04",
+        "session_03|energy|1B-Q4_K_M|8|r04",
+        "session_03|energy|8B-Q8_0|8|r04",
+        "session_03|energy|1B-Q8_0|8|r04",
+        "session_03|energy|Sparse8B-Q4_K_M|8|r04",
+        "session_03|energy|3B-Q8_0|8|r04",
+        "session_03|energy|8B-Q4_K_M|8|r04",
+        "session_03|energy|1B-Q4_K_M|8|r05",
+        "session_03|energy|1B-Q8_0|8|r05",
+        "session_03|energy|3B-Q4_K_M|8|r05",
+        "session_03|energy|8B-Q8_0|8|r05",
+        "session_03|energy|Sparse8B-Q4_K_M|8|r05",
+        "session_03|energy|3B-Q8_0|8|r05",
+        "session_03|energy|8B-Q4_K_M|8|r05",
+        "session_03|energy|Sparse8B-Q8_0|8|r05",
+        "session_03|energy|3B-Q8_0|8|r06",
+        "session_03|energy|8B-Q4_K_M|8|r06",
+        "session_03|energy|Sparse8B-Q8_0|8|r06",
+        "session_03|energy|1B-Q4_K_M|8|r06",
+        "session_03|energy|1B-Q8_0|8|r06",
+        "session_03|energy|3B-Q4_K_M|8|r06",
+        "session_03|energy|Sparse8B-Q4_K_M|8|r06",
+        "session_03|energy|8B-Q8_0|8|r06",
+        "session_03|energy|3B-Q4_K_M|8|r07",
+        "session_03|energy|8B-Q4_K_M|8|r07",
+        "session_03|energy|1B-Q4_K_M|8|r07",
+        "session_03|energy|3B-Q8_0|8|r07",
+        "session_03|energy|1B-Q8_0|8|r07",
+        "session_03|energy|8B-Q8_0|8|r07",
+        "session_03|energy|Sparse8B-Q8_0|8|r07",
+        "session_03|energy|Sparse8B-Q4_K_M|8|r07",
+        "session_03|energy|3B-Q4_K_M|8|r08",
+        "session_03|energy|3B-Q8_0|8|r08",
+        "session_03|energy|8B-Q8_0|8|r08",
+        "session_03|energy|1B-Q8_0|8|r08",
+        "session_03|energy|Sparse8B-Q8_0|8|r08",
+        "session_03|energy|Sparse8B-Q4_K_M|8|r08",
+        "session_03|energy|8B-Q4_K_M|8|r08",
+        "session_03|energy|1B-Q4_K_M|8|r08",
+        "session_03|energy|Sparse8B-Q8_0|8|r09",
+        "session_03|energy|1B-Q8_0|8|r09",
+        "session_03|energy|Sparse8B-Q4_K_M|8|r09",
+        "session_03|energy|3B-Q4_K_M|8|r09",
+        "session_03|energy|8B-Q8_0|8|r09",
+        "session_03|energy|1B-Q4_K_M|8|r09",
+        "session_03|energy|3B-Q8_0|8|r09",
+        "session_03|energy|8B-Q4_K_M|8|r09",
+        "session_03|energy|1B-Q8_0|8|r10",
+        "session_03|energy|8B-Q4_K_M|8|r10",
+        "session_03|energy|Sparse8B-Q4_K_M|8|r10",
+        "session_03|energy|Sparse8B-Q8_0|8|r10",
+        "session_03|energy|1B-Q4_K_M|8|r10",
+        "session_03|energy|8B-Q8_0|8|r10",
+        "session_03|energy|3B-Q8_0|8|r10",
+        "session_03|energy|3B-Q4_K_M|8|r10",
+        "session_03|thread_scaling|8B-Q4_K_M|12|r01",
+        "session_03|thread_scaling|8B-Q4_K_M|2|r01",
+        "session_03|thread_scaling|8B-Q4_K_M|4|r01",
+        "session_03|thread_scaling|8B-Q4_K_M|1|r01",
+        "session_03|thread_scaling|8B-Q4_K_M|16|r01",
+        "session_03|thread_scaling|8B-Q4_K_M|8|r01",
+        "session_03|thread_scaling|8B-Q4_K_M|6|r01",
+        "session_03|thread_scaling|8B-Q4_K_M|16|r02",
+        "session_03|thread_scaling|8B-Q4_K_M|6|r02",
+        "session_03|thread_scaling|8B-Q4_K_M|2|r02",
+        "session_03|thread_scaling|8B-Q4_K_M|4|r02",
+        "session_03|thread_scaling|8B-Q4_K_M|8|r02",
+        "session_03|thread_scaling|8B-Q4_K_M|12|r02",
+        "session_03|thread_scaling|8B-Q4_K_M|1|r02",
+        "session_03|thread_scaling|8B-Q4_K_M|6|r03",
+        "session_03|thread_scaling|8B-Q4_K_M|1|r03",
+        "session_03|thread_scaling|8B-Q4_K_M|8|r03",
+        "session_03|thread_scaling|8B-Q4_K_M|2|r03",
+        "session_03|thread_scaling|8B-Q4_K_M|16|r03",
+        "session_03|thread_scaling|8B-Q4_K_M|4|r03",
+        "session_03|thread_scaling|8B-Q4_K_M|12|r03",
+        "session_03|thread_scaling|8B-Q4_K_M|16|r04",
+        "session_03|thread_scaling|8B-Q4_K_M|6|r04",
+        "session_03|thread_scaling|8B-Q4_K_M|12|r04",
+        "session_03|thread_scaling|8B-Q4_K_M|1|r04",
+        "session_03|thread_scaling|8B-Q4_K_M|2|r04",
+        "session_03|thread_scaling|8B-Q4_K_M|8|r04",
+        "session_03|thread_scaling|8B-Q4_K_M|4|r04",
+        "session_03|thread_scaling|8B-Q4_K_M|2|r05",
+        "session_03|thread_scaling|8B-Q4_K_M|1|r05",
+        "session_03|thread_scaling|8B-Q4_K_M|12|r05",
+        "session_03|thread_scaling|8B-Q4_K_M|16|r05",
+        "session_03|thread_scaling|8B-Q4_K_M|6|r05",
+        "session_03|thread_scaling|8B-Q4_K_M|4|r05",
+        "session_03|thread_scaling|8B-Q4_K_M|8|r05",
+        "session_03|thread_scaling|8B-Q4_K_M|4|r06",
+        "session_03|thread_scaling|8B-Q4_K_M|6|r06",
+        "session_03|thread_scaling|8B-Q4_K_M|8|r06",
+        "session_03|thread_scaling|8B-Q4_K_M|12|r06",
+        "session_03|thread_scaling|8B-Q4_K_M|1|r06",
+        "session_03|thread_scaling|8B-Q4_K_M|2|r06",
+        "session_03|thread_scaling|8B-Q4_K_M|16|r06",
+        "session_03|thread_scaling|8B-Q4_K_M|16|r07",
+        "session_03|thread_scaling|8B-Q4_K_M|6|r07",
+        "session_03|thread_scaling|8B-Q4_K_M|1|r07",
+        "session_03|thread_scaling|8B-Q4_K_M|12|r07",
+        "session_03|thread_scaling|8B-Q4_K_M|2|r07",
+        "session_03|thread_scaling|8B-Q4_K_M|8|r07",
+        "session_03|thread_scaling|8B-Q4_K_M|4|r07",
+        "session_03|thread_scaling|8B-Q4_K_M|2|r08",
+        "session_03|thread_scaling|8B-Q4_K_M|4|r08",
+        "session_03|thread_scaling|8B-Q4_K_M|16|r08",
+        "session_03|thread_scaling|8B-Q4_K_M|6|r08",
+        "session_03|thread_scaling|8B-Q4_K_M|12|r08",
+        "session_03|thread_scaling|8B-Q4_K_M|1|r08",
+        "session_03|thread_scaling|8B-Q4_K_M|8|r08",
+        "session_03|thread_scaling|8B-Q4_K_M|12|r09",
+        "session_03|thread_scaling|8B-Q4_K_M|1|r09",
+        "session_03|thread_scaling|8B-Q4_K_M|4|r09",
+        "session_03|thread_scaling|8B-Q4_K_M|2|r09",
+        "session_03|thread_scaling|8B-Q4_K_M|6|r09",
+        "session_03|thread_scaling|8B-Q4_K_M|8|r09",
+        "session_03|thread_scaling|8B-Q4_K_M|16|r09",
+        "session_03|thread_scaling|8B-Q4_K_M|4|r10",
+        "session_03|thread_scaling|8B-Q4_K_M|8|r10",
+        "session_03|thread_scaling|8B-Q4_K_M|1|r10",
+        "session_03|thread_scaling|8B-Q4_K_M|2|r10",
+        "session_03|thread_scaling|8B-Q4_K_M|6|r10",
+        "session_03|thread_scaling|8B-Q4_K_M|16|r10",
+        "session_03|thread_scaling|8B-Q4_K_M|12|r10"
+      ],
+      "orders": {
+        "energy|r01": [
+          "1B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "8B-Q8_0|8",
+          "Sparse8B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "3B-Q4_K_M|8"
+        ],
+        "energy|r02": [
+          "Sparse8B-Q8_0|8",
+          "8B-Q8_0|8",
+          "1B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "8B-Q4_K_M|8"
+        ],
+        "energy|r03": [
+          "1B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "3B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8"
+        ],
+        "energy|r04": [
+          "Sparse8B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "1B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "1B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "8B-Q4_K_M|8"
+        ],
+        "energy|r05": [
+          "1B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8"
+        ],
+        "energy|r06": [
+          "3B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "1B-Q8_0|8",
+          "3B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q8_0|8"
+        ],
+        "energy|r07": [
+          "3B-Q4_K_M|8",
+          "8B-Q4_K_M|8",
+          "1B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "1B-Q8_0|8",
+          "8B-Q8_0|8",
+          "Sparse8B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8"
+        ],
+        "energy|r08": [
+          "3B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "8B-Q8_0|8",
+          "1B-Q8_0|8",
+          "Sparse8B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "8B-Q4_K_M|8",
+          "1B-Q4_K_M|8"
+        ],
+        "energy|r09": [
+          "Sparse8B-Q8_0|8",
+          "1B-Q8_0|8",
+          "Sparse8B-Q4_K_M|8",
+          "3B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "3B-Q8_0|8",
+          "8B-Q4_K_M|8"
+        ],
+        "energy|r10": [
+          "1B-Q8_0|8",
+          "8B-Q4_K_M|8",
+          "Sparse8B-Q4_K_M|8",
+          "Sparse8B-Q8_0|8",
+          "1B-Q4_K_M|8",
+          "8B-Q8_0|8",
+          "3B-Q8_0|8",
+          "3B-Q4_K_M|8"
+        ],
+        "thread_scaling|r01": [
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|6"
+        ],
+        "thread_scaling|r02": [
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|1"
+        ],
+        "thread_scaling|r03": [
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|12"
+        ],
+        "thread_scaling|r04": [
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|4"
+        ],
+        "thread_scaling|r05": [
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|8"
+        ],
+        "thread_scaling|r06": [
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|16"
+        ],
+        "thread_scaling|r07": [
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|4"
+        ],
+        "thread_scaling|r08": [
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|8"
+        ],
+        "thread_scaling|r09": [
+          "8B-Q4_K_M|12",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|16"
+        ],
+        "thread_scaling|r10": [
+          "8B-Q4_K_M|4",
+          "8B-Q4_K_M|8",
+          "8B-Q4_K_M|1",
+          "8B-Q4_K_M|2",
+          "8B-Q4_K_M|6",
+          "8B-Q4_K_M|16",
+          "8B-Q4_K_M|12"
+        ]
+      },
+      "summaries_written": [
+        "energy",
+        "thread_scaling"
+      ],
+      "completed_at": "2026-10-08T01:23:07+03:00"
+    }
+  },
+  "units": {
+    "session_01|energy|1B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:17:51+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:18:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:20:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:21:57+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:22:18+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:23:34+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:25:34+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:26:08+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:27:26+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:27:46+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:28:38+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:30:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:31:09+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:32:23+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:32:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:34:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:36:28+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:37:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:38:49+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:39:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:39:59+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:40:12+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:40:44+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:42:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:43:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:43:30+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:44:19+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:44:32+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:45:42+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:47:35+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:49:30+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:50:42+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:51:01+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:52:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:52:24+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:52:57+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:54:53+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:56:05+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:56:55+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:58:51+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:59:24+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T00:59:43+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:00:55+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:02:47+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:03:00+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:04:56+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:06:08+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:06:59+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:07:19+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:07:32+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:08:21+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:08:54+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:10:47+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:11:58+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:13:09+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:15:05+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:16:56+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:18:05+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:18:18+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:19:28+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:21:25+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:21:59+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:22:19+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:23:10+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:24:21+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:25:32+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:26:21+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:26:34+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:27:05+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:27:24+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:29:20+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:31:15+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:31:28+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:33:25+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:33:57+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:35:52+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|Sparse8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:37:03+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|1B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:37:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:38:35+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|energy|3B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:39:25+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|16|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:40:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|4|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:41:47+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:42:56+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|2|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:44:23+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|12|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:45:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|1|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:48:05+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|6|r01": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:49:14+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|6|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:50:23+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|12|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:51:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|16|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:52:43+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:53:52+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|4|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:55:03+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|1|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:57:35+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|2|r02": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T01:59:02+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|1|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:01:34+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|2|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:03:00+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|12|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:04:10+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:05:20+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|16|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:06:30+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|6|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:07:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|4|r03": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:08:50+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|12|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:09:59+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|1|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:12:32+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|4|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:13:43+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|16|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:14:53+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|6|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:16:02+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|2|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:17:28+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:18:37+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:19:46+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|2|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:21:13+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|4|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:22:23+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|1|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:24:55+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|6|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:26:04+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|12|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:27:14+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|16|r05": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:28:24+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|1|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:30:56+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|12|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:32:06+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|16|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:33:16+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:34:26+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|6|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:35:35+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|2|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:37:01+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|4|r06": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:38:12+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|12|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:39:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:40:31+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|6|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:41:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|4|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:42:51+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|2|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:44:17+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|1|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:46:49+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|16|r07": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:47:59+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|12|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:49:09+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|6|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:50:19+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|16|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:51:29+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|4|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:52:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|1|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:55:12+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|2|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:56:38+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:57:47+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|2|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T02:59:14+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|6|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:00:23+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|4|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:01:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|1|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:04:05+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:05:15+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|16|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:06:26+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|12|r09": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:07:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|6|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:08:46+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:09:56+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|16|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:11:07+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|1|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:13:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|2|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:15:05+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|4|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:16:16+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|thread_scaling|8B-Q4_K_M|12|r10": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:17:25+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|cognitive|8B-Q8_0|8": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:35:06+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|cognitive|8B-Q4_K_M|8": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:46:41+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|cognitive|3B-Q4_K_M|8": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T03:52:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|cognitive|3B-Q8_0|8": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T04:00:18+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|cognitive|1B-Q4_K_M|8": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T04:02:49+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|cognitive|1B-Q8_0|8": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T04:06:20+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|cognitive|Sparse8B-Q4_K_M|8": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T04:17:55+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_01|cognitive|Sparse8B-Q8_0|8": {
+      "status": "completed",
+      "run_id": "20261007T001559-d4dffe",
+      "finished_at": "2026-10-07T04:35:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:47:59+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:48:12+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:48:44+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:49:55+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:51:50+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:52:09+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:53:21+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:54:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:55:20+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:55:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:56:49+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T16:58:44+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:00:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:01:10+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:01:23+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:02:13+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:03:02+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:03:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:05:13+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:06:25+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:07:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:09:31+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:09:44+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:10:16+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:11:06+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:12:58+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:14:54+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:15:26+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:15:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:16:00+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:17:12+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:18:23+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:20:19+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:20:32+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:21:41+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:22:00+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:22:32+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:23:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:24:34+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:26:29+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:27:17+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:27:30+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:29:25+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:30:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:30:55+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:32:07+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:34:02+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:34:34+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:34:53+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:36:04+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:37:55+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:38:26+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:39:16+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:41:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:42:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:42:35+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:44:26+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:44:45+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:46:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:46:53+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:48:04+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:48:55+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:49:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:50:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:51:10+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:51:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:52:32+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:52:51+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:54:46+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:56:41+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:57:31+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:58:42+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T17:59:14+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:00:26+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:02:21+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:02:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|Sparse8B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:04:35+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:05:46+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|1B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:05:59+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|energy|3B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:06:49+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:07:59+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|6|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:09:09+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|4|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:10:19+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|12|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:11:30+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|16|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:12:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|1|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:15:12+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|2|r01": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:16:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|12|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:17:50+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|2|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:19:17+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|6|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:20:26+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:21:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|16|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:22:47+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|4|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:23:58+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|1|r02": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:26:31+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|2|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:27:58+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|4|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:29:09+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|6|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:30:18+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:31:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|12|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:32:38+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|1|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:35:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|16|r03": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:36:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|2|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:37:49+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|12|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:38:59+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|1|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:41:32+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|16|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:42:43+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|6|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:43:52+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|4|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:45:03+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:46:13+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:47:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|4|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:48:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|12|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:49:43+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|16|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:50:54+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|1|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:53:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|6|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:54:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|2|r05": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:56:03+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|16|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:57:14+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:58:23+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|4|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T18:59:34+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|1|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:02:07+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|12|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:03:17+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|6|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:04:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|2|r06": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:05:53+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|16|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:07:04+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|2|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:08:31+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:09:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|6|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:10:49+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|1|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:13:23+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|12|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:14:34+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|4|r07": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:15:45+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|12|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:16:56+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|6|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:18:05+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|4|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:19:16+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:20:26+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|16|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:21:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|2|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:23:03+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|1|r08": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:25:35+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|1|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:28:08+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|2|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:29:35+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|12|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:30:45+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|4|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:31:56+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|16|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:33:06+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|6|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:34:16+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:35:25+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|1|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:37:58+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|4|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:39:09+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|6|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:40:20+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|12|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:41:31+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:42:41+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|16|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:43:54+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_02|thread_scaling|8B-Q4_K_M|2|r10": {
+      "status": "completed",
+      "run_id": "20261007T163802-aae8e0",
+      "finished_at": "2026-10-07T19:45:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:24:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:25:16+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:27:10+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:29:07+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:30:18+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:31:29+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q8_0|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:31:48+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:32:21+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:34:14+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:36:08+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:36:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:36:59+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:38:10+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q8_0|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:39:00+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:39:13+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:40:25+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:40:37+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:41:47+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:43:41+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:44:32+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:45:41+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:46:01+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:46:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q8_0|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:48:28+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:50:18+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:50:49+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:51:02+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:52:57+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:53:16+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:54:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q8_0|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:55:18+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:56:29+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:56:42+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:57:01+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:57:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T22:59:28+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:00:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:01:29+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:02:41+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q8_0|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:04:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:05:24+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:06:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:08:24+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:08:37+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:08:56+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:09:28+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:10:39+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q8_0|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:12:34+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:13:05+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:14:17+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:14:30+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:15:20+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:15:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:17:34+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q8_0|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:19:29+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:20:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:21:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:22:02+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:23:57+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:24:16+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q8_0|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:26:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:27:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:28:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:28:46+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:30:38+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:30:57+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:32:06+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:32:38+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:34:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:34:46+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q8_0|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:35:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:36:48+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:37:08+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:38:18+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:39:29+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|Sparse8B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:41:24+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|1B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:41:37+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|8B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:43:32+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q8_0|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:44:21+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|energy|3B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:44:53+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|12|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:46:06+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|2|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:47:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|4|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:48:44+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|1|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:51:17+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|16|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:52:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|8|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:53:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|6|r01": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:54:45+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|16|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:55:55+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|6|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:57:04+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|2|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:58:31+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|4|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-07T23:59:41+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|8|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:00:50+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|12|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:02:00+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|1|r02": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:04:35+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|6|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:05:45+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|1|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:08:18+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|8|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:09:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|2|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:10:54+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|16|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:12:04+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|4|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:13:15+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|12|r03": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:14:25+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|16|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:15:35+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|6|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:16:44+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|12|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:17:54+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|1|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:20:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|2|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:21:54+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|8|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:23:03+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|4|r04": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:24:13+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|2|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:25:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|1|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:28:13+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|12|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:29:23+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|16|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:30:33+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|6|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:31:42+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|4|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:32:53+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|8|r05": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:34:02+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|4|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:35:12+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|6|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:36:21+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|8|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:37:30+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|12|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:38:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|1|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:41:14+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|2|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:42:41+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|16|r06": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:43:51+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|16|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:45:02+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|6|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:46:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|1|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:48:44+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|12|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:49:54+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|2|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:51:20+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|8|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:52:29+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|4|r07": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:53:40+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|2|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:55:06+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|4|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:56:17+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|16|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:57:27+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|6|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:58:36+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|12|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T00:59:46+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|1|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:02:19+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|8|r08": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:03:28+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|12|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:04:38+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|1|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:07:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|4|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:08:22+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|2|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:09:48+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|6|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:10:57+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|8|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:12:06+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|16|r09": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:13:16+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|4|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:14:28+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|8|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:15:37+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|1|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:18:11+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|2|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:19:38+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|6|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:20:47+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|16|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:21:57+03:00",
+      "cooldown_wait_s": 0.0
+    },
+    "session_03|thread_scaling|8B-Q4_K_M|12|r10": {
+      "status": "completed",
+      "run_id": "20261007T221555-885e23",
+      "finished_at": "2026-10-08T01:23:07+03:00",
+      "cooldown_wait_s": 0.0
+    }
+  }
+}

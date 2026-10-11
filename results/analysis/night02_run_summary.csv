@@ -1,0 +1,30 @@
+item,value
+session_id,night_02
+run_id,20261010T003604-8845e8
+status,completed
+started,2026-10-10T00:36:05+03:00
+finished,2026-10-10T15:33:19+03:00
+operator_note,oda 22 C
+idle_cpu_W,13.798378605170377
+idle_cpu_utilisation_pct,
+heat_probe_peak_C,77.0
+heat_probe_limit_C,80
+b1_skipped_thermal,False
+heat_probe_log,"Heat probe (Turbo on): 8B-Q4_K_M, 8 threads, 120 s -> peak 77.0 C, mean 64.6 C"
+turbo_restored_logged,True
+turbo_restored_log,Turbo restored: maximum processor state 99 %.
+powercfg_99pct_lines_now,2
+thermal_max_C,87.0
+thermal_abort_reason,None
+thermal_abort_C,85
+thermal_abort_hold_s,10
+blocks,"{""b1_pre"": ""completed"", ""a2_rest"": ""completed"", ""b1_post"": ""disabled""}"
+finished_log,"Night run finished: exit 0, 70 units completed this run, failed blocks: none, blocks: {'b1_pre': 'completed', 'a2_rest': 'completed', 'b1_post': 'disabled'}"
+log_warnings,0
+log_errors,0
+block_failed_lines,0
+thermal_abort_lines,0
+merge_checks_total,10
+merge_checks_passed,10
+merge_overlap_max_abs_diff,0.0
+merge_chunks,90 earlier + 474 new = 564

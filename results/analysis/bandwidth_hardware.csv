@@ -1,0 +1,2 @@
+modules,slots,channels,bus_width_bits,transfer_rate_mt_s,formula,theoretical_peak_gbs,part_number,source_metadata
+2,Controller0-ChannelA-DIMM1; Controller0-ChannelB-DIMM1,2,64,2133,2 ch x 8 B x 2133 MT/s,34.128,F4-3200C16-16GSXFB,20261007T221555-885e23.json

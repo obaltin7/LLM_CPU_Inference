@@ -1,0 +1,9 @@
+pair,metric,subset,n_sessions,margin_pct,log_ratio_by_session,mean_diff_pct,ci90_low_pct,ci90_high_pct,verdict
+Sparse8B-Q4_K_M vs 8B-Q4_K_M,cpu_J_per_token,all_sessions,3,3,+0.00659;+0.00134;-0.00392,0.133733,-0.749648,1.02498,equivalent
+Sparse8B-Q4_K_M vs 8B-Q4_K_M,cpu_J_per_token,sessions_02_03,2,3,+0.00134;-0.00392,-0.128967,-1.77459,1.54423,equivalent
+Sparse8B-Q4_K_M vs 8B-Q4_K_M,tokens_per_sec,all_sessions,3,3,-0.00660;-0.00166;+0.00174,-0.216952,-0.919168,0.490241,equivalent
+Sparse8B-Q4_K_M vs 8B-Q4_K_M,tokens_per_sec,sessions_02_03,2,3,-0.00166;+0.00174,0.00397246,-1.06097,1.08038,equivalent
+Sparse8B-Q8_0 vs 8B-Q8_0,cpu_J_per_token,all_sessions,3,3,-0.00341;-0.00768;-0.00263,-0.456252,-0.911994,0.00158475,equivalent
+Sparse8B-Q8_0 vs 8B-Q8_0,cpu_J_per_token,sessions_02_03,2,3,-0.00768;-0.00263,-0.514211,-2.0896,1.08652,equivalent
+Sparse8B-Q8_0 vs 8B-Q8_0,tokens_per_sec,all_sessions,3,3,-0.00260;+0.00014;-0.00341,-0.19551,-0.507531,0.11749,equivalent
+Sparse8B-Q8_0 vs 8B-Q8_0,tokens_per_sec,sessions_02_03,2,3,+0.00014;-0.00341,-0.163511,-1.27452,0.959999,equivalent

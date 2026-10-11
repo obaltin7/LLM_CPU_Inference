@@ -1,0 +1,217 @@
+# Single source of every experiment parameter. The scripts read this file; nothing below is
+# duplicated in code. The resolved values are stored in results/metadata/<run_id>.json.
+
+paths:
+  results_dir: results          # Phase 2 results (new schema). Phase 1 is frozen in results/phase1/.
+
+campaign:
+  # Order of the experiments within a session.
+  order: [energy, thread_scaling, cognitive]
+  # Interleaving: energy and thread-scaling configurations are run round by round (every round
+  # measures every configuration once) in an order shuffled per round. The shuffle seed of a
+  # session is derived from this base and the session id, and is stored with the realised order.
+  shuffle_seed: 20261006
+
+# Required power configuration. Thermal safety: "High performance" is NOT used; the Balanced
+# plan is used with the maximum processor state at 99 % (Turbo Boost off) on AC and DC.
+# A --final run refuses to start if this does not match; other runs only warn.
+power:
+  expected_plan: balanced
+  expected_max_processor_state: 99
+
+# Keys of the model registry in src/llm_cpu_inference/models.py. Models missing on disk are skipped with an error.
+models:
+  - 8B-Q4_K_M
+  - 8B-Q8_0
+  - 3B-Q4_K_M
+  - 3B-Q8_0
+  - 1B-Q4_K_M
+  - 1B-Q8_0
+  - Sparse8B-Q4_K_M
+  - Sparse8B-Q8_0
+
+inference:
+  n_ctx: 512
+  seed: 42                      # Has no effect on greedy decoding; fixed and recorded anyway
+  use_mmap: false               # Weights are read into RAM so disk I/O never enters a measurement
+
+# Fixed prompts, sent as raw completions (BOS + text, no chat template) so the workload is
+# identical for every model. Every round measures each of them once, in this order.
+prompts:
+  - id: cpu_arch                # The Phase 1 prompt, kept for continuity
+    text: "Explain the architecture of a CPU in detail."
+  - id: transformer
+    text: "Describe how the transformer neural network architecture processes a sentence, step by step."
+  - id: story
+    text: "Write a short story about a lighthouse keeper who discovers a message in a bottle."
+
+energy:
+  n_threads: physical           # integer, or: physical | p_cores | logical
+  n_predict: 100                # Tokens generated per measurement (fixed length, EOS suppressed)
+  iterations: 10                # Rounds per session; each round measures every model once
+  warmup: 1                     # Discarded warm-up generations (first prompt) after every model (re)load
+
+thread_scaling:
+  models:
+    - 8B-Q4_K_M
+  # Resolved against the detected topology, de-duplicated and sorted.
+  # i9-11900K (8 cores / 16 threads, not hybrid) -> [1, 2, 4, 6, 8, 12, 16]
+  threads: [1, 2, 4, 6, 8, 12, 16, physical, p_cores, logical]
+  n_predict: 100
+  iterations: 10
+  warmup: 1                     # Discarded warm-up generations (first prompt) after every (re)load
+
+cognitive:
+  first_session_only: true      # Perplexity is deterministic: measured once, in session_01 only
+  dataset_repo: ggml-org/ci
+  dataset_file: wikitext-2-raw-v1.zip
+  dataset_member: wiki.test.raw
+  dataset_name: wikitext-2-raw/test
+  n_ctx: 512                    # Chunk length = stride (non-overlapping); second half of each chunk is scored
+  chunks: 60                    # 0 = whole test set (564 chunks, roughly 10x longer)
+  n_threads: physical
+  reference: 8B-Q8_0            # Paired comparisons are made against this model
+
+thermal:
+  sensor: lhm                   # LibreHardwareMonitorLib via pythonnet (needs PawnIO + administrator)
+  lhm_dir: third_party/LibreHardwareMonitor-0.9.6
+  sample_interval_s: 0.5        # CPU package temperature sampling period (at least once per second)
+  abort_c: 85                   # Thermal fuse: stop safely if the package stays above this ...
+  abort_hold_s: 10              # ... for this many seconds
+  hard_abort_c: 95              # Stop immediately at this temperature (single reading)
+  sensor_loss_s: 5              # Stop if the temperature cannot be read for this long
+  cooldown_target_c: 55         # Before every configuration: wait until the package is at or below this ...
+  cooldown_max_s: 300           # ... but at most this long (then continue with a warning)
+  # The hottest configurations get a separate check: a stricter fuse limit, and the cool-down
+  # target must actually be reached before they start (otherwise the run stops with THERMAL_ABORT).
+  high_thread_count: 16
+  high_thread_abort_c: 80
+  freq_sample_interval_s: 0.5   # CPU frequency sampling period during each measurement
+  throttle_drop_frac: 0.05      # Flag a measurement whose mean frequency is >5 % below the configuration's best
+
+# Pre-conditions checked at the start of every run, before the idle baseline.
+session_start:
+  min_uptime_s: 1200            # Wait until 20 min after boot (post-boot tasks distorted session 1)
+  quiet_threshold_pct: 2.0      # The idle baseline starts only when the mean CPU utilisation ...
+  quiet_window_s: 60            # ... over the last 60 s is below 2 % ...
+  quiet_max_wait_s: 900         # ... waiting at most 15 min; otherwise the run stops (QUIET_TIMEOUT)
+
+idle:
+  settle_s: 15                  # Wait after start-up work before measuring the baseline
+  duration_s: 60                # Idle baseline at the start of every run
+
+# Unmeasured continuous generation after the idle baseline and before the first round, so that the
+# rounds start in the steady working state (session 1 showed a transient in its first two rounds).
+warmup_load:
+  duration_s: 300
+  model: 8B-Q4_K_M
+  n_threads: physical
+
+carbon:
+  country_iso_code: TUR         # Passed explicitly to CodeCarbon (no IP geolocation)
+
+# Overrides applied on top of the values above when a script is started with --smoke.
+# Smoke output goes to its own (git-ignored) folder so it can never mix with campaign data.
+smoke:
+  paths: {results_dir: results/smoke}
+  models: [8B-Q4_K_M, 1B-Q4_K_M]
+  prompts:
+    - id: cpu_arch
+      text: "Explain the architecture of a CPU in detail."
+  energy: {n_predict: 20, iterations: 2, warmup: 1}
+  thread_scaling:
+    models: [1B-Q4_K_M]
+    threads: [2, 16]
+    n_predict: 20
+    iterations: 2
+    warmup: 1
+  cognitive: {chunks: 2, reference: 8B-Q4_K_M}
+  idle: {settle_s: 2, duration_s: 10}
+  session_start: {min_uptime_s: 0, quiet_threshold_pct: 50, quiet_window_s: 15, quiet_max_wait_s: 120}
+  warmup_load: {duration_s: 20, model: 1B-Q4_K_M}
+  night:
+    a1: {models: [1B-Q4_K_M], threads: [2, 4], n_predict: 20, iterations: 1, warmup: 1}
+    a5: {models: [1B-Q4_K_M, 8B-Q4_K_M], n_predict: 20, iterations: 1, warmup: 1}
+    b1: {models: [1B-Q4_K_M], n_predict: 20, iterations: 1, warmup: 1, heat_model: 1B-Q4_K_M, heat_duration_s: 5,
+         settle_s: 1, enabled_post: true}
+    a2: {models: [8B-Q4_K_M, 1B-Q4_K_M], chunks: 1, reference: 8B-Q4_K_M}
+  night_02:
+    b1: {models: [1B-Q4_K_M], n_predict: 20, iterations: 1, warmup: 1, heat_model: 1B-Q4_K_M, heat_duration_s: 5,
+         settle_s: 1, enabled_post: false}
+    # Completes the smoke night_01 above (1 chunk per model): re-evaluates chunk 0 (overlap) and adds chunk 1
+    a2_rest: {models: [8B-Q4_K_M, 1B-Q4_K_M], reference: 8B-Q4_K_M, previous_results_subdir: night_test_prev,
+              previous_n_chunks: 1, overlap: 1, chunks: 2, expected_total_chunks: 2}
+
+# 2-minute heat test at the highest thread count (scripts/heat_test.py).
+heat_test:
+  model: 8B-Q4_K_M
+  n_threads: logical
+  duration_s: 120
+
+# Unattended night run (scripts/night_run.py): one session (night_01), blocks in the order below, every guard of the
+# campaign (--final, quiet gate, idle baseline, warm-up load, thermal fuse, sleep prevention). Results go to
+# <results_dir>/night/. Turbo Boost is switched per unit in the b1 blocks and always restored to turbo_off_percent.
+night:
+  session_id: night_01
+  results_subdir: night
+  order: [a1, a5, b1_pre, a2, b1_post]
+  a1:                                   # Energy-optimal thread count across all models (Turbo off)
+    models: [8B-Q4_K_M, 8B-Q8_0, 3B-Q4_K_M, 3B-Q8_0, 1B-Q4_K_M, 1B-Q8_0, Sparse8B-Q4_K_M, Sparse8B-Q8_0]
+    threads: [2, 4, 8]
+    n_predict: 100
+    iterations: 5
+    warmup: 1
+  a5:                                   # Intermediate quantizations with the dense anchors (Turbo off, 8 threads)
+    models: [8B-Q4_K_M, 8B-Q5_K_M, 8B-Q6_K, 8B-Q8_0]
+    n_threads: physical
+    n_predict: 100
+    iterations: 10
+    warmup: 1
+  b1:                                   # Turbo on/off, interleaved; preceded by a heat probe with Turbo on
+    models: [1B-Q4_K_M, 8B-Q4_K_M, 8B-Q8_0]
+    n_threads: physical
+    n_predict: 100
+    iterations: 10
+    warmup: 1
+    heat_model: 8B-Q4_K_M
+    heat_duration_s: 120
+    heat_max_c: 80                      # Above this peak the b1 blocks are skipped (B1_SKIPPED_THERMAL)
+    turbo_on_abort_c: 85                # Thermal fuse while Turbo is on
+    settle_s: 30                        # Wait after every power-plan change
+    enabled_post: false                 # b1_post dropped: the full plan exceeds the 8 h budget (see docs/night_run_01.md)
+  a2:                                   # Perplexity (Turbo off). 564 chunks x 10 models would take ~16 h; 90 fits the night.
+    models: [8B-Q8_0, 8B-Q4_K_M, 8B-Q5_K_M, 8B-Q6_K, 3B-Q4_K_M, 3B-Q8_0, 1B-Q4_K_M, 1B-Q8_0, Sparse8B-Q4_K_M, Sparse8B-Q8_0]
+    chunks: 90
+    reference: 8B-Q8_0
+  turbo_off_percent: 99
+  turbo_on_percent: 100
+
+# Second unattended run (scripts/night_run.py --night-config night_02): no time budget. Finishes the two items night_01
+# cut: an independent second B1 session (identical design) and the full-set perplexity, evaluating only the chunks
+# night_01 did not cover and merging the parts chunk by chunk (the overlap proves the merge, see benchmark_cognitive).
+night_02:
+  session_id: night_02
+  results_subdir: night_02
+  order: [b1_pre, a2_rest, b1_post]
+  b1:                                   # Same design as night_01 b1: heat probe, 80 C check, interleaved on/off
+    models: [1B-Q4_K_M, 8B-Q4_K_M, 8B-Q8_0]
+    n_threads: physical
+    n_predict: 100
+    iterations: 10
+    warmup: 1
+    heat_model: 8B-Q4_K_M
+    heat_duration_s: 120
+    heat_max_c: 80
+    turbo_on_abort_c: 85
+    settle_s: 30
+    enabled_post: false
+  a2_rest:                              # Full-set perplexity (Turbo off): the remaining chunks, merged with night_01
+    models: [8B-Q8_0, 8B-Q4_K_M, 8B-Q5_K_M, 8B-Q6_K, 3B-Q4_K_M, 3B-Q8_0, 1B-Q4_K_M, 1B-Q8_0, Sparse8B-Q4_K_M, Sparse8B-Q8_0]
+    reference: 8B-Q8_0
+    previous_results_subdir: night      # night_01 outputs: NLL arrays of chunks 0-89 and their result rows
+    previous_n_chunks: 90
+    overlap: 2                          # chunks 88-89 are evaluated again and must be bit-identical to night_01
+    chunks: 0                           # 0 = every remaining chunk (90 - overlap .. 563)
+    expected_total_chunks: 564          # for the time estimate only; the tokenizer decides the real count
+  turbo_off_percent: 99
+  turbo_on_percent: 100

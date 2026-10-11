@@ -1,0 +1,34 @@
+**Tablo 5. Oturumlar arası varyans ayrıştırması**
+
+| Deney          | Yapılandırma            | Metrik  | Ortalama | Oturum içi CV (%) | Oturumlar arası CV (%) | Oturumlar arası pay (%) |
+|----------------|-------------------------|---------|----------|-------------------|------------------------|-------------------------|
+| energy         | 1B-Q4_K_M / 8 thr       | J/token | 1,758    | 0,66              | 0,00                   | 0,0                     |
+| energy         | 1B-Q8_0 / 8 thr         | J/token | 2,673    | 2,51              | 1,04                   | 14,7                    |
+| energy         | 3B-Q4_K_M / 8 thr       | J/token | 4,397    | 1,43              | 0,84                   | 25,4                    |
+| energy         | 3B-Q8_0 / 8 thr         | J/token | 6,850    | 0,86              | 0,00                   | 0,0                     |
+| energy         | 8B-Q4_K_M / 8 thr       | J/token | 9,728    | 1,29              | 0,80                   | 27,7                    |
+| energy         | 8B-Q8_0 / 8 thr         | J/token | 15,562   | 1,60              | 0,83                   | 21,0                    |
+| energy         | Sparse8B-Q4_K_M / 8 thr | J/token | 9,742    | 2,50              | 1,11                   | 16,4                    |
+| energy         | Sparse8B-Q8_0 / 8 thr   | J/token | 15,491   | 2,22              | 0,80                   | 11,6                    |
+| energy         | 1B-Q4_K_M / 8 thr       | Token/s | 35,804   | 0,47              | 0,36                   | 37,5                    |
+| energy         | 1B-Q8_0 / 8 thr         | Token/s | 22,655   | 2,25              | 0,94                   | 14,9                    |
+| energy         | 3B-Q4_K_M / 8 thr       | Token/s | 14,244   | 1,32              | 1,08                   | 40,2                    |
+| energy         | 3B-Q8_0 / 8 thr         | Token/s | 8,705    | 0,72              | 0,35                   | 18,7                    |
+| energy         | 8B-Q4_K_M / 8 thr       | Token/s | 6,400    | 1,13              | 0,71                   | 28,6                    |
+| energy         | 8B-Q8_0 / 8 thr         | Token/s | 3,808    | 1,09              | 0,66                   | 26,8                    |
+| energy         | Sparse8B-Q4_K_M / 8 thr | Token/s | 6,386    | 1,93              | 1,01                   | 21,6                    |
+| energy         | Sparse8B-Q8_0 / 8 thr   | Token/s | 3,800    | 1,39              | 0,68                   | 19,1                    |
+| thread scaling | 8B-Q4_K_M / 1 thr       | J/token | 9,152    | 2,54              | 2,05                   | 39,6                    |
+| thread scaling | 8B-Q4_K_M / 2 thr       | J/token | 6,700    | 1,12              | 0,57                   | 20,8                    |
+| thread scaling | 8B-Q4_K_M / 4 thr       | J/token | 7,102    | 1,42              | 0,67                   | 18,2                    |
+| thread scaling | 8B-Q4_K_M / 6 thr       | J/token | 8,269    | 1,34              | 0,00                   | 0,0                     |
+| thread scaling | 8B-Q4_K_M / 8 thr       | J/token | 9,539    | 0,71              | 0,64                   | 44,9                    |
+| thread scaling | 8B-Q4_K_M / 12 thr      | J/token | 9,970    | 0,54              | 0,40                   | 35,1                    |
+| thread scaling | 8B-Q4_K_M / 16 thr      | J/token | 10,126   | 0,84              | 0,43                   | 20,4                    |
+| thread scaling | 8B-Q4_K_M / 1 thr       | Token/s | 2,919    | 0,42              | 0,45                   | 53,2                    |
+| thread scaling | 8B-Q4_K_M / 2 thr       | Token/s | 5,256    | 0,35              | 0,20                   | 23,2                    |
+| thread scaling | 8B-Q4_K_M / 4 thr       | Token/s | 6,390    | 0,35              | 0,12                   | 11,2                    |
+| thread scaling | 8B-Q4_K_M / 6 thr       | Token/s | 6,473    | 0,39              | 0,32                   | 41,3                    |
+| thread scaling | 8B-Q4_K_M / 8 thr       | Token/s | 6,427    | 0,33              | 0,20                   | 28,0                    |
+| thread scaling | 8B-Q4_K_M / 12 thr      | Token/s | 6,341    | 0,27              | 0,58                   | 81,7                    |
+| thread scaling | 8B-Q4_K_M / 16 thr      | Token/s | 6,293    | 0,53              | 0,56                   | 52,9                    |

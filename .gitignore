@@ -1,0 +1,35 @@
+# Large downloads (fetched by the scripts; never committed)
+models/
+data/
+third_party/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and editor state
+.idea/
+.vscode/
+*.swp
+
+# Python caches and build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Scratch output of the scripts (smoke tests, profiler traces, temporary files)
+results/smoke/
+traces/
+*.tmp
+*.log.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

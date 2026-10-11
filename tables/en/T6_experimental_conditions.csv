@@ -1,0 +1,16 @@
+﻿Condition,Value
+CPU,"11th Gen Intel(R) Core(TM) i9-11900K @ 3.50GHz (8C/16T, L3 16 MB)"
+RAM,"32 GB DDR4, 2 × 16 GB F4-3200C16-16GSXFB, 2133 MHz (XMP off; rated 3200 MHz*)"
+Mainboard,"Micro-Star International Co., Ltd. Z590 PRO WIFI (MS-7D09)"
+GPU,NVIDIA GeForce RTX 2060; Intel(R) UHD Graphics 750 (not used for inference)
+Operating system,Microsoft Windows 11 Home 10.0.26300
+Power plan,"Dengeli (balanced), max processor state 99 % → Turbo Boost off"
+Python / llama-cpp-python / CodeCarbon,3.12.10 / 0.3.36 / 3.3.1
+llama.cpp CPU features,"SSE3, SSSE3, AVX, AVX2, F16C, FMA, LLAMAFILE, OPENMP, REPACK"
+Energy source,"CPU package (RAPL PKG domain), machine-wide — windows_emi"
+Carbon intensity,"464.6 gCO2eq/kWh (TUR, CodeCarbon)"
+Context / generation,"n_ctx 512, 100 token, greedy decoding, EOS suppressed"
+Rounds / prompts / warm-up,10 / 3 / 1
+Thermal fuse,85 °C / 10 s; cool-down target 55 °C
+Session start,"≥20 min after boot, quiet gate <2 % CPU (60 s), 60 s idle baseline, 300 s warm-up load (8B-Q4_K_M, physical)"
+Model files (SHA-256 prefix),1B-Q4_K_M: f3cdd84d4a33; 3B-Q8_0: 6c17f1763773; 8B-Q8_0: e39eaa0b315c; Sparse8B-Q8_0: 36a463d4fe9d; 8B-Q4_K_M: 86c8ea6c8b75; Sparse8B-Q4_K_M: c481e7089ffa; 1B-Q8_0: 1b7f984d8539; 3B-Q4_K_M: 668d556a35eb

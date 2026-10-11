@@ -1,0 +1,9 @@
+**Table 9. Turbo Boost on / off (controlled experiment, night_01 + night_02)**
+
+| Model     | J/token off    | J/token on     | Ratio J [95 % CI]    | Tokens/s off | Tokens/s on  | Ratio speed [95 % CI] | Power off (W) | Power on (W) | Ratio power [95 % CI] | Frequency off / on (MHz) | Peak temperature off / on (°C) | mgCO2eq/token off / on |
+|-----------|----------------|----------------|----------------------|--------------|--------------|-----------------------|---------------|--------------|-----------------------|--------------------------|--------------------------------|------------------------|
+| 1B-Q4_K_M | 1.752 ± 0.010  | 4.029 ± 0.076  | 2.300 [2.282; 2.317] | 35.80 ± 0.14 | 36.52 ± 0.00 | 1.020 [1.017; 1.023]  | 62.7 ± 0.6    | 147.2 ± 2.8  | 2.346 [2.334; 2.357]  | 3,504 / 4,804            | 49 / 75                        | 0.23 / 0.52            |
+| 8B-Q4_K_M | 9.658 ± 0.042  | 22.178 ± 0.169 | 2.296 [2.286; 2.307] | 6.43 ± 0.01  | 6.52 ± 0.00  | 1.014 [1.012; 1.016]  | 62.1 ± 0.4    | 144.5 ± 1.1  | 2.328 [2.320; 2.336]  | 3,504 / 4,803            | 52 / 81                        | 1.25 / 2.86            |
+| 8B-Q8_0   | 15.403 ± 0.139 | 35.865 ± 0.251 | 2.328 [2.323; 2.334] | 3.83 ± 0.00  | 3.84 ± 0.01  | 1.004 [1.002; 1.005]  | 59.0 ± 0.6    | 137.8 ± 1.4  | 2.337 [2.334; 2.341]  | 3,504 / 4,804            | 54 / 87                        | 1.99 / 4.63            |
+
+*Two independent sessions (night_01, night_02), 8 threads, 10 rounds per session; Turbo-on/off units interleaved within each round. Values: mean of the session means ± between-session SD (n = 2). Ratios: paired on/off over 20 rounds, CI: Student-t (df = 19). Off = maximum processor state 99 %, on = 100 %.*

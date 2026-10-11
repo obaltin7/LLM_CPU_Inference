@@ -1,0 +1,6 @@
+block,status,experiments,units_completed,units_in_metadata,rows,nan_cells,throttle_rows,temp_max_C,temp_mean_C,turbo_on_states,max_processor_state_pct,deterministic_configs
+b1_pre,completed,night_b1_pre_turbo_on;night_b1_pre_turbo_off,60,60,180,0,0,87.0,55.07,False;True,99;100,18/18
+a2_rest,completed,night_a2_rest,10,10,10,0,0,62.0,54.34,False,99,10/10
+b1_post,disabled,night_b1_post_turbo_on;night_b1_post_turbo_off,0,0,0,0,0,,,,,0/0
+b1_pre/turbo_on,subset,night_b1_pre_turbo_on,30,,90,0,0,87.0,64.2,True,,
+b1_pre/turbo_off,subset,night_b1_pre_turbo_off,30,,90,0,0,54.0,45.94,False,,
